@@ -1,0 +1,5390 @@
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/// TSMC Library/IP Product
+/// Filename: tcb018g3d3.mdt
+/// Technology: CL018G
+/// Product Type: Standard Cell
+/// Product Name: tcb018g3d3
+/// Version: 280a
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////
+///  STATEMENT OF USE
+///
+///  This information contains confidential and proprietary information of TSMC.
+///  No part of this information may be reproduced, transmitted, transcribed,
+///  stored in a retrieval system, or translated into any human or computer
+///  language, in any form or by any means, electronic, mechanical, magnetic,
+///  optical, chemical, manual, or otherwise, without the prior written permission
+///  of TSMC.  This information was prepared for informational purpose and is for
+///  use by TSMC's customers only.  TSMC reserves the right to make changes in the
+///  information at any time and without notice.
+///
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+model AN2D0 (A1, A2, Z) (
+  input (A1) ( )
+  input (A2) ( )
+  output (Z) (
+    primitive = _and and1 (A1, A2, Z);
+  )
+)
+model AN2D1 (A1, A2, Z) (
+  input (A1) ( )
+  input (A2) ( )
+  output (Z) (
+    primitive = _and and1 (A1, A2, Z);
+  )
+)
+model AN2D2 (A1, A2, Z) (
+  input (A1) ( )
+  input (A2) ( )
+  output (Z) (
+    primitive = _and and1 (A1, A2, Z);
+  )
+)
+model AN2D4 (A1, A2, Z) (
+  input (A1) ( )
+  input (A2) ( )
+  output (Z) (
+    primitive = _and and1 (A1, A2, Z);
+  )
+)
+model AN3D0 (A1, A2, A3, Z) (
+  input (A1) ( )
+  input (A2) ( )
+  input (A3) ( )
+  output (Z) (
+    primitive = _and and1 (A1, A2, A3, Z);
+  )
+)
+model AN3D1 (A1, A2, A3, Z) (
+  input (A1) ( )
+  input (A2) ( )
+  input (A3) ( )
+  output (Z) (
+    primitive = _and and1 (A1, A2, A3, Z);
+  )
+)
+model AN3D2 (A1, A2, A3, Z) (
+  input (A1) ( )
+  input (A2) ( )
+  input (A3) ( )
+  output (Z) (
+    primitive = _and and1 (A1, A2, A3, Z);
+  )
+)
+model AN3D4 (A1, A2, A3, Z) (
+  input (A1) ( )
+  input (A2) ( )
+  input (A3) ( )
+  output (Z) (
+    primitive = _and and1 (A1, A2, A3, Z);
+  )
+)
+model AN4D0 (A1, A2, A3, A4, Z) (
+  input (A1) ( )
+  input (A2) ( )
+  input (A3) ( )
+  input (A4) ( )
+  output (Z) (
+    primitive = _and and1 (A1, A2, A3, A4, Z);
+  )
+)
+model AN4D1 (A1, A2, A3, A4, Z) (
+  input (A1) ( )
+  input (A2) ( )
+  input (A3) ( )
+  input (A4) ( )
+  output (Z) (
+    primitive = _and and1 (A1, A2, A3, A4, Z);
+  )
+)
+model AN4D2 (A1, A2, A3, A4, Z) (
+  input (A1) ( )
+  input (A2) ( )
+  input (A3) ( )
+  input (A4) ( )
+  output (Z) (
+    primitive = _and and1 (A1, A2, A3, A4, Z);
+  )
+)
+model AN4D4 (A1, A2, A3, A4, Z) (
+  input (A1) ( )
+  input (A2) ( )
+  input (A3) ( )
+  input (A4) ( )
+  output (Z) (
+    primitive = _and and1 (A1, A2, A3, A4, Z);
+  )
+)
+model ANTENNA (I) (
+  input (I) (used=false;)
+)
+model AO21D0 (A1, A2, B, Z) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B) ( )
+  output (Z) (
+    primitive = _and and1 (A1, A2, A);
+    primitive = _or or1 (A, B, Z);
+  )
+)
+model AO21D1 (A1, A2, B, Z) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B) ( )
+  output (Z) (
+    primitive = _and and1 (A1, A2, A);
+    primitive = _or or1 (A, B, Z);
+  )
+)
+model AO21D2 (A1, A2, B, Z) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B) ( )
+  output (Z) (
+    primitive = _and and1 (A1, A2, A);
+    primitive = _or or1 (A, B, Z);
+  )
+)
+model AO21D4 (A1, A2, B, Z) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B) ( )
+  output (Z) (
+    primitive = _and and1 (A1, A2, A);
+    primitive = _or or1 (A, B, Z);
+  )
+)
+model AO22D0 (A1, A2, B1, B2, Z) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B1) ( )
+  input (B2) ( )
+  output (Z) (
+    primitive = _and and1 (A1, A2, A);
+    primitive = _and and2 (B1, B2, B);
+    primitive = _or or1 (A, B, Z);
+  )
+)
+model AO22D1 (A1, A2, B1, B2, Z) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B1) ( )
+  input (B2) ( )
+  output (Z) (
+    primitive = _and and1 (A1, A2, A);
+    primitive = _and and2 (B1, B2, B);
+    primitive = _or or1 (A, B, Z);
+  )
+)
+model AO22D2 (A1, A2, B1, B2, Z) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B1) ( )
+  input (B2) ( )
+  output (Z) (
+    primitive = _and and1 (A1, A2, A);
+    primitive = _and and2 (B1, B2, B);
+    primitive = _or or1 (A, B, Z);
+  )
+)
+model AO22D4 (A1, A2, B1, B2, Z) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B1) ( )
+  input (B2) ( )
+  output (Z) (
+    primitive = _and and1 (A1, A2, A);
+    primitive = _and and2 (B1, B2, B);
+    primitive = _or or1 (A, B, Z);
+  )
+)
+model AOI211D0 (A1, A2, B, C, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B) ( )
+  input (C) ( )
+  output (ZN) (
+    primitive = _and and1 (A1, A2, A);
+    primitive = _nor nor1 (A, B, C, ZN);
+  )
+)
+model AOI211D1 (A1, A2, B, C, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B) ( )
+  input (C) ( )
+  output (ZN) (
+    primitive = _and and1 (A1, A2, A);
+    primitive = _nor nor1 (A, B, C, ZN);
+  )
+)
+model AOI211D2 (A1, A2, B, C, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B) ( )
+  input (C) ( )
+  output (ZN) (
+    primitive = _and and1 (A1, A2, A);
+    primitive = _nor nor1 (A, B, C, ZN);
+  )
+)
+model AOI211D4 (A1, A2, B, C, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B) ( )
+  input (C) ( )
+  output (ZN) (
+    primitive = _and and1 (A1, A2, A);
+    primitive = _nor nor1 (A, B, C, ZN);
+  )
+)
+model AOI21D0 (A1, A2, B, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B) ( )
+  output (ZN) (
+    primitive = _and and1 (A1, A2, A);
+    primitive = _nor nor1 (A, B, ZN);
+  )
+)
+model AOI21D1 (A1, A2, B, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B) ( )
+  output (ZN) (
+    primitive = _and and1 (A1, A2, A);
+    primitive = _nor nor1 (A, B, ZN);
+  )
+)
+model AOI21D2 (A1, A2, B, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B) ( )
+  output (ZN) (
+    primitive = _and and1 (A1, A2, A);
+    primitive = _nor nor1 (A, B, ZN);
+  )
+)
+model AOI21D4 (A1, A2, B, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B) ( )
+  output (ZN) (
+    primitive = _and and1 (A1, A2, A);
+    primitive = _nor nor1 (A, B, ZN);
+  )
+)
+model AOI221D0 (A1, A2, B1, B2, C, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B1) ( )
+  input (B2) ( )
+  input (C) ( )
+  output (ZN) (
+    primitive = _and and1 (A1, A2, A);
+    primitive = _and and2 (B1, B2, B);
+    primitive = _nor nor1 (A, B, C, ZN);
+  )
+)
+model AOI221D1 (A1, A2, B1, B2, C, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B1) ( )
+  input (B2) ( )
+  input (C) ( )
+  output (ZN) (
+    primitive = _and and1 (A1, A2, A);
+    primitive = _and and2 (B1, B2, B);
+    primitive = _nor nor1 (A, B, C, ZN);
+  )
+)
+model AOI221D2 (A1, A2, B1, B2, C, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B1) ( )
+  input (B2) ( )
+  input (C) ( )
+  output (ZN) (
+    primitive = _and and1 (A1, A2, A);
+    primitive = _and and2 (B1, B2, B);
+    primitive = _nor nor1 (A, B, C, ZN);
+  )
+)
+model AOI221D4 (A1, A2, B1, B2, C, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B1) ( )
+  input (B2) ( )
+  input (C) ( )
+  output (ZN) (
+    primitive = _and and1 (A1, A2, A);
+    primitive = _and and2 (B1, B2, B);
+    primitive = _nor nor1 (A, B, C, ZN);
+  )
+)
+model AOI222D0 (A1, A2, B1, B2, C1, C2, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B1) ( )
+  input (B2) ( )
+  input (C1) ( )
+  input (C2) ( )
+  output (ZN) (
+    primitive = _and and1 (A1, A2, A);
+    primitive = _and and2 (B1, B2, B);
+    primitive = _and and3 (C1, C2, C);
+    primitive = _nor nor1 (A, B, C, ZN);
+  )
+)
+model AOI222D1 (A1, A2, B1, B2, C1, C2, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B1) ( )
+  input (B2) ( )
+  input (C1) ( )
+  input (C2) ( )
+  output (ZN) (
+    primitive = _and and1 (A1, A2, A);
+    primitive = _and and2 (B1, B2, B);
+    primitive = _and and3 (C1, C2, C);
+    primitive = _nor nor1 (A, B, C, ZN);
+  )
+)
+model AOI222D2 (A1, A2, B1, B2, C1, C2, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B1) ( )
+  input (B2) ( )
+  input (C1) ( )
+  input (C2) ( )
+  output (ZN) (
+    primitive = _and and1 (A1, A2, A);
+    primitive = _and and2 (B1, B2, B);
+    primitive = _and and3 (C1, C2, C);
+    primitive = _nor nor1 (A, B, C, ZN);
+  )
+)
+model AOI222D4 (A1, A2, B1, B2, C1, C2, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B1) ( )
+  input (B2) ( )
+  input (C1) ( )
+  input (C2) ( )
+  output (ZN) (
+    primitive = _and and1 (A1, A2, A);
+    primitive = _and and2 (B1, B2, B);
+    primitive = _and and3 (C1, C2, C);
+    primitive = _nor nor1 (A, B, C, ZN);
+  )
+)
+model AOI22D0 (A1, A2, B1, B2, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B1) ( )
+  input (B2) ( )
+  output (ZN) (
+    primitive = _and and1 (A1, A2, A);
+    primitive = _and and2 (B1, B2, B);
+    primitive = _nor nor1 (A, B, ZN);
+  )
+)
+model AOI22D1 (A1, A2, B1, B2, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B1) ( )
+  input (B2) ( )
+  output (ZN) (
+    primitive = _and and1 (A1, A2, A);
+    primitive = _and and2 (B1, B2, B);
+    primitive = _nor nor1 (A, B, ZN);
+  )
+)
+model AOI22D2 (A1, A2, B1, B2, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B1) ( )
+  input (B2) ( )
+  output (ZN) (
+    primitive = _and and1 (A1, A2, A);
+    primitive = _and and2 (B1, B2, B);
+    primitive = _nor nor1 (A, B, ZN);
+  )
+)
+model AOI22D4 (A1, A2, B1, B2, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B1) ( )
+  input (B2) ( )
+  output (ZN) (
+    primitive = _and and1 (A1, A2, A);
+    primitive = _and and2 (B1, B2, B);
+    primitive = _nor nor1 (A, B, ZN);
+  )
+)
+model AOI31D0 (A1, A2, A3, B, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (A3) ( )
+  input (B) ( )
+  output (ZN) (
+    primitive = _and and1 (A1, A2, A3, A);
+    primitive = _nor nor1 (A, B, ZN);
+  )
+)
+model AOI31D1 (A1, A2, A3, B, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (A3) ( )
+  input (B) ( )
+  output (ZN) (
+    primitive = _and and1 (A1, A2, A3, A);
+    primitive = _nor nor1 (A, B, ZN);
+  )
+)
+model AOI31D2 (A1, A2, A3, B, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (A3) ( )
+  input (B) ( )
+  output (ZN) (
+    primitive = _and and1 (A1, A2, A3, A);
+    primitive = _nor nor1 (A, B, ZN);
+  )
+)
+model AOI31D4 (A1, A2, A3, B, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (A3) ( )
+  input (B) ( )
+  output (ZN) (
+    primitive = _and and1 (A1, A2, A3, A);
+    primitive = _nor nor1 (A, B, ZN);
+  )
+)
+model AOI32D0 (A1, A2, A3, B1, B2, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (A3) ( )
+  input (B1) ( )
+  input (B2) ( )
+  output (ZN) (
+    primitive = _and and1 (A1, A2, A3, A);
+    primitive = _and and2 (B1, B2, B);
+    primitive = _nor nor1 (A, B, ZN);
+  )
+)
+model AOI32D1 (A1, A2, A3, B1, B2, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (A3) ( )
+  input (B1) ( )
+  input (B2) ( )
+  output (ZN) (
+    primitive = _and and1 (A1, A2, A3, A);
+    primitive = _and and2 (B1, B2, B);
+    primitive = _nor nor1 (A, B, ZN);
+  )
+)
+model AOI32D2 (A1, A2, A3, B1, B2, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (A3) ( )
+  input (B1) ( )
+  input (B2) ( )
+  output (ZN) (
+    primitive = _and and1 (A1, A2, A3, A);
+    primitive = _and and2 (B1, B2, B);
+    primitive = _nor nor1 (A, B, ZN);
+  )
+)
+model AOI32D4 (A1, A2, A3, B1, B2, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (A3) ( )
+  input (B1) ( )
+  input (B2) ( )
+  output (ZN) (
+    primitive = _and and1 (A1, A2, A3, A);
+    primitive = _and and2 (B1, B2, B);
+    primitive = _nor nor1 (A, B, ZN);
+  )
+)
+model AOI33D0 (A1, A2, A3, B1, B2, B3, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (A3) ( )
+  input (B1) ( )
+  input (B2) ( )
+  input (B3) ( )
+  output (ZN) (
+    primitive = _and and1 (A1, A2, A3, A);
+    primitive = _and and2 (B1, B2, B3, B);
+    primitive = _nor nor1 (A, B, ZN);
+  )
+)
+model AOI33D1 (A1, A2, A3, B1, B2, B3, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (A3) ( )
+  input (B1) ( )
+  input (B2) ( )
+  input (B3) ( )
+  output (ZN) (
+    primitive = _and and1 (A1, A2, A3, A);
+    primitive = _and and2 (B1, B2, B3, B);
+    primitive = _nor nor1 (A, B, ZN);
+  )
+)
+model AOI33D2 (A1, A2, A3, B1, B2, B3, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (A3) ( )
+  input (B1) ( )
+  input (B2) ( )
+  input (B3) ( )
+  output (ZN) (
+    primitive = _and and1 (A1, A2, A3, A);
+    primitive = _and and2 (B1, B2, B3, B);
+    primitive = _nor nor1 (A, B, ZN);
+  )
+)
+model AOI33D4 (A1, A2, A3, B1, B2, B3, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (A3) ( )
+  input (B1) ( )
+  input (B2) ( )
+  input (B3) ( )
+  output (ZN) (
+    primitive = _and and1 (A1, A2, A3, A);
+    primitive = _and and2 (B1, B2, B3, B);
+    primitive = _nor nor1 (A, B, ZN);
+  )
+)
+model BHD (Z) (
+  inout (Z) (
+    primitive = _inv inv1 (Z_buf, inv1_strength_net);
+    primitive = _pull inv1_strength (inv1_strength_net, Z);
+    primitive = _inv inv2 (Z, Z_buf);
+  )
+)
+model BUFFD0 (I, Z) (
+  input (I) ( )
+  output (Z) (
+    primitive = _buf buf1 (I, Z);
+  )
+)
+model BUFFD1 (I, Z) (
+  input (I) ( )
+  output (Z) (
+    primitive = _buf buf1 (I, Z);
+  )
+)
+model BUFFD12 (I, Z) (
+  input (I) ( )
+  output (Z) (
+    primitive = _buf buf1 (I, Z);
+  )
+)
+model BUFFD16 (I, Z) (
+  input (I) ( )
+  output (Z) (
+    primitive = _buf buf1 (I, Z);
+  )
+)
+model BUFFD2 (I, Z) (
+  input (I) ( )
+  output (Z) (
+    primitive = _buf buf1 (I, Z);
+  )
+)
+model BUFFD3 (I, Z) (
+  input (I) ( )
+  output (Z) (
+    primitive = _buf buf1 (I, Z);
+  )
+)
+model BUFFD4 (I, Z) (
+  input (I) ( )
+  output (Z) (
+    primitive = _buf buf1 (I, Z);
+  )
+)
+model BUFFD6 (I, Z) (
+  input (I) ( )
+  output (Z) (
+    primitive = _buf buf1 (I, Z);
+  )
+)
+model BUFFD8 (I, Z) (
+  input (I) ( )
+  output (Z) (
+    primitive = _buf buf1 (I, Z);
+  )
+)
+model BUFTD0 (I, OE, Z) (
+  input (I) ( )
+  input (OE) ( )
+  output (Z) (
+    primitive = _tsh tsh1 (I, OE, Z);
+  )
+)
+model BUFTD1 (I, OE, Z) (
+  input (I) ( )
+  input (OE) ( )
+  output (Z) (
+    primitive = _tsh tsh1 (I, OE, Z);
+  )
+)
+model BUFTD12 (I, OE, Z) (
+  input (I) ( )
+  input (OE) ( )
+  output (Z) (
+    primitive = _tsh tsh1 (I, OE, Z);
+  )
+)
+model BUFTD2 (I, OE, Z) (
+  input (I) ( )
+  input (OE) ( )
+  output (Z) (
+    primitive = _tsh tsh1 (I, OE, Z);
+  )
+)
+model BUFTD3 (I, OE, Z) (
+  input (I) ( )
+  input (OE) ( )
+  output (Z) (
+    primitive = _tsh tsh1 (I, OE, Z);
+  )
+)
+model BUFTD4 (I, OE, Z) (
+  input (I) ( )
+  input (OE) ( )
+  output (Z) (
+    primitive = _tsh tsh1 (I, OE, Z);
+  )
+)
+model BUFTD6 (I, OE, Z) (
+  input (I) ( )
+  input (OE) ( )
+  output (Z) (
+    primitive = _tsh tsh1 (I, OE, Z);
+  )
+)
+model BUFTD8 (I, OE, Z) (
+  input (I) ( )
+  input (OE) ( )
+  output (Z) (
+    primitive = _tsh tsh1 (I, OE, Z);
+  )
+)
+model CKBD0 (I, Z) (
+  input (I) ( )
+  output (Z) (
+    primitive = _buf buf1 (I, Z);
+  )
+)
+model CKBD1 (I, Z) (
+  input (I) ( )
+  output (Z) (
+    primitive = _buf buf1 (I, Z);
+  )
+)
+model CKBD12 (I, Z) (
+  input (I) ( )
+  output (Z) (
+    primitive = _buf buf1 (I, Z);
+  )
+)
+model CKBD16 (I, Z) (
+  input (I) ( )
+  output (Z) (
+    primitive = _buf buf1 (I, Z);
+  )
+)
+model CKBD2 (I, Z) (
+  input (I) ( )
+  output (Z) (
+    primitive = _buf buf1 (I, Z);
+  )
+)
+model CKBD3 (I, Z) (
+  input (I) ( )
+  output (Z) (
+    primitive = _buf buf1 (I, Z);
+  )
+)
+model CKBD4 (I, Z) (
+  input (I) ( )
+  output (Z) (
+    primitive = _buf buf1 (I, Z);
+  )
+)
+model CKBD6 (I, Z) (
+  input (I) ( )
+  output (Z) (
+    primitive = _buf buf1 (I, Z);
+  )
+)
+model CKBD8 (I, Z) (
+  input (I) ( )
+  output (Z) (
+    primitive = _buf buf1 (I, Z);
+  )
+)
+model CKLNQD1 (TE, E, CP, Q) (
+  input (TE) ( )
+  input (E) ( )
+  input (CP) ( )
+  output (Q) (
+    primitive = _tie1 t11 (mlc_n839);
+    primitive = _pull pull1 (mlc_n839, CDN);
+    primitive = _tie1 t12 (mlc_n840);
+    primitive = _pull pull2 (mlc_n840, SDN);
+    primitive = _or or1 (E, TE, D_i);
+    primitive = _inv inv1 (CP, CPB);
+    instance = tsmc_dla inst4_7 (Q_buf, D_i, CPB, CDN, SDN, notifier);
+    primitive = _and and1 (Q_buf, CP, Q);
+    primitive = _inv inv2 (E, E_int_not);
+    primitive = _inv inv3 (TE, TE_int_not);
+    primitive = _buf buf1 (TE_int_not, E_check);
+    primitive = _buf buf2 (E_int_not, TE_check);
+    instance = tsmc_xbuf inst5_13 (E_DEFCHK, E_check, mlc_n841);
+    primitive = _tie1 t13 (mlc_n841);
+    instance = tsmc_xbuf inst6_15 (TE_DEFCHK, TE_check, mlc_n842);
+    primitive = _tie1 t14 (mlc_n842);
+  )
+)
+model CKLNQD12 (TE, E, CP, Q) (
+  input (TE) ( )
+  input (E) ( )
+  input (CP) ( )
+  output (Q) (
+    primitive = _tie1 t11 (mlc_n883);
+    primitive = _pull pull1 (mlc_n883, CDN);
+    primitive = _tie1 t12 (mlc_n884);
+    primitive = _pull pull2 (mlc_n884, SDN);
+    primitive = _or or1 (E, TE, D_i);
+    primitive = _inv inv1 (CP, CPB);
+    instance = tsmc_dla inst10_7 (Q_buf, D_i, CPB, CDN, SDN, notifier);
+    primitive = _and and1 (Q_buf, CP, Q);
+    primitive = _inv inv2 (E, E_int_not);
+    primitive = _inv inv3 (TE, TE_int_not);
+    primitive = _buf buf1 (TE_int_not, E_check);
+    primitive = _buf buf2 (E_int_not, TE_check);
+    instance = tsmc_xbuf inst11_13 (E_DEFCHK, E_check, mlc_n885);
+    primitive = _tie1 t13 (mlc_n885);
+    instance = tsmc_xbuf inst12_15 (TE_DEFCHK, TE_check, mlc_n886);
+    primitive = _tie1 t14 (mlc_n886);
+  )
+)
+model CKLNQD2 (TE, E, CP, Q) (
+  input (TE) ( )
+  input (E) ( )
+  input (CP) ( )
+  output (Q) (
+    primitive = _tie1 t11 (mlc_n927);
+    primitive = _pull pull1 (mlc_n927, CDN);
+    primitive = _tie1 t12 (mlc_n928);
+    primitive = _pull pull2 (mlc_n928, SDN);
+    primitive = _or or1 (E, TE, D_i);
+    primitive = _inv inv1 (CP, CPB);
+    instance = tsmc_dla inst16_7 (Q_buf, D_i, CPB, CDN, SDN, notifier);
+    primitive = _and and1 (Q_buf, CP, Q);
+    primitive = _inv inv2 (E, E_int_not);
+    primitive = _inv inv3 (TE, TE_int_not);
+    primitive = _buf buf1 (TE_int_not, E_check);
+    primitive = _buf buf2 (E_int_not, TE_check);
+    instance = tsmc_xbuf inst17_13 (E_DEFCHK, E_check, mlc_n929);
+    primitive = _tie1 t13 (mlc_n929);
+    instance = tsmc_xbuf inst18_15 (TE_DEFCHK, TE_check, mlc_n930);
+    primitive = _tie1 t14 (mlc_n930);
+  )
+)
+model CKLNQD3 (TE, E, CP, Q) (
+  input (TE) ( )
+  input (E) ( )
+  input (CP) ( )
+  output (Q) (
+    primitive = _tie1 t11 (mlc_n971);
+    primitive = _pull pull1 (mlc_n971, CDN);
+    primitive = _tie1 t12 (mlc_n972);
+    primitive = _pull pull2 (mlc_n972, SDN);
+    primitive = _or or1 (E, TE, D_i);
+    primitive = _inv inv1 (CP, CPB);
+    instance = tsmc_dla inst22_7 (Q_buf, D_i, CPB, CDN, SDN, notifier);
+    primitive = _and and1 (Q_buf, CP, Q);
+    primitive = _inv inv2 (E, E_int_not);
+    primitive = _inv inv3 (TE, TE_int_not);
+    primitive = _buf buf1 (TE_int_not, E_check);
+    primitive = _buf buf2 (E_int_not, TE_check);
+    instance = tsmc_xbuf inst23_13 (E_DEFCHK, E_check, mlc_n973);
+    primitive = _tie1 t13 (mlc_n973);
+    instance = tsmc_xbuf inst24_15 (TE_DEFCHK, TE_check, mlc_n974);
+    primitive = _tie1 t14 (mlc_n974);
+  )
+)
+model CKLNQD4 (TE, E, CP, Q) (
+  input (TE) ( )
+  input (E) ( )
+  input (CP) ( )
+  output (Q) (
+    primitive = _tie1 t11 (mlc_n1015);
+    primitive = _pull pull1 (mlc_n1015, CDN);
+    primitive = _tie1 t12 (mlc_n1016);
+    primitive = _pull pull2 (mlc_n1016, SDN);
+    primitive = _or or1 (E, TE, D_i);
+    primitive = _inv inv1 (CP, CPB);
+    instance = tsmc_dla inst28_7 (Q_buf, D_i, CPB, CDN, SDN, notifier);
+    primitive = _and and1 (Q_buf, CP, Q);
+    primitive = _inv inv2 (E, E_int_not);
+    primitive = _inv inv3 (TE, TE_int_not);
+    primitive = _buf buf1 (TE_int_not, E_check);
+    primitive = _buf buf2 (E_int_not, TE_check);
+    instance = tsmc_xbuf inst29_13 (E_DEFCHK, E_check, mlc_n1017);
+    primitive = _tie1 t13 (mlc_n1017);
+    instance = tsmc_xbuf inst30_15 (TE_DEFCHK, TE_check, mlc_n1018);
+    primitive = _tie1 t14 (mlc_n1018);
+  )
+)
+model CKLNQD6 (TE, E, CP, Q) (
+  input (TE) ( )
+  input (E) ( )
+  input (CP) ( )
+  output (Q) (
+    primitive = _tie1 t11 (mlc_n1059);
+    primitive = _pull pull1 (mlc_n1059, CDN);
+    primitive = _tie1 t12 (mlc_n1060);
+    primitive = _pull pull2 (mlc_n1060, SDN);
+    primitive = _or or1 (E, TE, D_i);
+    primitive = _inv inv1 (CP, CPB);
+    instance = tsmc_dla inst34_7 (Q_buf, D_i, CPB, CDN, SDN, notifier);
+    primitive = _and and1 (Q_buf, CP, Q);
+    primitive = _inv inv2 (E, E_int_not);
+    primitive = _inv inv3 (TE, TE_int_not);
+    primitive = _buf buf1 (TE_int_not, E_check);
+    primitive = _buf buf2 (E_int_not, TE_check);
+    instance = tsmc_xbuf inst35_13 (E_DEFCHK, E_check, mlc_n1061);
+    primitive = _tie1 t13 (mlc_n1061);
+    instance = tsmc_xbuf inst36_15 (TE_DEFCHK, TE_check, mlc_n1062);
+    primitive = _tie1 t14 (mlc_n1062);
+  )
+)
+model CKLNQD8 (TE, E, CP, Q) (
+  input (TE) ( )
+  input (E) ( )
+  input (CP) ( )
+  output (Q) (
+    primitive = _tie1 t11 (mlc_n1103);
+    primitive = _pull pull1 (mlc_n1103, CDN);
+    primitive = _tie1 t12 (mlc_n1104);
+    primitive = _pull pull2 (mlc_n1104, SDN);
+    primitive = _or or1 (E, TE, D_i);
+    primitive = _inv inv1 (CP, CPB);
+    instance = tsmc_dla inst40_7 (Q_buf, D_i, CPB, CDN, SDN, notifier);
+    primitive = _and and1 (Q_buf, CP, Q);
+    primitive = _inv inv2 (E, E_int_not);
+    primitive = _inv inv3 (TE, TE_int_not);
+    primitive = _buf buf1 (TE_int_not, E_check);
+    primitive = _buf buf2 (E_int_not, TE_check);
+    instance = tsmc_xbuf inst41_13 (E_DEFCHK, E_check, mlc_n1105);
+    primitive = _tie1 t13 (mlc_n1105);
+    instance = tsmc_xbuf inst42_15 (TE_DEFCHK, TE_check, mlc_n1106);
+    primitive = _tie1 t14 (mlc_n1106);
+  )
+)
+model CKMUX2D0 (I0, I1, S, Z) (
+  input (I0) ( )
+  input (I1) ( )
+  input (S) ( )
+  output (Z) (
+    instance = tsmc_mux inst44_1 (Z, I0, I1, S);
+  )
+)
+model CKMUX2D1 (I0, I1, S, Z) (
+  input (I0) ( )
+  input (I1) ( )
+  input (S) ( )
+  output (Z) (
+    instance = tsmc_mux inst46_1 (Z, I0, I1, S);
+  )
+)
+model CKMUX2D2 (I0, I1, S, Z) (
+  input (I0) ( )
+  input (I1) ( )
+  input (S) ( )
+  output (Z) (
+    instance = tsmc_mux inst48_1 (Z, I0, I1, S);
+  )
+)
+model CKMUX2D4 (I0, I1, S, Z) (
+  input (I0) ( )
+  input (I1) ( )
+  input (S) ( )
+  output (Z) (
+    instance = tsmc_mux inst50_1 (Z, I0, I1, S);
+  )
+)
+model CKND0 (I, ZN) (
+  input (I) ( )
+  output (ZN) (
+    primitive = _inv inv1 (I, ZN);
+  )
+)
+model CKND1 (I, ZN) (
+  input (I) ( )
+  output (ZN) (
+    primitive = _inv inv1 (I, ZN);
+  )
+)
+model CKND12 (I, ZN) (
+  input (I) ( )
+  output (ZN) (
+    primitive = _inv inv1 (I, ZN);
+  )
+)
+model CKND16 (I, ZN) (
+  input (I) ( )
+  output (ZN) (
+    primitive = _inv inv1 (I, ZN);
+  )
+)
+model CKND2 (I, ZN) (
+  input (I) ( )
+  output (ZN) (
+    primitive = _inv inv1 (I, ZN);
+  )
+)
+model CKND2D0 (A1, A2, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  output (ZN) (
+    primitive = _nand nand1 (A1, A2, ZN);
+  )
+)
+model CKND2D1 (A1, A2, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  output (ZN) (
+    primitive = _nand nand1 (A1, A2, ZN);
+  )
+)
+model CKND2D2 (A1, A2, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  output (ZN) (
+    primitive = _nand nand1 (A1, A2, ZN);
+  )
+)
+model CKND2D3 (A1, A2, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  output (ZN) (
+    primitive = _nand nand1 (A1, A2, ZN);
+  )
+)
+model CKND2D4 (A1, A2, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  output (ZN) (
+    primitive = _nand nand1 (A1, A2, ZN);
+  )
+)
+model CKND3 (I, ZN) (
+  input (I) ( )
+  output (ZN) (
+    primitive = _inv inv1 (I, ZN);
+  )
+)
+model CKND4 (I, ZN) (
+  input (I) ( )
+  output (ZN) (
+    primitive = _inv inv1 (I, ZN);
+  )
+)
+model CKND6 (I, ZN) (
+  input (I) ( )
+  output (ZN) (
+    primitive = _inv inv1 (I, ZN);
+  )
+)
+model CKND8 (I, ZN) (
+  input (I) ( )
+  output (ZN) (
+    primitive = _inv inv1 (I, ZN);
+  )
+)
+model CKXOR2D0 (A1, A2, Z) (
+  input (A1) ( )
+  input (A2) ( )
+  output (Z) (
+    primitive = _xor xor1 (A1, A2, Z);
+  )
+)
+model CKXOR2D1 (A1, A2, Z) (
+  input (A1) ( )
+  input (A2) ( )
+  output (Z) (
+    primitive = _xor xor1 (A1, A2, Z);
+  )
+)
+model CKXOR2D2 (A1, A2, Z) (
+  input (A1) ( )
+  input (A2) ( )
+  output (Z) (
+    primitive = _xor xor1 (A1, A2, Z);
+  )
+)
+model CKXOR2D4 (A1, A2, Z) (
+  input (A1) ( )
+  input (A2) ( )
+  output (Z) (
+    primitive = _xor xor1 (A1, A2, Z);
+  )
+)
+model DCAP ( ) (
+)
+model DEL1 (I, Z) (
+  input (I) ( )
+  output (Z) (
+    primitive = _buf buf1 (I, Z);
+  )
+)
+model DEL2 (I, Z) (
+  input (I) ( )
+  output (Z) (
+    primitive = _buf buf1 (I, Z);
+  )
+)
+model DEL3 (I, Z) (
+  input (I) ( )
+  output (Z) (
+    primitive = _buf buf1 (I, Z);
+  )
+)
+model DEL4 (I, Z) (
+  input (I) ( )
+  output (Z) (
+    primitive = _buf buf1 (I, Z);
+  )
+)
+model DFCND1 (D, CP, CDN, Q, QN) (
+  input (D) ( )
+  input (CP) ( )
+  input (CDN) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _buf buf1 (CDN, CDN_i);
+    primitive = _tie1 t11 (mlc_n1281);
+    primitive = _pull pull1 (mlc_n1281, SDN);
+    instance = tsmc_dff inst54_4 (Q_buf, D, CP, CDN_i, SDN, notifier);
+    primitive = _buf buf2 (Q_buf, Q);
+    primitive = _inv inv1 (Q_buf, QN);
+    primitive = _buf buf3 (CDN_i, CP_check);
+    primitive = _buf buf4 (CDN_i, D_check);
+    instance = tsmc_xbuf inst55_9 (CP_DEFCHK, CP_check, mlc_n1282);
+    primitive = _tie1 t12 (mlc_n1282);
+    instance = tsmc_xbuf inst56_11 (D_DEFCHK, D_check, mlc_n1283);
+    primitive = _tie1 t13 (mlc_n1283);
+  )
+)
+model DFCND2 (D, CP, CDN, Q, QN) (
+  input (D) ( )
+  input (CP) ( )
+  input (CDN) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _buf buf1 (CDN, CDN_i);
+    primitive = _tie1 t11 (mlc_n1316);
+    primitive = _pull pull1 (mlc_n1316, SDN);
+    instance = tsmc_dff inst60_4 (Q_buf, D, CP, CDN_i, SDN, notifier);
+    primitive = _buf buf2 (Q_buf, Q);
+    primitive = _inv inv1 (Q_buf, QN);
+    primitive = _buf buf3 (CDN_i, CP_check);
+    primitive = _buf buf4 (CDN_i, D_check);
+    instance = tsmc_xbuf inst61_9 (CP_DEFCHK, CP_check, mlc_n1317);
+    primitive = _tie1 t12 (mlc_n1317);
+    instance = tsmc_xbuf inst62_11 (D_DEFCHK, D_check, mlc_n1318);
+    primitive = _tie1 t13 (mlc_n1318);
+  )
+)
+model DFCND4 (D, CP, CDN, Q, QN) (
+  input (D) ( )
+  input (CP) ( )
+  input (CDN) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _buf buf1 (CDN, CDN_i);
+    primitive = _tie1 t11 (mlc_n1351);
+    primitive = _pull pull1 (mlc_n1351, SDN);
+    instance = tsmc_dff inst66_4 (Q_buf, D, CP, CDN_i, SDN, notifier);
+    primitive = _buf buf2 (Q_buf, Q);
+    primitive = _inv inv1 (Q_buf, QN);
+    primitive = _buf buf3 (CDN_i, CP_check);
+    primitive = _buf buf4 (CDN_i, D_check);
+    instance = tsmc_xbuf inst67_9 (CP_DEFCHK, CP_check, mlc_n1352);
+    primitive = _tie1 t12 (mlc_n1352);
+    instance = tsmc_xbuf inst68_11 (D_DEFCHK, D_check, mlc_n1353);
+    primitive = _tie1 t13 (mlc_n1353);
+  )
+)
+model DFCNQD1 (D, CP, CDN, Q) (
+  input (D) ( )
+  input (CP) ( )
+  input (CDN) ( )
+  output (Q) (
+    primitive = _buf buf1 (CDN, CDN_i);
+    primitive = _tie1 t11 (mlc_n1385);
+    primitive = _pull pull1 (mlc_n1385, SDN);
+    instance = tsmc_dff inst72_4 (Q_buf, D, CP, CDN_i, SDN, notifier);
+    primitive = _buf buf2 (Q_buf, Q);
+    primitive = _buf buf3 (CDN_i, CP_check);
+    primitive = _buf buf4 (CDN_i, D_check);
+    instance = tsmc_xbuf inst73_8 (CP_DEFCHK, CP_check, mlc_n1386);
+    primitive = _tie1 t12 (mlc_n1386);
+    instance = tsmc_xbuf inst74_10 (D_DEFCHK, D_check, mlc_n1387);
+    primitive = _tie1 t13 (mlc_n1387);
+  )
+)
+model DFCNQD2 (D, CP, CDN, Q) (
+  input (D) ( )
+  input (CP) ( )
+  input (CDN) ( )
+  output (Q) (
+    primitive = _buf buf1 (CDN, CDN_i);
+    primitive = _tie1 t11 (mlc_n1418);
+    primitive = _pull pull1 (mlc_n1418, SDN);
+    instance = tsmc_dff inst78_4 (Q_buf, D, CP, CDN_i, SDN, notifier);
+    primitive = _buf buf2 (Q_buf, Q);
+    primitive = _buf buf3 (CDN_i, CP_check);
+    primitive = _buf buf4 (CDN_i, D_check);
+    instance = tsmc_xbuf inst79_8 (CP_DEFCHK, CP_check, mlc_n1419);
+    primitive = _tie1 t12 (mlc_n1419);
+    instance = tsmc_xbuf inst80_10 (D_DEFCHK, D_check, mlc_n1420);
+    primitive = _tie1 t13 (mlc_n1420);
+  )
+)
+model DFCNQD4 (D, CP, CDN, Q) (
+  input (D) ( )
+  input (CP) ( )
+  input (CDN) ( )
+  output (Q) (
+    primitive = _buf buf1 (CDN, CDN_i);
+    primitive = _tie1 t11 (mlc_n1451);
+    primitive = _pull pull1 (mlc_n1451, SDN);
+    instance = tsmc_dff inst84_4 (Q_buf, D, CP, CDN_i, SDN, notifier);
+    primitive = _buf buf2 (Q_buf, Q);
+    primitive = _buf buf3 (CDN_i, CP_check);
+    primitive = _buf buf4 (CDN_i, D_check);
+    instance = tsmc_xbuf inst85_8 (CP_DEFCHK, CP_check, mlc_n1452);
+    primitive = _tie1 t12 (mlc_n1452);
+    instance = tsmc_xbuf inst86_10 (D_DEFCHK, D_check, mlc_n1453);
+    primitive = _tie1 t13 (mlc_n1453);
+  )
+)
+model DFCSND1 (D, CP, CDN, SDN, Q, QN) (
+  input (D) ( )
+  input (CP) ( )
+  input (CDN) ( )
+  input (SDN) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _buf buf1 (CDN, CDN_i);
+    primitive = _buf buf2 (SDN, SDN_i);
+    instance = tsmc_dff inst90_3 (Q_buf, D, CP, CDN_i, SDN_i, notifier);
+    primitive = _buf buf3 (Q_buf, Q);
+    primitive = _inv inv1 (Q_buf, QN_buf);
+    primitive = _and and1 (QN_buf, SDN_i, QN);
+    primitive = _and and2 (CDN_i, SDN_i, CP_check);
+    primitive = _and and3 (CDN_i, SDN_i, D_check);
+    instance = tsmc_xbuf inst91_9 (CP_DEFCHK, CP_check, mlc_n1487);
+    primitive = _tie1 t11 (mlc_n1487);
+    instance = tsmc_xbuf inst92_11 (D_DEFCHK, D_check, mlc_n1488);
+    primitive = _tie1 t12 (mlc_n1488);
+  )
+)
+model DFCSND2 (D, CP, CDN, SDN, Q, QN) (
+  input (D) ( )
+  input (CP) ( )
+  input (CDN) ( )
+  input (SDN) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _buf buf1 (CDN, CDN_i);
+    primitive = _buf buf2 (SDN, SDN_i);
+    instance = tsmc_dff inst96_3 (Q_buf, D, CP, CDN_i, SDN_i, notifier);
+    primitive = _buf buf3 (Q_buf, Q);
+    primitive = _inv inv1 (Q_buf, QN_buf);
+    primitive = _and and1 (QN_buf, SDN_i, QN);
+    primitive = _and and2 (CDN_i, SDN_i, CP_check);
+    primitive = _and and3 (CDN_i, SDN_i, D_check);
+    instance = tsmc_xbuf inst97_9 (CP_DEFCHK, CP_check, mlc_n1525);
+    primitive = _tie1 t11 (mlc_n1525);
+    instance = tsmc_xbuf inst98_11 (D_DEFCHK, D_check, mlc_n1526);
+    primitive = _tie1 t12 (mlc_n1526);
+  )
+)
+model DFCSND4 (D, CP, CDN, SDN, Q, QN) (
+  input (D) ( )
+  input (CP) ( )
+  input (CDN) ( )
+  input (SDN) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _buf buf1 (CDN, CDN_i);
+    primitive = _buf buf2 (SDN, SDN_i);
+    instance = tsmc_dff inst102_3 (Q_buf, D, CP, CDN_i, SDN_i, notifier);
+    primitive = _buf buf3 (Q_buf, Q);
+    primitive = _inv inv1 (Q_buf, QN_buf);
+    primitive = _and and1 (QN_buf, SDN_i, QN);
+    primitive = _and and2 (CDN_i, SDN_i, CP_check);
+    primitive = _and and3 (CDN_i, SDN_i, D_check);
+    instance = tsmc_xbuf inst103_9 (CP_DEFCHK, CP_check, mlc_n1563);
+    primitive = _tie1 t11 (mlc_n1563);
+    instance = tsmc_xbuf inst104_11 (D_DEFCHK, D_check, mlc_n1564);
+    primitive = _tie1 t12 (mlc_n1564);
+  )
+)
+model DFD1 (D, CP, Q, QN) (
+  input (D) ( )
+  input (CP) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _tie1 t11 (mlc_n1603);
+    primitive = _pull pull1 (mlc_n1603, CDN);
+    primitive = _tie1 t12 (mlc_n1604);
+    primitive = _pull pull2 (mlc_n1604, SDN);
+    instance = tsmc_dff inst108_5 (Q_buf, D, CP, CDN, SDN, notifier);
+    primitive = _buf buf1 (Q_buf, Q);
+    primitive = _inv inv1 (Q_buf, QN);
+    primitive = _tie1 t13 (mlc_n1605);
+    primitive = _pull pull3 (mlc_n1605, CP_check);
+    primitive = _tie1 t14 (mlc_n1606);
+    primitive = _pull pull4 (mlc_n1606, D_check);
+    primitive = _tie1 t15 (mlc_n1607);
+    primitive = _pull pull5 (mlc_n1607, CP_check);
+    primitive = _tie1 t16 (mlc_n1608);
+    primitive = _pull pull6 (mlc_n1608, D_check);
+    instance = tsmc_xbuf inst109_16 (CP_DEFCHK, CP_check, mlc_n1609);
+    primitive = _tie1 t17 (mlc_n1609);
+    instance = tsmc_xbuf inst110_18 (D_DEFCHK, D_check, mlc_n1610);
+    primitive = _tie1 t18 (mlc_n1610);
+  )
+)
+model DFD2 (D, CP, Q, QN) (
+  input (D) ( )
+  input (CP) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _tie1 t11 (mlc_n1651);
+    primitive = _pull pull1 (mlc_n1651, CDN);
+    primitive = _tie1 t12 (mlc_n1652);
+    primitive = _pull pull2 (mlc_n1652, SDN);
+    instance = tsmc_dff inst114_5 (Q_buf, D, CP, CDN, SDN, notifier);
+    primitive = _buf buf1 (Q_buf, Q);
+    primitive = _inv inv1 (Q_buf, QN);
+    primitive = _tie1 t13 (mlc_n1653);
+    primitive = _pull pull3 (mlc_n1653, CP_check);
+    primitive = _tie1 t14 (mlc_n1654);
+    primitive = _pull pull4 (mlc_n1654, D_check);
+    primitive = _tie1 t15 (mlc_n1655);
+    primitive = _pull pull5 (mlc_n1655, CP_check);
+    primitive = _tie1 t16 (mlc_n1656);
+    primitive = _pull pull6 (mlc_n1656, D_check);
+    instance = tsmc_xbuf inst115_16 (CP_DEFCHK, CP_check, mlc_n1657);
+    primitive = _tie1 t17 (mlc_n1657);
+    instance = tsmc_xbuf inst116_18 (D_DEFCHK, D_check, mlc_n1658);
+    primitive = _tie1 t18 (mlc_n1658);
+  )
+)
+model DFD4 (D, CP, Q, QN) (
+  input (D) ( )
+  input (CP) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _tie1 t11 (mlc_n1699);
+    primitive = _pull pull1 (mlc_n1699, CDN);
+    primitive = _tie1 t12 (mlc_n1700);
+    primitive = _pull pull2 (mlc_n1700, SDN);
+    instance = tsmc_dff inst120_5 (Q_buf, D, CP, CDN, SDN, notifier);
+    primitive = _buf buf1 (Q_buf, Q);
+    primitive = _inv inv1 (Q_buf, QN);
+    primitive = _tie1 t13 (mlc_n1701);
+    primitive = _pull pull3 (mlc_n1701, CP_check);
+    primitive = _tie1 t14 (mlc_n1702);
+    primitive = _pull pull4 (mlc_n1702, D_check);
+    primitive = _tie1 t15 (mlc_n1703);
+    primitive = _pull pull5 (mlc_n1703, CP_check);
+    primitive = _tie1 t16 (mlc_n1704);
+    primitive = _pull pull6 (mlc_n1704, D_check);
+    instance = tsmc_xbuf inst121_16 (CP_DEFCHK, CP_check, mlc_n1705);
+    primitive = _tie1 t17 (mlc_n1705);
+    instance = tsmc_xbuf inst122_18 (D_DEFCHK, D_check, mlc_n1706);
+    primitive = _tie1 t18 (mlc_n1706);
+  )
+)
+model DFKCND1 (D, CP, CN, Q, QN) (
+  input (D) ( )
+  input (CP) ( )
+  input (CN) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _tie1 t11 (mlc_n1742);
+    primitive = _pull pull1 (mlc_n1742, CDN);
+    primitive = _tie1 t12 (mlc_n1743);
+    primitive = _pull pull2 (mlc_n1743, SDN);
+    primitive = _and and1 (CN, D, D_i);
+    instance = tsmc_dff inst125_6 (Q_buf, D_i, CP, CDN, SDN, notifier);
+    primitive = _buf buf1 (Q_buf, Q);
+    primitive = _inv inv1 (Q_buf, QN);
+    primitive = _buf buf2 (CN, D_check);
+    instance = tsmc_xbuf inst126_10 (D_DEFCHK, D_check, mlc_n1744);
+    primitive = _tie1 t13 (mlc_n1744);
+  )
+)
+model DFKCND2 (D, CP, CN, Q, QN) (
+  input (D) ( )
+  input (CP) ( )
+  input (CN) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _tie1 t11 (mlc_n1775);
+    primitive = _pull pull1 (mlc_n1775, CDN);
+    primitive = _tie1 t12 (mlc_n1776);
+    primitive = _pull pull2 (mlc_n1776, SDN);
+    primitive = _and and1 (CN, D, D_i);
+    instance = tsmc_dff inst129_6 (Q_buf, D_i, CP, CDN, SDN, notifier);
+    primitive = _buf buf1 (Q_buf, Q);
+    primitive = _inv inv1 (Q_buf, QN);
+    primitive = _buf buf2 (CN, D_check);
+    instance = tsmc_xbuf inst130_10 (D_DEFCHK, D_check, mlc_n1777);
+    primitive = _tie1 t13 (mlc_n1777);
+  )
+)
+model DFKCND4 (D, CP, CN, Q, QN) (
+  input (D) ( )
+  input (CP) ( )
+  input (CN) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _tie1 t11 (mlc_n1808);
+    primitive = _pull pull1 (mlc_n1808, CDN);
+    primitive = _tie1 t12 (mlc_n1809);
+    primitive = _pull pull2 (mlc_n1809, SDN);
+    primitive = _and and1 (CN, D, D_i);
+    instance = tsmc_dff inst133_6 (Q_buf, D_i, CP, CDN, SDN, notifier);
+    primitive = _buf buf1 (Q_buf, Q);
+    primitive = _inv inv1 (Q_buf, QN);
+    primitive = _buf buf2 (CN, D_check);
+    instance = tsmc_xbuf inst134_10 (D_DEFCHK, D_check, mlc_n1810);
+    primitive = _tie1 t13 (mlc_n1810);
+  )
+)
+model DFKCNQD1 (D, CP, CN, Q) (
+  input (D) ( )
+  input (CP) ( )
+  input (CN) ( )
+  output (Q) (
+    primitive = _tie1 t11 (mlc_n1840);
+    primitive = _pull pull1 (mlc_n1840, CDN);
+    primitive = _tie1 t12 (mlc_n1841);
+    primitive = _pull pull2 (mlc_n1841, SDN);
+    primitive = _and and1 (CN, D, D_i);
+    instance = tsmc_dff inst137_6 (Q_buf, D_i, CP, CDN, SDN, notifier);
+    primitive = _buf buf1 (Q_buf, Q);
+    primitive = _buf buf2 (CN, D_check);
+    instance = tsmc_xbuf inst138_9 (D_DEFCHK, D_check, mlc_n1842);
+    primitive = _tie1 t13 (mlc_n1842);
+  )
+)
+model DFKCNQD2 (D, CP, CN, Q) (
+  input (D) ( )
+  input (CP) ( )
+  input (CN) ( )
+  output (Q) (
+    primitive = _tie1 t11 (mlc_n1871);
+    primitive = _pull pull1 (mlc_n1871, CDN);
+    primitive = _tie1 t12 (mlc_n1872);
+    primitive = _pull pull2 (mlc_n1872, SDN);
+    primitive = _and and1 (CN, D, D_i);
+    instance = tsmc_dff inst141_6 (Q_buf, D_i, CP, CDN, SDN, notifier);
+    primitive = _buf buf1 (Q_buf, Q);
+    primitive = _buf buf2 (CN, D_check);
+    instance = tsmc_xbuf inst142_9 (D_DEFCHK, D_check, mlc_n1873);
+    primitive = _tie1 t13 (mlc_n1873);
+  )
+)
+model DFKCNQD4 (D, CP, CN, Q) (
+  input (D) ( )
+  input (CP) ( )
+  input (CN) ( )
+  output (Q) (
+    primitive = _tie1 t11 (mlc_n1902);
+    primitive = _pull pull1 (mlc_n1902, CDN);
+    primitive = _tie1 t12 (mlc_n1903);
+    primitive = _pull pull2 (mlc_n1903, SDN);
+    primitive = _and and1 (CN, D, D_i);
+    instance = tsmc_dff inst145_6 (Q_buf, D_i, CP, CDN, SDN, notifier);
+    primitive = _buf buf1 (Q_buf, Q);
+    primitive = _buf buf2 (CN, D_check);
+    instance = tsmc_xbuf inst146_9 (D_DEFCHK, D_check, mlc_n1904);
+    primitive = _tie1 t13 (mlc_n1904);
+  )
+)
+model DFKCSND1 (D, CP, CN, SN, Q, QN) (
+  input (D) ( )
+  input (CP) ( )
+  input (CN) ( )
+  input (SN) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _tie1 t11 (mlc_n1940);
+    primitive = _pull pull1 (mlc_n1940, CDN);
+    primitive = _tie1 t12 (mlc_n1941);
+    primitive = _pull pull2 (mlc_n1941, SDN);
+    primitive = _inv inv1 (SN, S);
+    primitive = _or or1 (S, D, DS);
+    primitive = _and and1 (CN, DS, D_i);
+    instance = tsmc_dff inst150_8 (Q_buf, D_i, CP, CDN, SDN, notifier);
+    primitive = _buf buf1 (Q_buf, Q);
+    primitive = _inv inv2 (Q_buf, QN);
+    primitive = _buf buf2 (CN, SN_check);
+    primitive = _and and2 (SN, CN, D_check);
+    instance = tsmc_xbuf inst151_13 (SN_DEFCHK, SN_check, mlc_n1942);
+    primitive = _tie1 t13 (mlc_n1942);
+    instance = tsmc_xbuf inst152_15 (D_DEFCHK, D_check, mlc_n1943);
+    primitive = _tie1 t14 (mlc_n1943);
+  )
+)
+model DFKCSND2 (D, CP, CN, SN, Q, QN) (
+  input (D) ( )
+  input (CP) ( )
+  input (CN) ( )
+  input (SN) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _tie1 t11 (mlc_n1986);
+    primitive = _pull pull1 (mlc_n1986, CDN);
+    primitive = _tie1 t12 (mlc_n1987);
+    primitive = _pull pull2 (mlc_n1987, SDN);
+    primitive = _inv inv1 (SN, S);
+    primitive = _or or1 (S, D, DS);
+    primitive = _and and1 (CN, DS, D_i);
+    instance = tsmc_dff inst156_8 (Q_buf, D_i, CP, CDN, SDN, notifier);
+    primitive = _buf buf1 (Q_buf, Q);
+    primitive = _inv inv2 (Q_buf, QN);
+    primitive = _buf buf2 (CN, SN_check);
+    primitive = _and and2 (SN, CN, D_check);
+    instance = tsmc_xbuf inst157_13 (SN_DEFCHK, SN_check, mlc_n1988);
+    primitive = _tie1 t13 (mlc_n1988);
+    instance = tsmc_xbuf inst158_15 (D_DEFCHK, D_check, mlc_n1989);
+    primitive = _tie1 t14 (mlc_n1989);
+  )
+)
+model DFKCSND4 (D, CP, CN, SN, Q, QN) (
+  input (D) ( )
+  input (CP) ( )
+  input (CN) ( )
+  input (SN) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _tie1 t11 (mlc_n2032);
+    primitive = _pull pull1 (mlc_n2032, CDN);
+    primitive = _tie1 t12 (mlc_n2033);
+    primitive = _pull pull2 (mlc_n2033, SDN);
+    primitive = _inv inv1 (SN, S);
+    primitive = _or or1 (S, D, DS);
+    primitive = _and and1 (CN, DS, D_i);
+    instance = tsmc_dff inst162_8 (Q_buf, D_i, CP, CDN, SDN, notifier);
+    primitive = _buf buf1 (Q_buf, Q);
+    primitive = _inv inv2 (Q_buf, QN);
+    primitive = _buf buf2 (CN, SN_check);
+    primitive = _and and2 (SN, CN, D_check);
+    instance = tsmc_xbuf inst163_13 (SN_DEFCHK, SN_check, mlc_n2034);
+    primitive = _tie1 t13 (mlc_n2034);
+    instance = tsmc_xbuf inst164_15 (D_DEFCHK, D_check, mlc_n2035);
+    primitive = _tie1 t14 (mlc_n2035);
+  )
+)
+model DFKSND1 (D, CP, SN, Q, QN) (
+  input (D) ( )
+  input (CP) ( )
+  input (SN) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _tie1 t11 (mlc_n2073);
+    primitive = _pull pull1 (mlc_n2073, CDN);
+    primitive = _tie1 t12 (mlc_n2074);
+    primitive = _pull pull2 (mlc_n2074, SDN);
+    primitive = _inv inv1 (SN, S);
+    primitive = _or or1 (S, D, D_i);
+    instance = tsmc_dff inst167_7 (Q_buf, D_i, CP, CDN, SDN, notifier);
+    primitive = _buf buf1 (Q_buf, Q);
+    primitive = _inv inv2 (Q_buf, QN);
+    primitive = _buf buf2 (SN, D_check);
+    instance = tsmc_xbuf inst168_11 (D_DEFCHK, D_check, mlc_n2075);
+    primitive = _tie1 t13 (mlc_n2075);
+  )
+)
+model DFKSND2 (D, CP, SN, Q, QN) (
+  input (D) ( )
+  input (CP) ( )
+  input (SN) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _tie1 t11 (mlc_n2108);
+    primitive = _pull pull1 (mlc_n2108, CDN);
+    primitive = _tie1 t12 (mlc_n2109);
+    primitive = _pull pull2 (mlc_n2109, SDN);
+    primitive = _inv inv1 (SN, S);
+    primitive = _or or1 (S, D, D_i);
+    instance = tsmc_dff inst171_7 (Q_buf, D_i, CP, CDN, SDN, notifier);
+    primitive = _buf buf1 (Q_buf, Q);
+    primitive = _inv inv2 (Q_buf, QN);
+    primitive = _buf buf2 (SN, D_check);
+    instance = tsmc_xbuf inst172_11 (D_DEFCHK, D_check, mlc_n2110);
+    primitive = _tie1 t13 (mlc_n2110);
+  )
+)
+model DFKSND4 (D, CP, SN, Q, QN) (
+  input (D) ( )
+  input (CP) ( )
+  input (SN) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _tie1 t11 (mlc_n2143);
+    primitive = _pull pull1 (mlc_n2143, CDN);
+    primitive = _tie1 t12 (mlc_n2144);
+    primitive = _pull pull2 (mlc_n2144, SDN);
+    primitive = _inv inv1 (SN, S);
+    primitive = _or or1 (S, D, D_i);
+    instance = tsmc_dff inst175_7 (Q_buf, D_i, CP, CDN, SDN, notifier);
+    primitive = _buf buf1 (Q_buf, Q);
+    primitive = _inv inv2 (Q_buf, QN);
+    primitive = _buf buf2 (SN, D_check);
+    instance = tsmc_xbuf inst176_11 (D_DEFCHK, D_check, mlc_n2145);
+    primitive = _tie1 t13 (mlc_n2145);
+  )
+)
+model DFQD1 (D, CP, Q) (
+  input (D) ( )
+  input (CP) ( )
+  output (Q) (
+    primitive = _tie1 t11 (mlc_n2181);
+    primitive = _pull pull1 (mlc_n2181, CDN);
+    primitive = _tie1 t12 (mlc_n2182);
+    primitive = _pull pull2 (mlc_n2182, SDN);
+    instance = tsmc_dff inst180_5 (Q_buf, D, CP, CDN, SDN, notifier);
+    primitive = _buf buf1 (Q_buf, Q);
+    primitive = _tie1 t13 (mlc_n2183);
+    primitive = _pull pull3 (mlc_n2183, CP_check);
+    primitive = _tie1 t14 (mlc_n2184);
+    primitive = _pull pull4 (mlc_n2184, D_check);
+    primitive = _tie1 t15 (mlc_n2185);
+    primitive = _pull pull5 (mlc_n2185, CP_check);
+    primitive = _tie1 t16 (mlc_n2186);
+    primitive = _pull pull6 (mlc_n2186, D_check);
+    instance = tsmc_xbuf inst181_15 (CP_DEFCHK, CP_check, mlc_n2187);
+    primitive = _tie1 t17 (mlc_n2187);
+    instance = tsmc_xbuf inst182_17 (D_DEFCHK, D_check, mlc_n2188);
+    primitive = _tie1 t18 (mlc_n2188);
+  )
+)
+model DFQD2 (D, CP, Q) (
+  input (D) ( )
+  input (CP) ( )
+  output (Q) (
+    primitive = _tie1 t11 (mlc_n2227);
+    primitive = _pull pull1 (mlc_n2227, CDN);
+    primitive = _tie1 t12 (mlc_n2228);
+    primitive = _pull pull2 (mlc_n2228, SDN);
+    instance = tsmc_dff inst186_5 (Q_buf, D, CP, CDN, SDN, notifier);
+    primitive = _buf buf1 (Q_buf, Q);
+    primitive = _tie1 t13 (mlc_n2229);
+    primitive = _pull pull3 (mlc_n2229, CP_check);
+    primitive = _tie1 t14 (mlc_n2230);
+    primitive = _pull pull4 (mlc_n2230, D_check);
+    primitive = _tie1 t15 (mlc_n2231);
+    primitive = _pull pull5 (mlc_n2231, CP_check);
+    primitive = _tie1 t16 (mlc_n2232);
+    primitive = _pull pull6 (mlc_n2232, D_check);
+    instance = tsmc_xbuf inst187_15 (CP_DEFCHK, CP_check, mlc_n2233);
+    primitive = _tie1 t17 (mlc_n2233);
+    instance = tsmc_xbuf inst188_17 (D_DEFCHK, D_check, mlc_n2234);
+    primitive = _tie1 t18 (mlc_n2234);
+  )
+)
+model DFQD4 (D, CP, Q) (
+  input (D) ( )
+  input (CP) ( )
+  output (Q) (
+    primitive = _tie1 t11 (mlc_n2273);
+    primitive = _pull pull1 (mlc_n2273, CDN);
+    primitive = _tie1 t12 (mlc_n2274);
+    primitive = _pull pull2 (mlc_n2274, SDN);
+    instance = tsmc_dff inst192_5 (Q_buf, D, CP, CDN, SDN, notifier);
+    primitive = _buf buf1 (Q_buf, Q);
+    primitive = _tie1 t13 (mlc_n2275);
+    primitive = _pull pull3 (mlc_n2275, CP_check);
+    primitive = _tie1 t14 (mlc_n2276);
+    primitive = _pull pull4 (mlc_n2276, D_check);
+    primitive = _tie1 t15 (mlc_n2277);
+    primitive = _pull pull5 (mlc_n2277, CP_check);
+    primitive = _tie1 t16 (mlc_n2278);
+    primitive = _pull pull6 (mlc_n2278, D_check);
+    instance = tsmc_xbuf inst193_15 (CP_DEFCHK, CP_check, mlc_n2279);
+    primitive = _tie1 t17 (mlc_n2279);
+    instance = tsmc_xbuf inst194_17 (D_DEFCHK, D_check, mlc_n2280);
+    primitive = _tie1 t18 (mlc_n2280);
+  )
+)
+model DFSND1 (D, CP, SDN, Q, QN) (
+  input (D) ( )
+  input (CP) ( )
+  input (SDN) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _buf buf1 (SDN, SDN_i);
+    primitive = _tie1 t11 (mlc_n2316);
+    primitive = _pull pull1 (mlc_n2316, CDN);
+    instance = tsmc_dff inst198_4 (Q_buf, D, CP, CDN, SDN_i, notifier);
+    primitive = _buf buf2 (Q_buf, Q);
+    primitive = _inv inv1 (Q_buf, QN);
+    primitive = _buf buf3 (SDN_i, CP_check);
+    primitive = _buf buf4 (SDN_i, D_check);
+    instance = tsmc_xbuf inst199_9 (CP_DEFCHK, CP_check, mlc_n2317);
+    primitive = _tie1 t12 (mlc_n2317);
+    instance = tsmc_xbuf inst200_11 (D_DEFCHK, D_check, mlc_n2318);
+    primitive = _tie1 t13 (mlc_n2318);
+  )
+)
+model DFSND2 (D, CP, SDN, Q, QN) (
+  input (D) ( )
+  input (CP) ( )
+  input (SDN) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _buf buf1 (SDN, SDN_i);
+    primitive = _tie1 t11 (mlc_n2351);
+    primitive = _pull pull1 (mlc_n2351, CDN);
+    instance = tsmc_dff inst204_4 (Q_buf, D, CP, CDN, SDN_i, notifier);
+    primitive = _buf buf2 (Q_buf, Q);
+    primitive = _inv inv1 (Q_buf, QN);
+    primitive = _buf buf3 (SDN_i, CP_check);
+    primitive = _buf buf4 (SDN_i, D_check);
+    instance = tsmc_xbuf inst205_9 (CP_DEFCHK, CP_check, mlc_n2352);
+    primitive = _tie1 t12 (mlc_n2352);
+    instance = tsmc_xbuf inst206_11 (D_DEFCHK, D_check, mlc_n2353);
+    primitive = _tie1 t13 (mlc_n2353);
+  )
+)
+model DFSND4 (D, CP, SDN, Q, QN) (
+  input (D) ( )
+  input (CP) ( )
+  input (SDN) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _buf buf1 (SDN, SDN_i);
+    primitive = _tie1 t11 (mlc_n2386);
+    primitive = _pull pull1 (mlc_n2386, CDN);
+    instance = tsmc_dff inst210_4 (Q_buf, D, CP, CDN, SDN_i, notifier);
+    primitive = _buf buf2 (Q_buf, Q);
+    primitive = _inv inv1 (Q_buf, QN);
+    primitive = _buf buf3 (SDN_i, CP_check);
+    primitive = _buf buf4 (SDN_i, D_check);
+    instance = tsmc_xbuf inst211_9 (CP_DEFCHK, CP_check, mlc_n2387);
+    primitive = _tie1 t12 (mlc_n2387);
+    instance = tsmc_xbuf inst212_11 (D_DEFCHK, D_check, mlc_n2388);
+    primitive = _tie1 t13 (mlc_n2388);
+  )
+)
+model DFXD1 (DA, DB, SA, CP, Q, QN) (
+  input (DA) ( )
+  input (DB) ( )
+  input (SA) ( )
+  input (CP) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _tie1 t11 (mlc_n2435);
+    primitive = _pull pull1 (mlc_n2435, CDN);
+    primitive = _tie1 t12 (mlc_n2436);
+    primitive = _pull pull2 (mlc_n2436, SDN);
+    instance = tsmc_mux inst219_5 (D, DB, DA, SA);
+    instance = tsmc_dff inst220_6 (Q_buf, D, CP, CDN, SDN, notifier);
+    primitive = _buf buf1 (Q_buf, Q);
+    primitive = _inv inv1 (Q_buf, QN);
+    primitive = _tie1 t13 (mlc_n2437);
+    primitive = _pull pull3 (mlc_n2437, CP_check);
+    primitive = _tie1 t14 (mlc_n2438);
+    primitive = _pull pull4 (mlc_n2438, SA_check);
+    primitive = _inv inv2 (SA, SA_int_not);
+    primitive = _buf buf2 (SA, DA_check);
+    primitive = _buf buf3 (SA_int_not, DB_check);
+    primitive = _tie1 t15 (mlc_n2439);
+    primitive = _pull pull5 (mlc_n2439, CP_check);
+    primitive = _tie1 t16 (mlc_n2440);
+    primitive = _pull pull6 (mlc_n2440, SA_check);
+    instance = tsmc_xbuf inst221_20 (CP_DEFCHK, CP_check, mlc_n2441);
+    primitive = _tie1 t17 (mlc_n2441);
+    instance = tsmc_xbuf inst222_22 (SA_DEFCHK, SA_check, mlc_n2442);
+    primitive = _tie1 t18 (mlc_n2442);
+    instance = tsmc_xbuf inst223_24 (DB_DEFCHK, DB_check, mlc_n2443);
+    primitive = _tie1 t19 (mlc_n2443);
+    instance = tsmc_xbuf inst224_26 (DA_DEFCHK, DA_check, mlc_n2444);
+    primitive = _tie1 t110 (mlc_n2444);
+  )
+)
+model DFXD2 (DA, DB, SA, CP, Q, QN) (
+  input (DA) ( )
+  input (DB) ( )
+  input (SA) ( )
+  input (CP) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _tie1 t11 (mlc_n2505);
+    primitive = _pull pull1 (mlc_n2505, CDN);
+    primitive = _tie1 t12 (mlc_n2506);
+    primitive = _pull pull2 (mlc_n2506, SDN);
+    instance = tsmc_mux inst231_5 (D, DB, DA, SA);
+    instance = tsmc_dff inst232_6 (Q_buf, D, CP, CDN, SDN, notifier);
+    primitive = _buf buf1 (Q_buf, Q);
+    primitive = _inv inv1 (Q_buf, QN);
+    primitive = _tie1 t13 (mlc_n2507);
+    primitive = _pull pull3 (mlc_n2507, CP_check);
+    primitive = _tie1 t14 (mlc_n2508);
+    primitive = _pull pull4 (mlc_n2508, SA_check);
+    primitive = _inv inv2 (SA, SA_int_not);
+    primitive = _buf buf2 (SA, DA_check);
+    primitive = _buf buf3 (SA_int_not, DB_check);
+    primitive = _tie1 t15 (mlc_n2509);
+    primitive = _pull pull5 (mlc_n2509, CP_check);
+    primitive = _tie1 t16 (mlc_n2510);
+    primitive = _pull pull6 (mlc_n2510, SA_check);
+    instance = tsmc_xbuf inst233_20 (CP_DEFCHK, CP_check, mlc_n2511);
+    primitive = _tie1 t17 (mlc_n2511);
+    instance = tsmc_xbuf inst234_22 (SA_DEFCHK, SA_check, mlc_n2512);
+    primitive = _tie1 t18 (mlc_n2512);
+    instance = tsmc_xbuf inst235_24 (DB_DEFCHK, DB_check, mlc_n2513);
+    primitive = _tie1 t19 (mlc_n2513);
+    instance = tsmc_xbuf inst236_26 (DA_DEFCHK, DA_check, mlc_n2514);
+    primitive = _tie1 t110 (mlc_n2514);
+  )
+)
+model DFXD4 (DA, DB, SA, CP, Q, QN) (
+  input (DA) ( )
+  input (DB) ( )
+  input (SA) ( )
+  input (CP) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _tie1 t11 (mlc_n2575);
+    primitive = _pull pull1 (mlc_n2575, CDN);
+    primitive = _tie1 t12 (mlc_n2576);
+    primitive = _pull pull2 (mlc_n2576, SDN);
+    instance = tsmc_mux inst243_5 (D, DB, DA, SA);
+    instance = tsmc_dff inst244_6 (Q_buf, D, CP, CDN, SDN, notifier);
+    primitive = _buf buf1 (Q_buf, Q);
+    primitive = _inv inv1 (Q_buf, QN);
+    primitive = _tie1 t13 (mlc_n2577);
+    primitive = _pull pull3 (mlc_n2577, CP_check);
+    primitive = _tie1 t14 (mlc_n2578);
+    primitive = _pull pull4 (mlc_n2578, SA_check);
+    primitive = _inv inv2 (SA, SA_int_not);
+    primitive = _buf buf2 (SA, DA_check);
+    primitive = _buf buf3 (SA_int_not, DB_check);
+    primitive = _tie1 t15 (mlc_n2579);
+    primitive = _pull pull5 (mlc_n2579, CP_check);
+    primitive = _tie1 t16 (mlc_n2580);
+    primitive = _pull pull6 (mlc_n2580, SA_check);
+    instance = tsmc_xbuf inst245_20 (CP_DEFCHK, CP_check, mlc_n2581);
+    primitive = _tie1 t17 (mlc_n2581);
+    instance = tsmc_xbuf inst246_22 (SA_DEFCHK, SA_check, mlc_n2582);
+    primitive = _tie1 t18 (mlc_n2582);
+    instance = tsmc_xbuf inst247_24 (DB_DEFCHK, DB_check, mlc_n2583);
+    primitive = _tie1 t19 (mlc_n2583);
+    instance = tsmc_xbuf inst248_26 (DA_DEFCHK, DA_check, mlc_n2584);
+    primitive = _tie1 t110 (mlc_n2584);
+  )
+)
+model FA1D1 (A, B, CI, S, CO) (
+  input (A) ( )
+  input (B) ( )
+  input (CI) ( )
+  output (S) ()
+  output (CO) (
+    primitive = _xor xor1 (A, B, CI, S);
+    primitive = _and and1 (A, B, n2);
+    primitive = _and and2 (A, CI, n3);
+    primitive = _and and3 (B, CI, n4);
+    primitive = _or or1 (n2, n3, n4, CO);
+  )
+)
+model FA1D2 (A, B, CI, S, CO) (
+  input (A) ( )
+  input (B) ( )
+  input (CI) ( )
+  output (S) ()
+  output (CO) (
+    primitive = _xor xor1 (A, B, CI, S);
+    primitive = _and and1 (A, B, n2);
+    primitive = _and and2 (A, CI, n3);
+    primitive = _and and3 (B, CI, n4);
+    primitive = _or or1 (n2, n3, n4, CO);
+  )
+)
+model FA1D4 (A, B, CI, S, CO) (
+  input (A) ( )
+  input (B) ( )
+  input (CI) ( )
+  output (S) ()
+  output (CO) (
+    primitive = _xor xor1 (A, B, CI, S);
+    primitive = _and and1 (A, B, n2);
+    primitive = _and and2 (A, CI, n3);
+    primitive = _and and3 (B, CI, n4);
+    primitive = _or or1 (n2, n3, n4, CO);
+  )
+)
+model HA1D1 (A, B, S, CO) (
+  input (A) ( )
+  input (B) ( )
+  output (S) ()
+  output (CO) (
+    primitive = _xor xor1 (A, B, S);
+    primitive = _and and1 (A, B, CO);
+  )
+)
+model HA1D2 (A, B, S, CO) (
+  input (A) ( )
+  input (B) ( )
+  output (S) ()
+  output (CO) (
+    primitive = _xor xor1 (A, B, S);
+    primitive = _and and1 (A, B, CO);
+  )
+)
+model HA1D4 (A, B, S, CO) (
+  input (A) ( )
+  input (B) ( )
+  output (S) ()
+  output (CO) (
+    primitive = _xor xor1 (A, B, S);
+    primitive = _and and1 (A, B, CO);
+  )
+)
+model IIND4D0 (A1, A2, B1, B2, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B1) ( )
+  input (B2) ( )
+  output (ZN) (
+    primitive = _inv inv1 (A1, A1N);
+    primitive = _inv inv2 (A2, A2N);
+    primitive = _nand nand1 (A1N, A2N, B1, B2, ZN);
+  )
+)
+model IIND4D1 (A1, A2, B1, B2, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B1) ( )
+  input (B2) ( )
+  output (ZN) (
+    primitive = _inv inv1 (A1, A1N);
+    primitive = _inv inv2 (A2, A2N);
+    primitive = _nand nand1 (A1N, A2N, B1, B2, ZN);
+  )
+)
+model IIND4D2 (A1, A2, B1, B2, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B1) ( )
+  input (B2) ( )
+  output (ZN) (
+    primitive = _inv inv1 (A1, A1N);
+    primitive = _inv inv2 (A2, A2N);
+    primitive = _nand nand1 (A1N, A2N, B1, B2, ZN);
+  )
+)
+model IIND4D4 (A1, A2, B1, B2, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B1) ( )
+  input (B2) ( )
+  output (ZN) (
+    primitive = _inv inv1 (A1, A1N);
+    primitive = _inv inv2 (A2, A2N);
+    primitive = _nand nand1 (A1N, A2N, B1, B2, ZN);
+  )
+)
+model IINR4D0 (A1, A2, B1, B2, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B1) ( )
+  input (B2) ( )
+  output (ZN) (
+    primitive = _inv inv1 (A1, A1N);
+    primitive = _inv inv2 (A2, A2N);
+    primitive = _nor nor1 (A1N, A2N, B1, B2, ZN);
+  )
+)
+model IINR4D1 (A1, A2, B1, B2, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B1) ( )
+  input (B2) ( )
+  output (ZN) (
+    primitive = _inv inv1 (A1, A1N);
+    primitive = _inv inv2 (A2, A2N);
+    primitive = _nor nor1 (A1N, A2N, B1, B2, ZN);
+  )
+)
+model IINR4D2 (A1, A2, B1, B2, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B1) ( )
+  input (B2) ( )
+  output (ZN) (
+    primitive = _inv inv1 (A1, A1N);
+    primitive = _inv inv2 (A2, A2N);
+    primitive = _nor nor1 (A1N, A2N, B1, B2, ZN);
+  )
+)
+model IINR4D4 (A1, A2, B1, B2, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B1) ( )
+  input (B2) ( )
+  output (ZN) (
+    primitive = _inv inv1 (A1, A1N);
+    primitive = _inv inv2 (A2, A2N);
+    primitive = _nor nor1 (A1N, A2N, B1, B2, ZN);
+  )
+)
+model IND2D0 (A1, B1, ZN) (
+  input (A1) ( )
+  input (B1) ( )
+  output (ZN) (
+    primitive = _inv inv1 (A1, A1N);
+    primitive = _nand nand1 (A1N, B1, ZN);
+  )
+)
+model IND2D1 (A1, B1, ZN) (
+  input (A1) ( )
+  input (B1) ( )
+  output (ZN) (
+    primitive = _inv inv1 (A1, A1N);
+    primitive = _nand nand1 (A1N, B1, ZN);
+  )
+)
+model IND2D2 (A1, B1, ZN) (
+  input (A1) ( )
+  input (B1) ( )
+  output (ZN) (
+    primitive = _inv inv1 (A1, A1N);
+    primitive = _nand nand1 (A1N, B1, ZN);
+  )
+)
+model IND2D4 (A1, B1, ZN) (
+  input (A1) ( )
+  input (B1) ( )
+  output (ZN) (
+    primitive = _inv inv1 (A1, A1N);
+    primitive = _nand nand1 (A1N, B1, ZN);
+  )
+)
+model IND3D0 (A1, B1, B2, ZN) (
+  input (A1) ( )
+  input (B1) ( )
+  input (B2) ( )
+  output (ZN) (
+    primitive = _inv inv1 (A1, A1N);
+    primitive = _nand nand1 (A1N, B1, B2, ZN);
+  )
+)
+model IND3D1 (A1, B1, B2, ZN) (
+  input (A1) ( )
+  input (B1) ( )
+  input (B2) ( )
+  output (ZN) (
+    primitive = _inv inv1 (A1, A1N);
+    primitive = _nand nand1 (A1N, B1, B2, ZN);
+  )
+)
+model IND3D2 (A1, B1, B2, ZN) (
+  input (A1) ( )
+  input (B1) ( )
+  input (B2) ( )
+  output (ZN) (
+    primitive = _inv inv1 (A1, A1N);
+    primitive = _nand nand1 (A1N, B1, B2, ZN);
+  )
+)
+model IND3D4 (A1, B1, B2, ZN) (
+  input (A1) ( )
+  input (B1) ( )
+  input (B2) ( )
+  output (ZN) (
+    primitive = _inv inv1 (A1, A1N);
+    primitive = _nand nand1 (A1N, B1, B2, ZN);
+  )
+)
+model IND4D0 (A1, B1, B2, B3, ZN) (
+  input (A1) ( )
+  input (B1) ( )
+  input (B2) ( )
+  input (B3) ( )
+  output (ZN) (
+    primitive = _inv inv1 (A1, A1N);
+    primitive = _nand nand1 (A1N, B1, B2, B3, ZN);
+  )
+)
+model IND4D1 (A1, B1, B2, B3, ZN) (
+  input (A1) ( )
+  input (B1) ( )
+  input (B2) ( )
+  input (B3) ( )
+  output (ZN) (
+    primitive = _inv inv1 (A1, A1N);
+    primitive = _nand nand1 (A1N, B1, B2, B3, ZN);
+  )
+)
+model IND4D2 (A1, B1, B2, B3, ZN) (
+  input (A1) ( )
+  input (B1) ( )
+  input (B2) ( )
+  input (B3) ( )
+  output (ZN) (
+    primitive = _inv inv1 (A1, A1N);
+    primitive = _nand nand1 (A1N, B1, B2, B3, ZN);
+  )
+)
+model IND4D4 (A1, B1, B2, B3, ZN) (
+  input (A1) ( )
+  input (B1) ( )
+  input (B2) ( )
+  input (B3) ( )
+  output (ZN) (
+    primitive = _inv inv1 (A1, A1N);
+    primitive = _nand nand1 (A1N, B1, B2, B3, ZN);
+  )
+)
+model INR2D0 (A1, B1, ZN) (
+  input (A1) ( )
+  input (B1) ( )
+  output (ZN) (
+    primitive = _inv inv1 (A1, A1N);
+    primitive = _nor nor1 (A1N, B1, ZN);
+  )
+)
+model INR2D1 (A1, B1, ZN) (
+  input (A1) ( )
+  input (B1) ( )
+  output (ZN) (
+    primitive = _inv inv1 (A1, A1N);
+    primitive = _nor nor1 (A1N, B1, ZN);
+  )
+)
+model INR2D2 (A1, B1, ZN) (
+  input (A1) ( )
+  input (B1) ( )
+  output (ZN) (
+    primitive = _inv inv1 (A1, A1N);
+    primitive = _nor nor1 (A1N, B1, ZN);
+  )
+)
+model INR2D4 (A1, B1, ZN) (
+  input (A1) ( )
+  input (B1) ( )
+  output (ZN) (
+    primitive = _inv inv1 (A1, A1N);
+    primitive = _nor nor1 (A1N, B1, ZN);
+  )
+)
+model INR3D0 (A1, B1, B2, ZN) (
+  input (A1) ( )
+  input (B1) ( )
+  input (B2) ( )
+  output (ZN) (
+    primitive = _inv inv1 (A1, A1N);
+    primitive = _nor nor1 (A1N, B1, B2, ZN);
+  )
+)
+model INR3D1 (A1, B1, B2, ZN) (
+  input (A1) ( )
+  input (B1) ( )
+  input (B2) ( )
+  output (ZN) (
+    primitive = _inv inv1 (A1, A1N);
+    primitive = _nor nor1 (A1N, B1, B2, ZN);
+  )
+)
+model INR3D2 (A1, B1, B2, ZN) (
+  input (A1) ( )
+  input (B1) ( )
+  input (B2) ( )
+  output (ZN) (
+    primitive = _inv inv1 (A1, A1N);
+    primitive = _nor nor1 (A1N, B1, B2, ZN);
+  )
+)
+model INR3D4 (A1, B1, B2, ZN) (
+  input (A1) ( )
+  input (B1) ( )
+  input (B2) ( )
+  output (ZN) (
+    primitive = _inv inv1 (A1, A1N);
+    primitive = _nor nor1 (A1N, B1, B2, ZN);
+  )
+)
+model INR4D0 (A1, B1, B2, B3, ZN) (
+  input (A1) ( )
+  input (B1) ( )
+  input (B2) ( )
+  input (B3) ( )
+  output (ZN) (
+    primitive = _inv inv1 (A1, A1N);
+    primitive = _nor nor1 (A1N, B1, B2, B3, ZN);
+  )
+)
+model INR4D1 (A1, B1, B2, B3, ZN) (
+  input (A1) ( )
+  input (B1) ( )
+  input (B2) ( )
+  input (B3) ( )
+  output (ZN) (
+    primitive = _inv inv1 (A1, A1N);
+    primitive = _nor nor1 (A1N, B1, B2, B3, ZN);
+  )
+)
+model INR4D2 (A1, B1, B2, B3, ZN) (
+  input (A1) ( )
+  input (B1) ( )
+  input (B2) ( )
+  input (B3) ( )
+  output (ZN) (
+    primitive = _inv inv1 (A1, A1N);
+    primitive = _nor nor1 (A1N, B1, B2, B3, ZN);
+  )
+)
+model INR4D4 (A1, B1, B2, B3, ZN) (
+  input (A1) ( )
+  input (B1) ( )
+  input (B2) ( )
+  input (B3) ( )
+  output (ZN) (
+    primitive = _inv inv1 (A1, A1N);
+    primitive = _nor nor1 (A1N, B1, B2, B3, ZN);
+  )
+)
+model INVD0 (I, ZN) (
+  input (I) ( )
+  output (ZN) (
+    primitive = _inv inv1 (I, ZN);
+  )
+)
+model INVD1 (I, ZN) (
+  input (I) ( )
+  output (ZN) (
+    primitive = _inv inv1 (I, ZN);
+  )
+)
+model INVD12 (I, ZN) (
+  input (I) ( )
+  output (ZN) (
+    primitive = _inv inv1 (I, ZN);
+  )
+)
+model INVD16 (I, ZN) (
+  input (I) ( )
+  output (ZN) (
+    primitive = _inv inv1 (I, ZN);
+  )
+)
+model INVD2 (I, ZN) (
+  input (I) ( )
+  output (ZN) (
+    primitive = _inv inv1 (I, ZN);
+  )
+)
+model INVD3 (I, ZN) (
+  input (I) ( )
+  output (ZN) (
+    primitive = _inv inv1 (I, ZN);
+  )
+)
+model INVD4 (I, ZN) (
+  input (I) ( )
+  output (ZN) (
+    primitive = _inv inv1 (I, ZN);
+  )
+)
+model INVD6 (I, ZN) (
+  input (I) ( )
+  output (ZN) (
+    primitive = _inv inv1 (I, ZN);
+  )
+)
+model INVD8 (I, ZN) (
+  input (I) ( )
+  output (ZN) (
+    primitive = _inv inv1 (I, ZN);
+  )
+)
+model LHCND1 (D, E, CDN, Q, QN) (
+  input (D) ( )
+  input (E) ( )
+  input (CDN) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _buf buf1 (CDN, CDN_i);
+    primitive = _tie1 t11 (mlc_n3088);
+    primitive = _pull pull1 (mlc_n3088, SDN);
+    instance = tsmc_dla inst251_4 (Q_buf, D, E, CDN_i, SDN, notifier);
+    primitive = _buf buf2 (Q_buf, Q);
+    primitive = _inv inv1 (Q_buf, QN);
+    primitive = _buf buf3 (CDN_i, D_check);
+    instance = tsmc_xbuf inst252_8 (D_DEFCHK, D_check, mlc_n3089);
+    primitive = _tie1 t12 (mlc_n3089);
+  )
+)
+model LHCND2 (D, E, CDN, Q, QN) (
+  input (D) ( )
+  input (E) ( )
+  input (CDN) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _buf buf1 (CDN, CDN_i);
+    primitive = _tie1 t11 (mlc_n3116);
+    primitive = _pull pull1 (mlc_n3116, SDN);
+    instance = tsmc_dla inst255_4 (Q_buf, D, E, CDN_i, SDN, notifier);
+    primitive = _buf buf2 (Q_buf, Q);
+    primitive = _inv inv1 (Q_buf, QN);
+    primitive = _buf buf3 (CDN_i, D_check);
+    instance = tsmc_xbuf inst256_8 (D_DEFCHK, D_check, mlc_n3117);
+    primitive = _tie1 t12 (mlc_n3117);
+  )
+)
+model LHCND4 (D, E, CDN, Q, QN) (
+  input (D) ( )
+  input (E) ( )
+  input (CDN) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _buf buf1 (CDN, CDN_i);
+    primitive = _tie1 t11 (mlc_n3144);
+    primitive = _pull pull1 (mlc_n3144, SDN);
+    instance = tsmc_dla inst259_4 (Q_buf, D, E, CDN_i, SDN, notifier);
+    primitive = _buf buf2 (Q_buf, Q);
+    primitive = _inv inv1 (Q_buf, QN);
+    primitive = _buf buf3 (CDN_i, D_check);
+    instance = tsmc_xbuf inst260_8 (D_DEFCHK, D_check, mlc_n3145);
+    primitive = _tie1 t12 (mlc_n3145);
+  )
+)
+model LHCSND1 (D, E, CDN, SDN, Q, QN) (
+  input (D) ( )
+  input (E) ( )
+  input (CDN) ( )
+  input (SDN) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _buf buf1 (CDN, CDN_i);
+    primitive = _buf buf2 (SDN, SDN_i);
+    instance = tsmc_dla inst264_3 (Q_buf, D, E, CDN_i, SDN_i, notifier);
+    primitive = _buf buf3 (Q_buf, Q);
+    primitive = _inv inv1 (Q_buf, QN_buf);
+    primitive = _and and1 (QN_buf, SDN_i, QN);
+    primitive = _and and2 (SDN_i, CDN_i, D_check);
+    primitive = _buf buf4 (SDN_i, E_check);
+    instance = tsmc_xbuf inst265_9 (D_DEFCHK, D_check, mlc_n3177);
+    primitive = _tie1 t11 (mlc_n3177);
+    instance = tsmc_xbuf inst266_11 (E_DEFCHK, E_check, mlc_n3178);
+    primitive = _tie1 t12 (mlc_n3178);
+  )
+)
+model LHCSND2 (D, E, CDN, SDN, Q, QN) (
+  input (D) ( )
+  input (E) ( )
+  input (CDN) ( )
+  input (SDN) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _buf buf1 (CDN, CDN_i);
+    primitive = _buf buf2 (SDN, SDN_i);
+    instance = tsmc_dla inst270_3 (Q_buf, D, E, CDN_i, SDN_i, notifier);
+    primitive = _buf buf3 (Q_buf, Q);
+    primitive = _inv inv1 (Q_buf, QN_buf);
+    primitive = _and and1 (QN_buf, SDN_i, QN);
+    primitive = _and and2 (SDN_i, CDN_i, D_check);
+    primitive = _buf buf4 (SDN_i, E_check);
+    instance = tsmc_xbuf inst271_9 (D_DEFCHK, D_check, mlc_n3215);
+    primitive = _tie1 t11 (mlc_n3215);
+    instance = tsmc_xbuf inst272_11 (E_DEFCHK, E_check, mlc_n3216);
+    primitive = _tie1 t12 (mlc_n3216);
+  )
+)
+model LHCSND4 (D, E, CDN, SDN, Q, QN) (
+  input (D) ( )
+  input (E) ( )
+  input (CDN) ( )
+  input (SDN) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _buf buf1 (CDN, CDN_i);
+    primitive = _buf buf2 (SDN, SDN_i);
+    instance = tsmc_dla inst276_3 (Q_buf, D, E, CDN_i, SDN_i, notifier);
+    primitive = _buf buf3 (Q_buf, Q);
+    primitive = _inv inv1 (Q_buf, QN_buf);
+    primitive = _and and1 (QN_buf, SDN_i, QN);
+    primitive = _and and2 (SDN_i, CDN_i, D_check);
+    primitive = _buf buf4 (SDN_i, E_check);
+    instance = tsmc_xbuf inst277_9 (D_DEFCHK, D_check, mlc_n3253);
+    primitive = _tie1 t11 (mlc_n3253);
+    instance = tsmc_xbuf inst278_11 (E_DEFCHK, E_check, mlc_n3254);
+    primitive = _tie1 t12 (mlc_n3254);
+  )
+)
+model LHD1 (D, E, Q, QN) (
+  input (D) ( )
+  input (E) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _tie1 t11 (mlc_n3283);
+    primitive = _pull pull1 (mlc_n3283, CDN);
+    primitive = _tie1 t12 (mlc_n3284);
+    primitive = _pull pull2 (mlc_n3284, SDN);
+    instance = tsmc_dla inst280_5 (Q_buf, D, E, CDN, SDN, notifier);
+    primitive = _buf buf1 (Q_buf, Q);
+    primitive = _inv inv1 (Q_buf, QN);
+  )
+)
+model LHD2 (D, E, Q, QN) (
+  input (D) ( )
+  input (E) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _tie1 t11 (mlc_n3305);
+    primitive = _pull pull1 (mlc_n3305, CDN);
+    primitive = _tie1 t12 (mlc_n3306);
+    primitive = _pull pull2 (mlc_n3306, SDN);
+    instance = tsmc_dla inst282_5 (Q_buf, D, E, CDN, SDN, notifier);
+    primitive = _buf buf1 (Q_buf, Q);
+    primitive = _inv inv1 (Q_buf, QN);
+  )
+)
+model LHD4 (D, E, Q, QN) (
+  input (D) ( )
+  input (E) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _tie1 t11 (mlc_n3327);
+    primitive = _pull pull1 (mlc_n3327, CDN);
+    primitive = _tie1 t12 (mlc_n3328);
+    primitive = _pull pull2 (mlc_n3328, SDN);
+    instance = tsmc_dla inst284_5 (Q_buf, D, E, CDN, SDN, notifier);
+    primitive = _buf buf1 (Q_buf, Q);
+    primitive = _inv inv1 (Q_buf, QN);
+  )
+)
+model LHQD1 (D, E, Q) (
+  input (D) ( )
+  input (E) ( )
+  output (Q) (
+    primitive = _tie1 t11 (mlc_n3348);
+    primitive = _pull pull1 (mlc_n3348, CDN);
+    primitive = _tie1 t12 (mlc_n3349);
+    primitive = _pull pull2 (mlc_n3349, SDN);
+    instance = tsmc_dla inst286_5 (Q_buf, D, E, CDN, SDN, notifier);
+    primitive = _buf buf1 (Q_buf, Q);
+  )
+)
+model LHQD2 (D, E, Q) (
+  input (D) ( )
+  input (E) ( )
+  output (Q) (
+    primitive = _tie1 t11 (mlc_n3368);
+    primitive = _pull pull1 (mlc_n3368, CDN);
+    primitive = _tie1 t12 (mlc_n3369);
+    primitive = _pull pull2 (mlc_n3369, SDN);
+    instance = tsmc_dla inst288_5 (Q_buf, D, E, CDN, SDN, notifier);
+    primitive = _buf buf1 (Q_buf, Q);
+  )
+)
+model LHQD4 (D, E, Q) (
+  input (D) ( )
+  input (E) ( )
+  output (Q) (
+    primitive = _tie1 t11 (mlc_n3388);
+    primitive = _pull pull1 (mlc_n3388, CDN);
+    primitive = _tie1 t12 (mlc_n3389);
+    primitive = _pull pull2 (mlc_n3389, SDN);
+    instance = tsmc_dla inst290_5 (Q_buf, D, E, CDN, SDN, notifier);
+    primitive = _buf buf1 (Q_buf, Q);
+  )
+)
+model LHSND1 (D, E, SDN, Q, QN) (
+  input (D) ( )
+  input (E) ( )
+  input (SDN) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _buf buf1 (SDN, SDN_i);
+    primitive = _tie1 t11 (mlc_n3416);
+    primitive = _pull pull1 (mlc_n3416, CDN);
+    instance = tsmc_dla inst294_4 (Q_buf, D, E, CDN, SDN_i, notifier);
+    primitive = _buf buf2 (Q_buf, Q);
+    primitive = _inv inv1 (Q_buf, QN_buf);
+    primitive = _and and1 (QN_buf, SDN_i, QN);
+    primitive = _buf buf3 (SDN_i, D_check);
+    primitive = _buf buf4 (SDN_i, E_check);
+    instance = tsmc_xbuf inst295_10 (D_DEFCHK, D_check, mlc_n3417);
+    primitive = _tie1 t12 (mlc_n3417);
+    instance = tsmc_xbuf inst296_12 (E_DEFCHK, E_check, mlc_n3418);
+    primitive = _tie1 t13 (mlc_n3418);
+  )
+)
+model LHSND2 (D, E, SDN, Q, QN) (
+  input (D) ( )
+  input (E) ( )
+  input (SDN) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _buf buf1 (SDN, SDN_i);
+    primitive = _tie1 t11 (mlc_n3453);
+    primitive = _pull pull1 (mlc_n3453, CDN);
+    instance = tsmc_dla inst300_4 (Q_buf, D, E, CDN, SDN_i, notifier);
+    primitive = _buf buf2 (Q_buf, Q);
+    primitive = _inv inv1 (Q_buf, QN_buf);
+    primitive = _and and1 (QN_buf, SDN_i, QN);
+    primitive = _buf buf3 (SDN_i, D_check);
+    primitive = _buf buf4 (SDN_i, E_check);
+    instance = tsmc_xbuf inst301_10 (D_DEFCHK, D_check, mlc_n3454);
+    primitive = _tie1 t12 (mlc_n3454);
+    instance = tsmc_xbuf inst302_12 (E_DEFCHK, E_check, mlc_n3455);
+    primitive = _tie1 t13 (mlc_n3455);
+  )
+)
+model LHSND4 (D, E, SDN, Q, QN) (
+  input (D) ( )
+  input (E) ( )
+  input (SDN) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _buf buf1 (SDN, SDN_i);
+    primitive = _tie1 t11 (mlc_n3490);
+    primitive = _pull pull1 (mlc_n3490, CDN);
+    instance = tsmc_dla inst306_4 (Q_buf, D, E, CDN, SDN_i, notifier);
+    primitive = _buf buf2 (Q_buf, Q);
+    primitive = _inv inv1 (Q_buf, QN_buf);
+    primitive = _and and1 (QN_buf, SDN_i, QN);
+    primitive = _buf buf3 (SDN_i, D_check);
+    primitive = _buf buf4 (SDN_i, E_check);
+    instance = tsmc_xbuf inst307_10 (D_DEFCHK, D_check, mlc_n3491);
+    primitive = _tie1 t12 (mlc_n3491);
+    instance = tsmc_xbuf inst308_12 (E_DEFCHK, E_check, mlc_n3492);
+    primitive = _tie1 t13 (mlc_n3492);
+  )
+)
+model LHSNQD4 (D, E, SDN, Q) (
+  input (D) ( )
+  input (E) ( )
+  input (SDN) ( )
+  output (Q) (
+    primitive = _buf buf1 (SDN, SDN_i);
+    primitive = _tie1 t11 (mlc_n3525);
+    primitive = _pull pull1 (mlc_n3525, CDN);
+    instance = tsmc_dla inst312_4 (Q_buf, D, E, CDN, SDN_i, notifier);
+    primitive = _buf buf2 (Q_buf, Q);
+    primitive = _buf buf3 (SDN_i, D_check);
+    primitive = _buf buf4 (SDN_i, E_check);
+    instance = tsmc_xbuf inst313_8 (D_DEFCHK, D_check, mlc_n3526);
+    primitive = _tie1 t12 (mlc_n3526);
+    instance = tsmc_xbuf inst314_10 (E_DEFCHK, E_check, mlc_n3527);
+    primitive = _tie1 t13 (mlc_n3527);
+  )
+)
+model LNCND1 (D, EN, CDN, Q, QN) (
+  input (D) ( )
+  input (EN) ( )
+  input (CDN) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _buf buf1 (CDN, CDN_i);
+    primitive = _tie1 t11 (mlc_n3557);
+    primitive = _pull pull1 (mlc_n3557, SDN);
+    primitive = _inv inv1 (EN, E);
+    instance = tsmc_dla inst317_5 (Q_buf, D, E, CDN_i, SDN, notifier);
+    primitive = _buf buf2 (Q_buf, Q);
+    primitive = _inv inv2 (Q_buf, QN);
+    primitive = _buf buf3 (CDN_i, D_check);
+    instance = tsmc_xbuf inst318_9 (D_DEFCHK, D_check, mlc_n3558);
+    primitive = _tie1 t12 (mlc_n3558);
+  )
+)
+model LNCND2 (D, EN, CDN, Q, QN) (
+  input (D) ( )
+  input (EN) ( )
+  input (CDN) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _buf buf1 (CDN, CDN_i);
+    primitive = _tie1 t11 (mlc_n3587);
+    primitive = _pull pull1 (mlc_n3587, SDN);
+    primitive = _inv inv1 (EN, E);
+    instance = tsmc_dla inst321_5 (Q_buf, D, E, CDN_i, SDN, notifier);
+    primitive = _buf buf2 (Q_buf, Q);
+    primitive = _inv inv2 (Q_buf, QN);
+    primitive = _buf buf3 (CDN_i, D_check);
+    instance = tsmc_xbuf inst322_9 (D_DEFCHK, D_check, mlc_n3588);
+    primitive = _tie1 t12 (mlc_n3588);
+  )
+)
+model LNCND4 (D, EN, CDN, Q, QN) (
+  input (D) ( )
+  input (EN) ( )
+  input (CDN) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _buf buf1 (CDN, CDN_i);
+    primitive = _tie1 t11 (mlc_n3617);
+    primitive = _pull pull1 (mlc_n3617, SDN);
+    primitive = _inv inv1 (EN, E);
+    instance = tsmc_dla inst325_5 (Q_buf, D, E, CDN_i, SDN, notifier);
+    primitive = _buf buf2 (Q_buf, Q);
+    primitive = _inv inv2 (Q_buf, QN);
+    primitive = _buf buf3 (CDN_i, D_check);
+    instance = tsmc_xbuf inst326_9 (D_DEFCHK, D_check, mlc_n3618);
+    primitive = _tie1 t12 (mlc_n3618);
+  )
+)
+model LNCSND1 (D, EN, CDN, SDN, Q, QN) (
+  input (D) ( )
+  input (EN) ( )
+  input (CDN) ( )
+  input (SDN) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _buf buf1 (CDN, CDN_i);
+    primitive = _buf buf2 (SDN, SDN_i);
+    primitive = _inv inv1 (EN, E);
+    instance = tsmc_dla inst330_4 (Q_buf, D, E, CDN_i, SDN_i, notifier);
+    primitive = _buf buf3 (Q_buf, Q);
+    primitive = _inv inv2 (Q_buf, QN_buf);
+    primitive = _and and1 (QN_buf, SDN_i, QN);
+    primitive = _and and2 (SDN_i, CDN_i, D_check);
+    primitive = _buf buf4 (SDN_i, EN_check);
+    instance = tsmc_xbuf inst331_10 (D_DEFCHK, D_check, mlc_n3652);
+    primitive = _tie1 t11 (mlc_n3652);
+    instance = tsmc_xbuf inst332_12 (EN_DEFCHK, EN_check, mlc_n3653);
+    primitive = _tie1 t12 (mlc_n3653);
+  )
+)
+model LNCSND2 (D, EN, CDN, SDN, Q, QN) (
+  input (D) ( )
+  input (EN) ( )
+  input (CDN) ( )
+  input (SDN) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _buf buf1 (CDN, CDN_i);
+    primitive = _buf buf2 (SDN, SDN_i);
+    primitive = _inv inv1 (EN, E);
+    instance = tsmc_dla inst336_4 (Q_buf, D, E, CDN_i, SDN_i, notifier);
+    primitive = _buf buf3 (Q_buf, Q);
+    primitive = _inv inv2 (Q_buf, QN_buf);
+    primitive = _and and1 (QN_buf, SDN_i, QN);
+    primitive = _and and2 (SDN_i, CDN_i, D_check);
+    primitive = _buf buf4 (SDN_i, EN_check);
+    instance = tsmc_xbuf inst337_10 (D_DEFCHK, D_check, mlc_n3692);
+    primitive = _tie1 t11 (mlc_n3692);
+    instance = tsmc_xbuf inst338_12 (EN_DEFCHK, EN_check, mlc_n3693);
+    primitive = _tie1 t12 (mlc_n3693);
+  )
+)
+model LNCSND4 (D, EN, CDN, SDN, Q, QN) (
+  input (D) ( )
+  input (EN) ( )
+  input (CDN) ( )
+  input (SDN) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _buf buf1 (CDN, CDN_i);
+    primitive = _buf buf2 (SDN, SDN_i);
+    primitive = _inv inv1 (EN, E);
+    instance = tsmc_dla inst342_4 (Q_buf, D, E, CDN_i, SDN_i, notifier);
+    primitive = _buf buf3 (Q_buf, Q);
+    primitive = _inv inv2 (Q_buf, QN_buf);
+    primitive = _and and1 (QN_buf, SDN_i, QN);
+    primitive = _and and2 (SDN_i, CDN_i, D_check);
+    primitive = _buf buf4 (SDN_i, EN_check);
+    instance = tsmc_xbuf inst343_10 (D_DEFCHK, D_check, mlc_n3732);
+    primitive = _tie1 t11 (mlc_n3732);
+    instance = tsmc_xbuf inst344_12 (EN_DEFCHK, EN_check, mlc_n3733);
+    primitive = _tie1 t12 (mlc_n3733);
+  )
+)
+model LND1 (D, EN, Q, QN) (
+  input (D) ( )
+  input (EN) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _tie1 t11 (mlc_n3764);
+    primitive = _pull pull1 (mlc_n3764, CDN);
+    primitive = _tie1 t12 (mlc_n3765);
+    primitive = _pull pull2 (mlc_n3765, SDN);
+    primitive = _inv inv1 (EN, E);
+    instance = tsmc_dla inst346_6 (Q_buf, D, E, CDN, SDN, notifier);
+    primitive = _buf buf1 (Q_buf, Q);
+    primitive = _inv inv2 (Q_buf, QN);
+  )
+)
+model LND2 (D, EN, Q, QN) (
+  input (D) ( )
+  input (EN) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _tie1 t11 (mlc_n3788);
+    primitive = _pull pull1 (mlc_n3788, CDN);
+    primitive = _tie1 t12 (mlc_n3789);
+    primitive = _pull pull2 (mlc_n3789, SDN);
+    primitive = _inv inv1 (EN, E);
+    instance = tsmc_dla inst348_6 (Q_buf, D, E, CDN, SDN, notifier);
+    primitive = _buf buf1 (Q_buf, Q);
+    primitive = _inv inv2 (Q_buf, QN);
+  )
+)
+model LND4 (D, EN, Q, QN) (
+  input (D) ( )
+  input (EN) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _tie1 t11 (mlc_n3812);
+    primitive = _pull pull1 (mlc_n3812, CDN);
+    primitive = _tie1 t12 (mlc_n3813);
+    primitive = _pull pull2 (mlc_n3813, SDN);
+    primitive = _inv inv1 (EN, E);
+    instance = tsmc_dla inst350_6 (Q_buf, D, E, CDN, SDN, notifier);
+    primitive = _buf buf1 (Q_buf, Q);
+    primitive = _inv inv2 (Q_buf, QN);
+  )
+)
+model LNSND1 (D, EN, SDN, Q, QN) (
+  input (D) ( )
+  input (EN) ( )
+  input (SDN) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _buf buf1 (SDN, SDN_i);
+    primitive = _tie1 t11 (mlc_n3842);
+    primitive = _pull pull1 (mlc_n3842, CDN);
+    primitive = _inv inv1 (EN, E);
+    instance = tsmc_dla inst354_5 (Q_buf, D, E, CDN, SDN_i, notifier);
+    primitive = _buf buf2 (Q_buf, Q);
+    primitive = _inv inv2 (Q_buf, QN);
+    primitive = _buf buf3 (SDN_i, D_check);
+    primitive = _buf buf4 (SDN_i, EN_check);
+    instance = tsmc_xbuf inst355_10 (D_DEFCHK, D_check, mlc_n3843);
+    primitive = _tie1 t12 (mlc_n3843);
+    instance = tsmc_xbuf inst356_12 (EN_DEFCHK, EN_check, mlc_n3844);
+    primitive = _tie1 t13 (mlc_n3844);
+  )
+)
+model LNSND2 (D, EN, SDN, Q, QN) (
+  input (D) ( )
+  input (EN) ( )
+  input (SDN) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _buf buf1 (SDN, SDN_i);
+    primitive = _tie1 t11 (mlc_n3879);
+    primitive = _pull pull1 (mlc_n3879, CDN);
+    primitive = _inv inv1 (EN, E);
+    instance = tsmc_dla inst360_5 (Q_buf, D, E, CDN, SDN_i, notifier);
+    primitive = _buf buf2 (Q_buf, Q);
+    primitive = _inv inv2 (Q_buf, QN);
+    primitive = _buf buf3 (SDN_i, D_check);
+    primitive = _buf buf4 (SDN_i, EN_check);
+    instance = tsmc_xbuf inst361_10 (D_DEFCHK, D_check, mlc_n3880);
+    primitive = _tie1 t12 (mlc_n3880);
+    instance = tsmc_xbuf inst362_12 (EN_DEFCHK, EN_check, mlc_n3881);
+    primitive = _tie1 t13 (mlc_n3881);
+  )
+)
+model LNSND4 (D, EN, SDN, Q, QN) (
+  input (D) ( )
+  input (EN) ( )
+  input (SDN) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _buf buf1 (SDN, SDN_i);
+    primitive = _tie1 t11 (mlc_n3916);
+    primitive = _pull pull1 (mlc_n3916, CDN);
+    primitive = _inv inv1 (EN, E);
+    instance = tsmc_dla inst366_5 (Q_buf, D, E, CDN, SDN_i, notifier);
+    primitive = _buf buf2 (Q_buf, Q);
+    primitive = _inv inv2 (Q_buf, QN);
+    primitive = _buf buf3 (SDN_i, D_check);
+    primitive = _buf buf4 (SDN_i, EN_check);
+    instance = tsmc_xbuf inst367_10 (D_DEFCHK, D_check, mlc_n3917);
+    primitive = _tie1 t12 (mlc_n3917);
+    instance = tsmc_xbuf inst368_12 (EN_DEFCHK, EN_check, mlc_n3918);
+    primitive = _tie1 t13 (mlc_n3918);
+  )
+)
+model MAOI222D0 (A, B, C, ZN) (
+  input (A) ( )
+  input (B) ( )
+  input (C) ( )
+  output (ZN) (
+    primitive = _and and1 (A, B, AB);
+    primitive = _and and2 (A, C, AC);
+    primitive = _and and3 (B, C, BC);
+    primitive = _nor nor1 (AB, AC, BC, ZN);
+  )
+)
+model MAOI222D1 (A, B, C, ZN) (
+  input (A) ( )
+  input (B) ( )
+  input (C) ( )
+  output (ZN) (
+    primitive = _and and1 (A, B, AB);
+    primitive = _and and2 (A, C, AC);
+    primitive = _and and3 (B, C, BC);
+    primitive = _nor nor1 (AB, AC, BC, ZN);
+  )
+)
+model MAOI222D2 (A, B, C, ZN) (
+  input (A) ( )
+  input (B) ( )
+  input (C) ( )
+  output (ZN) (
+    primitive = _and and1 (A, B, AB);
+    primitive = _and and2 (A, C, AC);
+    primitive = _and and3 (B, C, BC);
+    primitive = _nor nor1 (AB, AC, BC, ZN);
+  )
+)
+model MAOI222D4 (A, B, C, ZN) (
+  input (A) ( )
+  input (B) ( )
+  input (C) ( )
+  output (ZN) (
+    primitive = _and and1 (A, B, AB);
+    primitive = _and and2 (A, C, AC);
+    primitive = _and and3 (B, C, BC);
+    primitive = _nor nor1 (AB, AC, BC, ZN);
+  )
+)
+model MAOI22D0 (A1, A2, B1, B2, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B1) ( )
+  input (B2) ( )
+  output (ZN) (
+    primitive = _and and1 (A1, A2, A);
+    primitive = _nor nor1 (B1, B2, B);
+    primitive = _nor nor2 (A, B, ZN);
+  )
+)
+model MAOI22D1 (A1, A2, B1, B2, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B1) ( )
+  input (B2) ( )
+  output (ZN) (
+    primitive = _and and1 (A1, A2, A);
+    primitive = _nor nor1 (B1, B2, B);
+    primitive = _nor nor2 (A, B, ZN);
+  )
+)
+model MAOI22D2 (A1, A2, B1, B2, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B1) ( )
+  input (B2) ( )
+  output (ZN) (
+    primitive = _and and1 (A1, A2, A);
+    primitive = _nor nor1 (B1, B2, B);
+    primitive = _nor nor2 (A, B, ZN);
+  )
+)
+model MAOI22D4 (A1, A2, B1, B2, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B1) ( )
+  input (B2) ( )
+  output (ZN) (
+    primitive = _and and1 (A1, A2, A);
+    primitive = _nor nor1 (B1, B2, B);
+    primitive = _nor nor2 (A, B, ZN);
+  )
+)
+model MOAI22D0 (A1, A2, B1, B2, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B1) ( )
+  input (B2) ( )
+  output (ZN) (
+    primitive = _or or1 (A1, A2, A);
+    primitive = _nand nand1 (B1, B2, B);
+    primitive = _nand nand2 (A, B, ZN);
+  )
+)
+model MOAI22D1 (A1, A2, B1, B2, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B1) ( )
+  input (B2) ( )
+  output (ZN) (
+    primitive = _or or1 (A1, A2, A);
+    primitive = _nand nand1 (B1, B2, B);
+    primitive = _nand nand2 (A, B, ZN);
+  )
+)
+model MOAI22D2 (A1, A2, B1, B2, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B1) ( )
+  input (B2) ( )
+  output (ZN) (
+    primitive = _or or1 (A1, A2, A);
+    primitive = _nand nand1 (B1, B2, B);
+    primitive = _nand nand2 (A, B, ZN);
+  )
+)
+model MOAI22D4 (A1, A2, B1, B2, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B1) ( )
+  input (B2) ( )
+  output (ZN) (
+    primitive = _or or1 (A1, A2, A);
+    primitive = _nand nand1 (B1, B2, B);
+    primitive = _nand nand2 (A, B, ZN);
+  )
+)
+model MUX2D0 (I0, I1, S, Z) (
+  input (I0) ( )
+  input (I1) ( )
+  input (S) ( )
+  output (Z) (
+    instance = tsmc_mux inst370_1 (Z, I0, I1, S);
+  )
+)
+model MUX2D1 (I0, I1, S, Z) (
+  input (I0) ( )
+  input (I1) ( )
+  input (S) ( )
+  output (Z) (
+    instance = tsmc_mux inst372_1 (Z, I0, I1, S);
+  )
+)
+model MUX2D2 (I0, I1, S, Z) (
+  input (I0) ( )
+  input (I1) ( )
+  input (S) ( )
+  output (Z) (
+    instance = tsmc_mux inst374_1 (Z, I0, I1, S);
+  )
+)
+model MUX2D4 (I0, I1, S, Z) (
+  input (I0) ( )
+  input (I1) ( )
+  input (S) ( )
+  output (Z) (
+    instance = tsmc_mux inst376_1 (Z, I0, I1, S);
+  )
+)
+model MUX2ND0 (I0, I1, S, ZN) (
+  input (I0) ( )
+  input (I1) ( )
+  input (S) ( )
+  output (ZN) (
+    instance = tsmc_mux inst378_1 (I0_out, I0, I1, S);
+    primitive = _inv inv1 (I0_out, ZN);
+  )
+)
+model MUX2ND1 (I0, I1, S, ZN) (
+  input (I0) ( )
+  input (I1) ( )
+  input (S) ( )
+  output (ZN) (
+    instance = tsmc_mux inst380_1 (I0_out, I0, I1, S);
+    primitive = _inv inv1 (I0_out, ZN);
+  )
+)
+model MUX2ND2 (I0, I1, S, ZN) (
+  input (I0) ( )
+  input (I1) ( )
+  input (S) ( )
+  output (ZN) (
+    instance = tsmc_mux inst382_1 (I0_out, I0, I1, S);
+    primitive = _inv inv1 (I0_out, ZN);
+  )
+)
+model MUX2ND4 (I0, I1, S, ZN) (
+  input (I0) ( )
+  input (I1) ( )
+  input (S) ( )
+  output (ZN) (
+    instance = tsmc_mux inst384_1 (I0_out, I0, I1, S);
+    primitive = _inv inv1 (I0_out, ZN);
+  )
+)
+model MUX3D0 (I0, I1, I2, S0, S1, Z) (
+  input (I0) ( )
+  input (I1) ( )
+  input (I2) ( )
+  input (S0) ( )
+  input (S1) ( )
+  output (Z) (
+    instance = tsmc_mux inst387_1 (I0_out, I0, I1, S0);
+    instance = tsmc_mux inst388_2 (Z, I0_out, I2, S1);
+  )
+)
+model MUX3D1 (I0, I1, I2, S0, S1, Z) (
+  input (I0) ( )
+  input (I1) ( )
+  input (I2) ( )
+  input (S0) ( )
+  input (S1) ( )
+  output (Z) (
+    instance = tsmc_mux inst391_1 (I0_out, I0, I1, S0);
+    instance = tsmc_mux inst392_2 (Z, I0_out, I2, S1);
+  )
+)
+model MUX3D2 (I0, I1, I2, S0, S1, Z) (
+  input (I0) ( )
+  input (I1) ( )
+  input (I2) ( )
+  input (S0) ( )
+  input (S1) ( )
+  output (Z) (
+    instance = tsmc_mux inst395_1 (I0_out, I0, I1, S0);
+    instance = tsmc_mux inst396_2 (Z, I0_out, I2, S1);
+  )
+)
+model MUX3D4 (I0, I1, I2, S0, S1, Z) (
+  input (I0) ( )
+  input (I1) ( )
+  input (I2) ( )
+  input (S0) ( )
+  input (S1) ( )
+  output (Z) (
+    instance = tsmc_mux inst399_1 (I0_out, I0, I1, S0);
+    instance = tsmc_mux inst400_2 (Z, I0_out, I2, S1);
+  )
+)
+model MUX3ND0 (I0, I1, I2, S0, S1, ZN) (
+  input (I0) ( )
+  input (I1) ( )
+  input (I2) ( )
+  input (S0) ( )
+  input (S1) ( )
+  output (ZN) (
+    instance = tsmc_mux inst403_1 (I0_out, I0, I1, S0);
+    instance = tsmc_mux inst404_2 (I1_out, I0_out, I2, S1);
+    primitive = _inv inv1 (I1_out, ZN);
+  )
+)
+model MUX3ND1 (I0, I1, I2, S0, S1, ZN) (
+  input (I0) ( )
+  input (I1) ( )
+  input (I2) ( )
+  input (S0) ( )
+  input (S1) ( )
+  output (ZN) (
+    instance = tsmc_mux inst407_1 (I0_out, I0, I1, S0);
+    instance = tsmc_mux inst408_2 (I1_out, I0_out, I2, S1);
+    primitive = _inv inv1 (I1_out, ZN);
+  )
+)
+model MUX3ND2 (I0, I1, I2, S0, S1, ZN) (
+  input (I0) ( )
+  input (I1) ( )
+  input (I2) ( )
+  input (S0) ( )
+  input (S1) ( )
+  output (ZN) (
+    instance = tsmc_mux inst411_1 (I0_out, I0, I1, S0);
+    instance = tsmc_mux inst412_2 (I1_out, I0_out, I2, S1);
+    primitive = _inv inv1 (I1_out, ZN);
+  )
+)
+model MUX3ND4 (I0, I1, I2, S0, S1, ZN) (
+  input (I0) ( )
+  input (I1) ( )
+  input (I2) ( )
+  input (S0) ( )
+  input (S1) ( )
+  output (ZN) (
+    instance = tsmc_mux inst415_1 (I0_out, I0, I1, S0);
+    instance = tsmc_mux inst416_2 (I1_out, I0_out, I2, S1);
+    primitive = _inv inv1 (I1_out, ZN);
+  )
+)
+model MUX4D0 (I0, I1, I2, I3, S0, S1, Z) (
+  input (I0) ( )
+  input (I1) ( )
+  input (I2) ( )
+  input (I3) ( )
+  input (S0) ( )
+  input (S1) ( )
+  output (Z) (
+    instance = tsmc_mux inst420_1 (I0_out, I2, I3, S0);
+    instance = tsmc_mux inst421_2 (I1_out, I0, I1, S0);
+    instance = tsmc_mux inst422_3 (Z, I1_out, I0_out, S1);
+  )
+)
+model MUX4D1 (I0, I1, I2, I3, S0, S1, Z) (
+  input (I0) ( )
+  input (I1) ( )
+  input (I2) ( )
+  input (I3) ( )
+  input (S0) ( )
+  input (S1) ( )
+  output (Z) (
+    instance = tsmc_mux inst426_1 (I0_out, I2, I3, S0);
+    instance = tsmc_mux inst427_2 (I1_out, I0, I1, S0);
+    instance = tsmc_mux inst428_3 (Z, I1_out, I0_out, S1);
+  )
+)
+model MUX4D2 (I0, I1, I2, I3, S0, S1, Z) (
+  input (I0) ( )
+  input (I1) ( )
+  input (I2) ( )
+  input (I3) ( )
+  input (S0) ( )
+  input (S1) ( )
+  output (Z) (
+    instance = tsmc_mux inst432_1 (I0_out, I2, I3, S0);
+    instance = tsmc_mux inst433_2 (I1_out, I0, I1, S0);
+    instance = tsmc_mux inst434_3 (Z, I1_out, I0_out, S1);
+  )
+)
+model MUX4D4 (I0, I1, I2, I3, S0, S1, Z) (
+  input (I0) ( )
+  input (I1) ( )
+  input (I2) ( )
+  input (I3) ( )
+  input (S0) ( )
+  input (S1) ( )
+  output (Z) (
+    instance = tsmc_mux inst438_1 (I0_out, I2, I3, S0);
+    instance = tsmc_mux inst439_2 (I1_out, I0, I1, S0);
+    instance = tsmc_mux inst440_3 (Z, I1_out, I0_out, S1);
+  )
+)
+model MUX4ND0 (I0, I1, I2, I3, S0, S1, ZN) (
+  input (I0) ( )
+  input (I1) ( )
+  input (I2) ( )
+  input (I3) ( )
+  input (S0) ( )
+  input (S1) ( )
+  output (ZN) (
+    instance = tsmc_mux inst444_1 (I0_out, I2, I3, S0);
+    instance = tsmc_mux inst445_2 (I1_out, I0, I1, S0);
+    instance = tsmc_mux inst446_3 (I2_out, I1_out, I0_out, S1);
+    primitive = _inv inv1 (I2_out, ZN);
+  )
+)
+model MUX4ND1 (I0, I1, I2, I3, S0, S1, ZN) (
+  input (I0) ( )
+  input (I1) ( )
+  input (I2) ( )
+  input (I3) ( )
+  input (S0) ( )
+  input (S1) ( )
+  output (ZN) (
+    instance = tsmc_mux inst450_1 (I0_out, I2, I3, S0);
+    instance = tsmc_mux inst451_2 (I1_out, I0, I1, S0);
+    instance = tsmc_mux inst452_3 (I2_out, I1_out, I0_out, S1);
+    primitive = _inv inv1 (I2_out, ZN);
+  )
+)
+model MUX4ND2 (I0, I1, I2, I3, S0, S1, ZN) (
+  input (I0) ( )
+  input (I1) ( )
+  input (I2) ( )
+  input (I3) ( )
+  input (S0) ( )
+  input (S1) ( )
+  output (ZN) (
+    instance = tsmc_mux inst456_1 (I0_out, I2, I3, S0);
+    instance = tsmc_mux inst457_2 (I1_out, I0, I1, S0);
+    instance = tsmc_mux inst458_3 (I2_out, I1_out, I0_out, S1);
+    primitive = _inv inv1 (I2_out, ZN);
+  )
+)
+model MUX4ND4 (I0, I1, I2, I3, S0, S1, ZN) (
+  input (I0) ( )
+  input (I1) ( )
+  input (I2) ( )
+  input (I3) ( )
+  input (S0) ( )
+  input (S1) ( )
+  output (ZN) (
+    instance = tsmc_mux inst462_1 (I0_out, I2, I3, S0);
+    instance = tsmc_mux inst463_2 (I1_out, I0, I1, S0);
+    instance = tsmc_mux inst464_3 (I2_out, I1_out, I0_out, S1);
+    primitive = _inv inv1 (I2_out, ZN);
+  )
+)
+model ND2D0 (A1, A2, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  output (ZN) (
+    primitive = _nand nand1 (A1, A2, ZN);
+  )
+)
+model ND2D1 (A1, A2, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  output (ZN) (
+    primitive = _nand nand1 (A1, A2, ZN);
+  )
+)
+model ND2D2 (A1, A2, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  output (ZN) (
+    primitive = _nand nand1 (A1, A2, ZN);
+  )
+)
+model ND2D3 (A1, A2, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  output (ZN) (
+    primitive = _nand nand1 (A1, A2, ZN);
+  )
+)
+model ND2D4 (A1, A2, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  output (ZN) (
+    primitive = _nand nand1 (A1, A2, ZN);
+  )
+)
+model ND3D0 (A1, A2, A3, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (A3) ( )
+  output (ZN) (
+    primitive = _nand nand1 (A1, A2, A3, ZN);
+  )
+)
+model ND3D1 (A1, A2, A3, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (A3) ( )
+  output (ZN) (
+    primitive = _nand nand1 (A1, A2, A3, ZN);
+  )
+)
+model ND3D2 (A1, A2, A3, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (A3) ( )
+  output (ZN) (
+    primitive = _nand nand1 (A1, A2, A3, ZN);
+  )
+)
+model ND3D3 (A1, A2, A3, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (A3) ( )
+  output (ZN) (
+    primitive = _nand nand1 (A1, A2, A3, ZN);
+  )
+)
+model ND3D4 (A1, A2, A3, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (A3) ( )
+  output (ZN) (
+    primitive = _nand nand1 (A1, A2, A3, ZN);
+  )
+)
+model ND4D0 (A1, A2, A3, A4, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (A3) ( )
+  input (A4) ( )
+  output (ZN) (
+    primitive = _nand nand1 (A1, A2, A3, A4, ZN);
+  )
+)
+model ND4D1 (A1, A2, A3, A4, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (A3) ( )
+  input (A4) ( )
+  output (ZN) (
+    primitive = _nand nand1 (A1, A2, A3, A4, ZN);
+  )
+)
+model ND4D2 (A1, A2, A3, A4, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (A3) ( )
+  input (A4) ( )
+  output (ZN) (
+    primitive = _nand nand1 (A1, A2, A3, A4, ZN);
+  )
+)
+model ND4D3 (A1, A2, A3, A4, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (A3) ( )
+  input (A4) ( )
+  output (ZN) (
+    primitive = _nand nand1 (A1, A2, A3, A4, ZN);
+  )
+)
+model ND4D4 (A1, A2, A3, A4, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (A3) ( )
+  input (A4) ( )
+  output (ZN) (
+    primitive = _nand nand1 (A1, A2, A3, A4, ZN);
+  )
+)
+model NR2D0 (A1, A2, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  output (ZN) (
+    primitive = _nor nor1 (A1, A2, ZN);
+  )
+)
+model NR2D1 (A1, A2, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  output (ZN) (
+    primitive = _nor nor1 (A1, A2, ZN);
+  )
+)
+model NR2D2 (A1, A2, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  output (ZN) (
+    primitive = _nor nor1 (A1, A2, ZN);
+  )
+)
+model NR2D3 (A1, A2, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  output (ZN) (
+    primitive = _nor nor1 (A1, A2, ZN);
+  )
+)
+model NR2D4 (A1, A2, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  output (ZN) (
+    primitive = _nor nor1 (A1, A2, ZN);
+  )
+)
+model NR3D0 (A1, A2, A3, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (A3) ( )
+  output (ZN) (
+    primitive = _nor nor1 (A1, A2, A3, ZN);
+  )
+)
+model NR3D1 (A1, A2, A3, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (A3) ( )
+  output (ZN) (
+    primitive = _nor nor1 (A1, A2, A3, ZN);
+  )
+)
+model NR3D2 (A1, A2, A3, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (A3) ( )
+  output (ZN) (
+    primitive = _nor nor1 (A1, A2, A3, ZN);
+  )
+)
+model NR3D3 (A1, A2, A3, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (A3) ( )
+  output (ZN) (
+    primitive = _nor nor1 (A1, A2, A3, ZN);
+  )
+)
+model NR3D4 (A1, A2, A3, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (A3) ( )
+  output (ZN) (
+    primitive = _nor nor1 (A1, A2, A3, ZN);
+  )
+)
+model NR4D0 (A1, A2, A3, A4, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (A3) ( )
+  input (A4) ( )
+  output (ZN) (
+    primitive = _nor nor1 (A1, A2, A3, A4, ZN);
+  )
+)
+model NR4D1 (A1, A2, A3, A4, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (A3) ( )
+  input (A4) ( )
+  output (ZN) (
+    primitive = _nor nor1 (A1, A2, A3, A4, ZN);
+  )
+)
+model NR4D2 (A1, A2, A3, A4, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (A3) ( )
+  input (A4) ( )
+  output (ZN) (
+    primitive = _nor nor1 (A1, A2, A3, A4, ZN);
+  )
+)
+model NR4D3 (A1, A2, A3, A4, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (A3) ( )
+  input (A4) ( )
+  output (ZN) (
+    primitive = _nor nor1 (A1, A2, A3, A4, ZN);
+  )
+)
+model NR4D4 (A1, A2, A3, A4, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (A3) ( )
+  input (A4) ( )
+  output (ZN) (
+    primitive = _nor nor1 (A1, A2, A3, A4, ZN);
+  )
+)
+model OA21D0 (A1, A2, B, Z) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B) ( )
+  output (Z) (
+    primitive = _or or1 (A1, A2, A);
+    primitive = _and and1 (A, B, Z);
+  )
+)
+model OA21D1 (A1, A2, B, Z) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B) ( )
+  output (Z) (
+    primitive = _or or1 (A1, A2, A);
+    primitive = _and and1 (A, B, Z);
+  )
+)
+model OA21D2 (A1, A2, B, Z) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B) ( )
+  output (Z) (
+    primitive = _or or1 (A1, A2, A);
+    primitive = _and and1 (A, B, Z);
+  )
+)
+model OA21D4 (A1, A2, B, Z) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B) ( )
+  output (Z) (
+    primitive = _or or1 (A1, A2, A);
+    primitive = _and and1 (A, B, Z);
+  )
+)
+model OA22D0 (A1, A2, B1, B2, Z) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B1) ( )
+  input (B2) ( )
+  output (Z) (
+    primitive = _or or1 (A1, A2, A);
+    primitive = _or or2 (B1, B2, B);
+    primitive = _and and1 (A, B, Z);
+  )
+)
+model OA22D1 (A1, A2, B1, B2, Z) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B1) ( )
+  input (B2) ( )
+  output (Z) (
+    primitive = _or or1 (A1, A2, A);
+    primitive = _or or2 (B1, B2, B);
+    primitive = _and and1 (A, B, Z);
+  )
+)
+model OA22D2 (A1, A2, B1, B2, Z) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B1) ( )
+  input (B2) ( )
+  output (Z) (
+    primitive = _or or1 (A1, A2, A);
+    primitive = _or or2 (B1, B2, B);
+    primitive = _and and1 (A, B, Z);
+  )
+)
+model OA22D4 (A1, A2, B1, B2, Z) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B1) ( )
+  input (B2) ( )
+  output (Z) (
+    primitive = _or or1 (A1, A2, A);
+    primitive = _or or2 (B1, B2, B);
+    primitive = _and and1 (A, B, Z);
+  )
+)
+model OAI211D0 (A1, A2, B, C, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B) ( )
+  input (C) ( )
+  output (ZN) (
+    primitive = _or or1 (A1, A2, A);
+    primitive = _nand nand1 (A, B, C, ZN);
+  )
+)
+model OAI211D1 (A1, A2, B, C, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B) ( )
+  input (C) ( )
+  output (ZN) (
+    primitive = _or or1 (A1, A2, A);
+    primitive = _nand nand1 (A, B, C, ZN);
+  )
+)
+model OAI211D2 (A1, A2, B, C, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B) ( )
+  input (C) ( )
+  output (ZN) (
+    primitive = _or or1 (A1, A2, A);
+    primitive = _nand nand1 (A, B, C, ZN);
+  )
+)
+model OAI211D4 (A1, A2, B, C, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B) ( )
+  input (C) ( )
+  output (ZN) (
+    primitive = _or or1 (A1, A2, A);
+    primitive = _nand nand1 (A, B, C, ZN);
+  )
+)
+model OAI21D0 (A1, A2, B, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B) ( )
+  output (ZN) (
+    primitive = _or or1 (A1, A2, A);
+    primitive = _nand nand1 (A, B, ZN);
+  )
+)
+model OAI21D1 (A1, A2, B, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B) ( )
+  output (ZN) (
+    primitive = _or or1 (A1, A2, A);
+    primitive = _nand nand1 (A, B, ZN);
+  )
+)
+model OAI21D2 (A1, A2, B, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B) ( )
+  output (ZN) (
+    primitive = _or or1 (A1, A2, A);
+    primitive = _nand nand1 (A, B, ZN);
+  )
+)
+model OAI21D4 (A1, A2, B, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B) ( )
+  output (ZN) (
+    primitive = _or or1 (A1, A2, A);
+    primitive = _nand nand1 (A, B, ZN);
+  )
+)
+model OAI221D0 (A1, A2, B1, B2, C, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B1) ( )
+  input (B2) ( )
+  input (C) ( )
+  output (ZN) (
+    primitive = _or or1 (A1, A2, A);
+    primitive = _or or2 (B1, B2, B);
+    primitive = _nand nand1 (A, B, C, ZN);
+  )
+)
+model OAI221D1 (A1, A2, B1, B2, C, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B1) ( )
+  input (B2) ( )
+  input (C) ( )
+  output (ZN) (
+    primitive = _or or1 (A1, A2, A);
+    primitive = _or or2 (B1, B2, B);
+    primitive = _nand nand1 (A, B, C, ZN);
+  )
+)
+model OAI221D2 (A1, A2, B1, B2, C, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B1) ( )
+  input (B2) ( )
+  input (C) ( )
+  output (ZN) (
+    primitive = _or or1 (A1, A2, A);
+    primitive = _or or2 (B1, B2, B);
+    primitive = _nand nand1 (A, B, C, ZN);
+  )
+)
+model OAI221D4 (A1, A2, B1, B2, C, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B1) ( )
+  input (B2) ( )
+  input (C) ( )
+  output (ZN) (
+    primitive = _or or1 (A1, A2, A);
+    primitive = _or or2 (B1, B2, B);
+    primitive = _nand nand1 (A, B, C, ZN);
+  )
+)
+model OAI222D0 (A1, A2, B1, B2, C1, C2, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B1) ( )
+  input (B2) ( )
+  input (C1) ( )
+  input (C2) ( )
+  output (ZN) (
+    primitive = _or or1 (A1, A2, A);
+    primitive = _or or2 (B1, B2, B);
+    primitive = _or or3 (C1, C2, C);
+    primitive = _nand nand1 (A, B, C, ZN);
+  )
+)
+model OAI222D1 (A1, A2, B1, B2, C1, C2, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B1) ( )
+  input (B2) ( )
+  input (C1) ( )
+  input (C2) ( )
+  output (ZN) (
+    primitive = _or or1 (A1, A2, A);
+    primitive = _or or2 (B1, B2, B);
+    primitive = _or or3 (C1, C2, C);
+    primitive = _nand nand1 (A, B, C, ZN);
+  )
+)
+model OAI222D2 (A1, A2, B1, B2, C1, C2, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B1) ( )
+  input (B2) ( )
+  input (C1) ( )
+  input (C2) ( )
+  output (ZN) (
+    primitive = _or or1 (A1, A2, A);
+    primitive = _or or2 (B1, B2, B);
+    primitive = _or or3 (C1, C2, C);
+    primitive = _nand nand1 (A, B, C, ZN);
+  )
+)
+model OAI222D4 (A1, A2, B1, B2, C1, C2, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B1) ( )
+  input (B2) ( )
+  input (C1) ( )
+  input (C2) ( )
+  output (ZN) (
+    primitive = _or or1 (A1, A2, A);
+    primitive = _or or2 (B1, B2, B);
+    primitive = _or or3 (C1, C2, C);
+    primitive = _nand nand1 (A, B, C, ZN);
+  )
+)
+model OAI22D0 (A1, A2, B1, B2, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B1) ( )
+  input (B2) ( )
+  output (ZN) (
+    primitive = _or or1 (A1, A2, A);
+    primitive = _or or2 (B1, B2, B);
+    primitive = _nand nand1 (A, B, ZN);
+  )
+)
+model OAI22D1 (A1, A2, B1, B2, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B1) ( )
+  input (B2) ( )
+  output (ZN) (
+    primitive = _or or1 (A1, A2, A);
+    primitive = _or or2 (B1, B2, B);
+    primitive = _nand nand1 (A, B, ZN);
+  )
+)
+model OAI22D2 (A1, A2, B1, B2, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B1) ( )
+  input (B2) ( )
+  output (ZN) (
+    primitive = _or or1 (A1, A2, A);
+    primitive = _or or2 (B1, B2, B);
+    primitive = _nand nand1 (A, B, ZN);
+  )
+)
+model OAI22D4 (A1, A2, B1, B2, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (B1) ( )
+  input (B2) ( )
+  output (ZN) (
+    primitive = _or or1 (A1, A2, A);
+    primitive = _or or2 (B1, B2, B);
+    primitive = _nand nand1 (A, B, ZN);
+  )
+)
+model OAI31D0 (A1, A2, A3, B, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (A3) ( )
+  input (B) ( )
+  output (ZN) (
+    primitive = _or or1 (A1, A2, A3, A);
+    primitive = _nand nand1 (A, B, ZN);
+  )
+)
+model OAI31D1 (A1, A2, A3, B, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (A3) ( )
+  input (B) ( )
+  output (ZN) (
+    primitive = _or or1 (A1, A2, A3, A);
+    primitive = _nand nand1 (A, B, ZN);
+  )
+)
+model OAI31D2 (A1, A2, A3, B, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (A3) ( )
+  input (B) ( )
+  output (ZN) (
+    primitive = _or or1 (A1, A2, A3, A);
+    primitive = _nand nand1 (A, B, ZN);
+  )
+)
+model OAI31D4 (A1, A2, A3, B, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (A3) ( )
+  input (B) ( )
+  output (ZN) (
+    primitive = _or or1 (A1, A2, A3, A);
+    primitive = _nand nand1 (A, B, ZN);
+  )
+)
+model OAI32D0 (A1, A2, A3, B1, B2, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (A3) ( )
+  input (B1) ( )
+  input (B2) ( )
+  output (ZN) (
+    primitive = _or or1 (A1, A2, A3, A);
+    primitive = _or or2 (B1, B2, B);
+    primitive = _nand nand1 (A, B, ZN);
+  )
+)
+model OAI32D1 (A1, A2, A3, B1, B2, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (A3) ( )
+  input (B1) ( )
+  input (B2) ( )
+  output (ZN) (
+    primitive = _or or1 (A1, A2, A3, A);
+    primitive = _or or2 (B1, B2, B);
+    primitive = _nand nand1 (A, B, ZN);
+  )
+)
+model OAI32D2 (A1, A2, A3, B1, B2, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (A3) ( )
+  input (B1) ( )
+  input (B2) ( )
+  output (ZN) (
+    primitive = _or or1 (A1, A2, A3, A);
+    primitive = _or or2 (B1, B2, B);
+    primitive = _nand nand1 (A, B, ZN);
+  )
+)
+model OAI32D4 (A1, A2, A3, B1, B2, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (A3) ( )
+  input (B1) ( )
+  input (B2) ( )
+  output (ZN) (
+    primitive = _or or1 (A1, A2, A3, A);
+    primitive = _or or2 (B1, B2, B);
+    primitive = _nand nand1 (A, B, ZN);
+  )
+)
+model OAI33D0 (A1, A2, A3, B1, B2, B3, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (A3) ( )
+  input (B1) ( )
+  input (B2) ( )
+  input (B3) ( )
+  output (ZN) (
+    primitive = _or or1 (A1, A2, A3, A);
+    primitive = _or or2 (B1, B2, B3, B);
+    primitive = _nand nand1 (A, B, ZN);
+  )
+)
+model OAI33D1 (A1, A2, A3, B1, B2, B3, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (A3) ( )
+  input (B1) ( )
+  input (B2) ( )
+  input (B3) ( )
+  output (ZN) (
+    primitive = _or or1 (A1, A2, A3, A);
+    primitive = _or or2 (B1, B2, B3, B);
+    primitive = _nand nand1 (A, B, ZN);
+  )
+)
+model OAI33D2 (A1, A2, A3, B1, B2, B3, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (A3) ( )
+  input (B1) ( )
+  input (B2) ( )
+  input (B3) ( )
+  output (ZN) (
+    primitive = _or or1 (A1, A2, A3, A);
+    primitive = _or or2 (B1, B2, B3, B);
+    primitive = _nand nand1 (A, B, ZN);
+  )
+)
+model OAI33D4 (A1, A2, A3, B1, B2, B3, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (A3) ( )
+  input (B1) ( )
+  input (B2) ( )
+  input (B3) ( )
+  output (ZN) (
+    primitive = _or or1 (A1, A2, A3, A);
+    primitive = _or or2 (B1, B2, B3, B);
+    primitive = _nand nand1 (A, B, ZN);
+  )
+)
+model OR2D0 (A1, A2, Z) (
+  input (A1) ( )
+  input (A2) ( )
+  output (Z) (
+    primitive = _or or1 (A1, A2, Z);
+  )
+)
+model OR2D1 (A1, A2, Z) (
+  input (A1) ( )
+  input (A2) ( )
+  output (Z) (
+    primitive = _or or1 (A1, A2, Z);
+  )
+)
+model OR2D2 (A1, A2, Z) (
+  input (A1) ( )
+  input (A2) ( )
+  output (Z) (
+    primitive = _or or1 (A1, A2, Z);
+  )
+)
+model OR2D4 (A1, A2, Z) (
+  input (A1) ( )
+  input (A2) ( )
+  output (Z) (
+    primitive = _or or1 (A1, A2, Z);
+  )
+)
+model OR3D0 (A1, A2, A3, Z) (
+  input (A1) ( )
+  input (A2) ( )
+  input (A3) ( )
+  output (Z) (
+    primitive = _or or1 (A1, A2, A3, Z);
+  )
+)
+model OR3D1 (A1, A2, A3, Z) (
+  input (A1) ( )
+  input (A2) ( )
+  input (A3) ( )
+  output (Z) (
+    primitive = _or or1 (A1, A2, A3, Z);
+  )
+)
+model OR3D2 (A1, A2, A3, Z) (
+  input (A1) ( )
+  input (A2) ( )
+  input (A3) ( )
+  output (Z) (
+    primitive = _or or1 (A1, A2, A3, Z);
+  )
+)
+model OR3D4 (A1, A2, A3, Z) (
+  input (A1) ( )
+  input (A2) ( )
+  input (A3) ( )
+  output (Z) (
+    primitive = _or or1 (A1, A2, A3, Z);
+  )
+)
+model OR4D0 (A1, A2, A3, A4, Z) (
+  input (A1) ( )
+  input (A2) ( )
+  input (A3) ( )
+  input (A4) ( )
+  output (Z) (
+    primitive = _or or1 (A1, A2, A3, A4, Z);
+  )
+)
+model OR4D1 (A1, A2, A3, A4, Z) (
+  input (A1) ( )
+  input (A2) ( )
+  input (A3) ( )
+  input (A4) ( )
+  output (Z) (
+    primitive = _or or1 (A1, A2, A3, A4, Z);
+  )
+)
+model OR4D2 (A1, A2, A3, A4, Z) (
+  input (A1) ( )
+  input (A2) ( )
+  input (A3) ( )
+  input (A4) ( )
+  output (Z) (
+    primitive = _or or1 (A1, A2, A3, A4, Z);
+  )
+)
+model OR4D4 (A1, A2, A3, A4, Z) (
+  input (A1) ( )
+  input (A2) ( )
+  input (A3) ( )
+  input (A4) ( )
+  output (Z) (
+    primitive = _or or1 (A1, A2, A3, A4, Z);
+  )
+)
+model SDFCND1 (SI, D, SE, CP, CDN, Q, QN) (
+  scan_definition (
+    type = mux_scan;
+    data_in = D ;
+    scan_in = SI ;
+    scan_enable = SE ;
+    scan_out = Q, QN ;
+    non_scan_model = DFCND1(D, CP, CDN, Q, QN) ;
+  )
+  input (SI) ( )
+  input (D) ( )
+  input (SE) ( )
+  input (CP) ( )
+  input (CDN) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _buf buf1 (CDN, CDN_i);
+    primitive = _tie1 t11 (mlc_n5378);
+    primitive = _pull pull1 (mlc_n5378, SDN);
+    instance = tsmc_mux inst471_4 (D_i, D, SI, SE);
+    instance = tsmc_dff inst472_5 (Q_buf, D_i, CP, CDN_i, SDN, notifier);
+    primitive = _buf buf2 (Q_buf, Q);
+    primitive = _inv inv1 (Q_buf, QN);
+    primitive = _inv inv2 (SE, SE_int_not);
+    primitive = _and and1 (CDN_i, SE, SI_check);
+    primitive = _and and2 (CDN_i, SE_int_not, D_check);
+    primitive = _buf buf3 (CDN_i, CP_check);
+    primitive = _buf buf4 (CDN_i, SE_check);
+    instance = tsmc_xbuf inst473_13 (CP_DEFCHK, CP_check, mlc_n5379);
+    primitive = _tie1 t12 (mlc_n5379);
+    instance = tsmc_xbuf inst474_15 (SE_DEFCHK, SE_check, mlc_n5380);
+    primitive = _tie1 t13 (mlc_n5380);
+    instance = tsmc_xbuf inst475_17 (D_DEFCHK, D_check, mlc_n5381);
+    primitive = _tie1 t14 (mlc_n5381);
+    instance = tsmc_xbuf inst476_19 (SI_DEFCHK, SI_check, mlc_n5382);
+    primitive = _tie1 t15 (mlc_n5382);
+  )
+)
+model SDFCND2 (SI, D, SE, CP, CDN, Q, QN) (
+  scan_definition (
+    type = mux_scan;
+    data_in = D ;
+    scan_in = SI ;
+    scan_enable = SE ;
+    scan_out = Q, QN ;
+    non_scan_model = DFCND2(D, CP, CDN, Q, QN) ;
+  )
+  input (SI) ( )
+  input (D) ( )
+  input (SE) ( )
+  input (CP) ( )
+  input (CDN) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _buf buf1 (CDN, CDN_i);
+    primitive = _tie1 t11 (mlc_n5435);
+    primitive = _pull pull1 (mlc_n5435, SDN);
+    instance = tsmc_mux inst483_4 (D_i, D, SI, SE);
+    instance = tsmc_dff inst484_5 (Q_buf, D_i, CP, CDN_i, SDN, notifier);
+    primitive = _buf buf2 (Q_buf, Q);
+    primitive = _inv inv1 (Q_buf, QN);
+    primitive = _inv inv2 (SE, SE_int_not);
+    primitive = _and and1 (CDN_i, SE, SI_check);
+    primitive = _and and2 (CDN_i, SE_int_not, D_check);
+    primitive = _buf buf3 (CDN_i, CP_check);
+    primitive = _buf buf4 (CDN_i, SE_check);
+    instance = tsmc_xbuf inst485_13 (CP_DEFCHK, CP_check, mlc_n5436);
+    primitive = _tie1 t12 (mlc_n5436);
+    instance = tsmc_xbuf inst486_15 (SE_DEFCHK, SE_check, mlc_n5437);
+    primitive = _tie1 t13 (mlc_n5437);
+    instance = tsmc_xbuf inst487_17 (D_DEFCHK, D_check, mlc_n5438);
+    primitive = _tie1 t14 (mlc_n5438);
+    instance = tsmc_xbuf inst488_19 (SI_DEFCHK, SI_check, mlc_n5439);
+    primitive = _tie1 t15 (mlc_n5439);
+  )
+)
+model SDFCND4 (SI, D, SE, CP, CDN, Q, QN) (
+  scan_definition (
+    type = mux_scan;
+    data_in = D ;
+    scan_in = SI ;
+    scan_enable = SE ;
+    scan_out = Q, QN ;
+    non_scan_model = DFCND4(D, CP, CDN, Q, QN) ;
+  )
+  input (SI) ( )
+  input (D) ( )
+  input (SE) ( )
+  input (CP) ( )
+  input (CDN) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _buf buf1 (CDN, CDN_i);
+    primitive = _tie1 t11 (mlc_n5492);
+    primitive = _pull pull1 (mlc_n5492, SDN);
+    instance = tsmc_mux inst495_4 (D_i, D, SI, SE);
+    instance = tsmc_dff inst496_5 (Q_buf, D_i, CP, CDN_i, SDN, notifier);
+    primitive = _buf buf2 (Q_buf, Q);
+    primitive = _inv inv1 (Q_buf, QN);
+    primitive = _inv inv2 (SE, SE_int_not);
+    primitive = _and and1 (CDN_i, SE, SI_check);
+    primitive = _and and2 (CDN_i, SE_int_not, D_check);
+    primitive = _buf buf3 (CDN_i, CP_check);
+    primitive = _buf buf4 (CDN_i, SE_check);
+    instance = tsmc_xbuf inst497_13 (CP_DEFCHK, CP_check, mlc_n5493);
+    primitive = _tie1 t12 (mlc_n5493);
+    instance = tsmc_xbuf inst498_15 (SE_DEFCHK, SE_check, mlc_n5494);
+    primitive = _tie1 t13 (mlc_n5494);
+    instance = tsmc_xbuf inst499_17 (D_DEFCHK, D_check, mlc_n5495);
+    primitive = _tie1 t14 (mlc_n5495);
+    instance = tsmc_xbuf inst500_19 (SI_DEFCHK, SI_check, mlc_n5496);
+    primitive = _tie1 t15 (mlc_n5496);
+  )
+)
+model SDFCNQD1 (SI, D, SE, CP, CDN, Q) (
+  scan_definition (
+    type = mux_scan;
+    data_in = D ;
+    scan_in = SI ;
+    scan_enable = SE ;
+    scan_out = Q ;
+    non_scan_model = DFCNQD1(D, CP, CDN, Q) ;
+  )
+  input (SI) ( )
+  input (D) ( )
+  input (SE) ( )
+  input (CP) ( )
+  input (CDN) ( )
+  output (Q) (
+    primitive = _buf buf1 (CDN, CDN_i);
+    primitive = _tie1 t11 (mlc_n5548);
+    primitive = _pull pull1 (mlc_n5548, SDN);
+    instance = tsmc_mux inst507_4 (D_i, D, SI, SE);
+    instance = tsmc_dff inst508_5 (Q_buf, D_i, CP, CDN_i, SDN, notifier);
+    primitive = _buf buf2 (Q_buf, Q);
+    primitive = _inv inv1 (SE, SE_int_not);
+    primitive = _and and1 (CDN_i, SE, SI_check);
+    primitive = _and and2 (CDN_i, SE_int_not, D_check);
+    primitive = _buf buf3 (CDN_i, CP_check);
+    primitive = _buf buf4 (CDN_i, SE_check);
+    instance = tsmc_xbuf inst509_12 (CP_DEFCHK, CP_check, mlc_n5549);
+    primitive = _tie1 t12 (mlc_n5549);
+    instance = tsmc_xbuf inst510_14 (SE_DEFCHK, SE_check, mlc_n5550);
+    primitive = _tie1 t13 (mlc_n5550);
+    instance = tsmc_xbuf inst511_16 (D_DEFCHK, D_check, mlc_n5551);
+    primitive = _tie1 t14 (mlc_n5551);
+    instance = tsmc_xbuf inst512_18 (SI_DEFCHK, SI_check, mlc_n5552);
+    primitive = _tie1 t15 (mlc_n5552);
+  )
+)
+model SDFCNQD2 (SI, D, SE, CP, CDN, Q) (
+  scan_definition (
+    type = mux_scan;
+    data_in = D ;
+    scan_in = SI ;
+    scan_enable = SE ;
+    scan_out = Q ;
+    non_scan_model = DFCNQD2(D, CP, CDN, Q) ;
+  )
+  input (SI) ( )
+  input (D) ( )
+  input (SE) ( )
+  input (CP) ( )
+  input (CDN) ( )
+  output (Q) (
+    primitive = _buf buf1 (CDN, CDN_i);
+    primitive = _tie1 t11 (mlc_n5603);
+    primitive = _pull pull1 (mlc_n5603, SDN);
+    instance = tsmc_mux inst519_4 (D_i, D, SI, SE);
+    instance = tsmc_dff inst520_5 (Q_buf, D_i, CP, CDN_i, SDN, notifier);
+    primitive = _buf buf2 (Q_buf, Q);
+    primitive = _inv inv1 (SE, SE_int_not);
+    primitive = _and and1 (CDN_i, SE, SI_check);
+    primitive = _and and2 (CDN_i, SE_int_not, D_check);
+    primitive = _buf buf3 (CDN_i, CP_check);
+    primitive = _buf buf4 (CDN_i, SE_check);
+    instance = tsmc_xbuf inst521_12 (CP_DEFCHK, CP_check, mlc_n5604);
+    primitive = _tie1 t12 (mlc_n5604);
+    instance = tsmc_xbuf inst522_14 (SE_DEFCHK, SE_check, mlc_n5605);
+    primitive = _tie1 t13 (mlc_n5605);
+    instance = tsmc_xbuf inst523_16 (D_DEFCHK, D_check, mlc_n5606);
+    primitive = _tie1 t14 (mlc_n5606);
+    instance = tsmc_xbuf inst524_18 (SI_DEFCHK, SI_check, mlc_n5607);
+    primitive = _tie1 t15 (mlc_n5607);
+  )
+)
+model SDFCNQD4 (SI, D, SE, CP, CDN, Q) (
+  scan_definition (
+    type = mux_scan;
+    data_in = D ;
+    scan_in = SI ;
+    scan_enable = SE ;
+    scan_out = Q ;
+    non_scan_model = DFCNQD4(D, CP, CDN, Q) ;
+  )
+  input (SI) ( )
+  input (D) ( )
+  input (SE) ( )
+  input (CP) ( )
+  input (CDN) ( )
+  output (Q) (
+    primitive = _buf buf1 (CDN, CDN_i);
+    primitive = _tie1 t11 (mlc_n5658);
+    primitive = _pull pull1 (mlc_n5658, SDN);
+    instance = tsmc_mux inst531_4 (D_i, D, SI, SE);
+    instance = tsmc_dff inst532_5 (Q_buf, D_i, CP, CDN_i, SDN, notifier);
+    primitive = _buf buf2 (Q_buf, Q);
+    primitive = _inv inv1 (SE, SE_int_not);
+    primitive = _and and1 (CDN_i, SE, SI_check);
+    primitive = _and and2 (CDN_i, SE_int_not, D_check);
+    primitive = _buf buf3 (CDN_i, CP_check);
+    primitive = _buf buf4 (CDN_i, SE_check);
+    instance = tsmc_xbuf inst533_12 (CP_DEFCHK, CP_check, mlc_n5659);
+    primitive = _tie1 t12 (mlc_n5659);
+    instance = tsmc_xbuf inst534_14 (SE_DEFCHK, SE_check, mlc_n5660);
+    primitive = _tie1 t13 (mlc_n5660);
+    instance = tsmc_xbuf inst535_16 (D_DEFCHK, D_check, mlc_n5661);
+    primitive = _tie1 t14 (mlc_n5661);
+    instance = tsmc_xbuf inst536_18 (SI_DEFCHK, SI_check, mlc_n5662);
+    primitive = _tie1 t15 (mlc_n5662);
+  )
+)
+model SDFCSND1 (SI, D, SE, CP, CDN, SDN, Q, QN) (
+  scan_definition (
+    type = mux_scan;
+    data_in = D ;
+    scan_in = SI ;
+    scan_enable = SE ;
+    scan_out = Q, QN ;
+    non_scan_model = DFCSND1(D, CP, CDN, SDN, Q, QN) ;
+  )
+  input (SI) ( )
+  input (D) ( )
+  input (SE) ( )
+  input (CP) ( )
+  input (CDN) ( )
+  input (SDN) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _buf buf1 (CDN, CDN_i);
+    primitive = _buf buf2 (SDN, SDN_i);
+    instance = tsmc_mux inst543_3 (D_i, D, SI, SE);
+    instance = tsmc_dff inst544_4 (Q_buf, D_i, CP, CDN_i, SDN_i, notifier);
+    primitive = _buf buf3 (Q_buf, Q);
+    primitive = _inv inv1 (Q_buf, QN_buf);
+    primitive = _and and1 (QN_buf, SDN_i, QN);
+    primitive = _inv inv2 (SE, SE_int_not);
+    primitive = _and and2 (CDN_i, SDN_i, SE, SI_check);
+    primitive = _and and3 (CDN_i, SDN_i, SE_int_not, D_check);
+    primitive = _and and4 (CDN_i, SDN_i, CP_check);
+    primitive = _and and5 (CDN_i, SDN_i, SE_check);
+    instance = tsmc_xbuf inst545_13 (CP_DEFCHK, CP_check, mlc_n5716);
+    primitive = _tie1 t11 (mlc_n5716);
+    instance = tsmc_xbuf inst546_15 (SE_DEFCHK, SE_check, mlc_n5717);
+    primitive = _tie1 t12 (mlc_n5717);
+    instance = tsmc_xbuf inst547_17 (D_DEFCHK, D_check, mlc_n5718);
+    primitive = _tie1 t13 (mlc_n5718);
+    instance = tsmc_xbuf inst548_19 (SI_DEFCHK, SI_check, mlc_n5719);
+    primitive = _tie1 t14 (mlc_n5719);
+  )
+)
+model SDFCSND2 (SI, D, SE, CP, CDN, SDN, Q, QN) (
+  scan_definition (
+    type = mux_scan;
+    data_in = D ;
+    scan_in = SI ;
+    scan_enable = SE ;
+    scan_out = Q, QN ;
+    non_scan_model = DFCSND2(D, CP, CDN, SDN, Q, QN) ;
+  )
+  input (SI) ( )
+  input (D) ( )
+  input (SE) ( )
+  input (CP) ( )
+  input (CDN) ( )
+  input (SDN) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _buf buf1 (CDN, CDN_i);
+    primitive = _buf buf2 (SDN, SDN_i);
+    instance = tsmc_mux inst555_3 (D_i, D, SI, SE);
+    instance = tsmc_dff inst556_4 (Q_buf, D_i, CP, CDN_i, SDN_i, notifier);
+    primitive = _buf buf3 (Q_buf, Q);
+    primitive = _inv inv1 (Q_buf, QN_buf);
+    primitive = _and and1 (QN_buf, SDN_i, QN);
+    primitive = _inv inv2 (SE, SE_int_not);
+    primitive = _and and2 (CDN_i, SDN_i, SE, SI_check);
+    primitive = _and and3 (CDN_i, SDN_i, SE_int_not, D_check);
+    primitive = _and and4 (CDN_i, SDN_i, CP_check);
+    primitive = _and and5 (CDN_i, SDN_i, SE_check);
+    instance = tsmc_xbuf inst557_13 (CP_DEFCHK, CP_check, mlc_n5778);
+    primitive = _tie1 t11 (mlc_n5778);
+    instance = tsmc_xbuf inst558_15 (SE_DEFCHK, SE_check, mlc_n5779);
+    primitive = _tie1 t12 (mlc_n5779);
+    instance = tsmc_xbuf inst559_17 (D_DEFCHK, D_check, mlc_n5780);
+    primitive = _tie1 t13 (mlc_n5780);
+    instance = tsmc_xbuf inst560_19 (SI_DEFCHK, SI_check, mlc_n5781);
+    primitive = _tie1 t14 (mlc_n5781);
+  )
+)
+model SDFCSND4 (SI, D, SE, CP, CDN, SDN, Q, QN) (
+  scan_definition (
+    type = mux_scan;
+    data_in = D ;
+    scan_in = SI ;
+    scan_enable = SE ;
+    scan_out = Q, QN ;
+    non_scan_model = DFCSND4(D, CP, CDN, SDN, Q, QN) ;
+  )
+  input (SI) ( )
+  input (D) ( )
+  input (SE) ( )
+  input (CP) ( )
+  input (CDN) ( )
+  input (SDN) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _buf buf1 (CDN, CDN_i);
+    primitive = _buf buf2 (SDN, SDN_i);
+    instance = tsmc_mux inst567_3 (D_i, D, SI, SE);
+    instance = tsmc_dff inst568_4 (Q_buf, D_i, CP, CDN_i, SDN_i, notifier);
+    primitive = _buf buf3 (Q_buf, Q);
+    primitive = _inv inv1 (Q_buf, QN_buf);
+    primitive = _and and1 (QN_buf, SDN_i, QN);
+    primitive = _inv inv2 (SE, SE_int_not);
+    primitive = _and and2 (CDN_i, SDN_i, SE, SI_check);
+    primitive = _and and3 (CDN_i, SDN_i, SE_int_not, D_check);
+    primitive = _and and4 (CDN_i, SDN_i, CP_check);
+    primitive = _and and5 (CDN_i, SDN_i, SE_check);
+    instance = tsmc_xbuf inst569_13 (CP_DEFCHK, CP_check, mlc_n5840);
+    primitive = _tie1 t11 (mlc_n5840);
+    instance = tsmc_xbuf inst570_15 (SE_DEFCHK, SE_check, mlc_n5841);
+    primitive = _tie1 t12 (mlc_n5841);
+    instance = tsmc_xbuf inst571_17 (D_DEFCHK, D_check, mlc_n5842);
+    primitive = _tie1 t13 (mlc_n5842);
+    instance = tsmc_xbuf inst572_19 (SI_DEFCHK, SI_check, mlc_n5843);
+    primitive = _tie1 t14 (mlc_n5843);
+  )
+)
+model SDFD1 (SI, D, SE, CP, Q, QN) (
+  scan_definition (
+    type = mux_scan;
+    data_in = D ;
+    scan_in = SI ;
+    scan_enable = SE ;
+    scan_out = Q, QN ;
+    non_scan_model = DFD1(D, CP, Q, QN) ;
+  )
+  input (SI) ( )
+  input (D) ( )
+  input (SE) ( )
+  input (CP) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _tie1 t11 (mlc_n5904);
+    primitive = _pull pull1 (mlc_n5904, CDN);
+    primitive = _tie1 t12 (mlc_n5905);
+    primitive = _pull pull2 (mlc_n5905, SDN);
+    instance = tsmc_mux inst579_5 (D_i, D, SI, SE);
+    instance = tsmc_dff inst580_6 (Q_buf, D_i, CP, CDN, SDN, notifier);
+    primitive = _buf buf1 (Q_buf, Q);
+    primitive = _inv inv1 (Q_buf, QN);
+    primitive = _tie1 t13 (mlc_n5906);
+    primitive = _pull pull3 (mlc_n5906, CP_check);
+    primitive = _tie1 t14 (mlc_n5907);
+    primitive = _pull pull4 (mlc_n5907, SE_check);
+    primitive = _inv inv2 (SE, SE_int_not);
+    primitive = _buf buf2 (SE, SI_check);
+    primitive = _buf buf3 (SE_int_not, D_check);
+    primitive = _tie1 t15 (mlc_n5908);
+    primitive = _pull pull5 (mlc_n5908, CP_check);
+    primitive = _tie1 t16 (mlc_n5909);
+    primitive = _pull pull6 (mlc_n5909, SE_check);
+    instance = tsmc_xbuf inst581_20 (CP_DEFCHK, CP_check, mlc_n5910);
+    primitive = _tie1 t17 (mlc_n5910);
+    instance = tsmc_xbuf inst582_22 (SE_DEFCHK, SE_check, mlc_n5911);
+    primitive = _tie1 t18 (mlc_n5911);
+    instance = tsmc_xbuf inst583_24 (D_DEFCHK, D_check, mlc_n5912);
+    primitive = _tie1 t19 (mlc_n5912);
+    instance = tsmc_xbuf inst584_26 (SI_DEFCHK, SI_check, mlc_n5913);
+    primitive = _tie1 t110 (mlc_n5913);
+  )
+)
+model SDFD2 (SI, D, SE, CP, Q, QN) (
+  scan_definition (
+    type = mux_scan;
+    data_in = D ;
+    scan_in = SI ;
+    scan_enable = SE ;
+    scan_out = Q, QN ;
+    non_scan_model = DFD2(D, CP, Q, QN) ;
+  )
+  input (SI) ( )
+  input (D) ( )
+  input (SE) ( )
+  input (CP) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _tie1 t11 (mlc_n5974);
+    primitive = _pull pull1 (mlc_n5974, CDN);
+    primitive = _tie1 t12 (mlc_n5975);
+    primitive = _pull pull2 (mlc_n5975, SDN);
+    instance = tsmc_mux inst591_5 (D_i, D, SI, SE);
+    instance = tsmc_dff inst592_6 (Q_buf, D_i, CP, CDN, SDN, notifier);
+    primitive = _buf buf1 (Q_buf, Q);
+    primitive = _inv inv1 (Q_buf, QN);
+    primitive = _tie1 t13 (mlc_n5976);
+    primitive = _pull pull3 (mlc_n5976, CP_check);
+    primitive = _tie1 t14 (mlc_n5977);
+    primitive = _pull pull4 (mlc_n5977, SE_check);
+    primitive = _inv inv2 (SE, SE_int_not);
+    primitive = _buf buf2 (SE, SI_check);
+    primitive = _buf buf3 (SE_int_not, D_check);
+    primitive = _tie1 t15 (mlc_n5978);
+    primitive = _pull pull5 (mlc_n5978, CP_check);
+    primitive = _tie1 t16 (mlc_n5979);
+    primitive = _pull pull6 (mlc_n5979, SE_check);
+    instance = tsmc_xbuf inst593_20 (CP_DEFCHK, CP_check, mlc_n5980);
+    primitive = _tie1 t17 (mlc_n5980);
+    instance = tsmc_xbuf inst594_22 (SE_DEFCHK, SE_check, mlc_n5981);
+    primitive = _tie1 t18 (mlc_n5981);
+    instance = tsmc_xbuf inst595_24 (D_DEFCHK, D_check, mlc_n5982);
+    primitive = _tie1 t19 (mlc_n5982);
+    instance = tsmc_xbuf inst596_26 (SI_DEFCHK, SI_check, mlc_n5983);
+    primitive = _tie1 t110 (mlc_n5983);
+  )
+)
+model SDFD4 (SI, D, SE, CP, Q, QN) (
+  scan_definition (
+    type = mux_scan;
+    data_in = D ;
+    scan_in = SI ;
+    scan_enable = SE ;
+    scan_out = Q, QN ;
+    non_scan_model = DFD4(D, CP, Q, QN) ;
+  )
+  input (SI) ( )
+  input (D) ( )
+  input (SE) ( )
+  input (CP) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _tie1 t11 (mlc_n6044);
+    primitive = _pull pull1 (mlc_n6044, CDN);
+    primitive = _tie1 t12 (mlc_n6045);
+    primitive = _pull pull2 (mlc_n6045, SDN);
+    instance = tsmc_mux inst603_5 (D_i, D, SI, SE);
+    instance = tsmc_dff inst604_6 (Q_buf, D_i, CP, CDN, SDN, notifier);
+    primitive = _buf buf1 (Q_buf, Q);
+    primitive = _inv inv1 (Q_buf, QN);
+    primitive = _tie1 t13 (mlc_n6046);
+    primitive = _pull pull3 (mlc_n6046, CP_check);
+    primitive = _tie1 t14 (mlc_n6047);
+    primitive = _pull pull4 (mlc_n6047, SE_check);
+    primitive = _inv inv2 (SE, SE_int_not);
+    primitive = _buf buf2 (SE, SI_check);
+    primitive = _buf buf3 (SE_int_not, D_check);
+    primitive = _tie1 t15 (mlc_n6048);
+    primitive = _pull pull5 (mlc_n6048, CP_check);
+    primitive = _tie1 t16 (mlc_n6049);
+    primitive = _pull pull6 (mlc_n6049, SE_check);
+    instance = tsmc_xbuf inst605_20 (CP_DEFCHK, CP_check, mlc_n6050);
+    primitive = _tie1 t17 (mlc_n6050);
+    instance = tsmc_xbuf inst606_22 (SE_DEFCHK, SE_check, mlc_n6051);
+    primitive = _tie1 t18 (mlc_n6051);
+    instance = tsmc_xbuf inst607_24 (D_DEFCHK, D_check, mlc_n6052);
+    primitive = _tie1 t19 (mlc_n6052);
+    instance = tsmc_xbuf inst608_26 (SI_DEFCHK, SI_check, mlc_n6053);
+    primitive = _tie1 t110 (mlc_n6053);
+  )
+)
+model SDFKCND1 (SI, D, SE, CP, CN, Q, QN) (
+  scan_definition (
+    type = mux_scan;
+    data_in = D ;
+    scan_in = SI ;
+    scan_enable = SE ;
+    scan_out = Q, QN ;
+    non_scan_model = DFKCND1(D, CP, CN, Q, QN) ;
+  )
+  input (SI) ( )
+  input (D) ( )
+  input (SE) ( )
+  input (CP) ( )
+  input (CN) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _tie1 t11 (mlc_n6109);
+    primitive = _pull pull1 (mlc_n6109, CDN);
+    primitive = _tie1 t12 (mlc_n6110);
+    primitive = _pull pull2 (mlc_n6110, SDN);
+    primitive = _and and1 (CN, D, D1);
+    instance = tsmc_mux inst614_6 (D2, D1, SI, SE);
+    instance = tsmc_dff inst615_7 (Q_buf, D2, CP, CDN, SDN, notifier);
+    primitive = _buf buf1 (Q_buf, Q);
+    primitive = _inv inv1 (Q_buf, QN);
+    primitive = _inv inv2 (SE, SE_int_not);
+    primitive = _buf buf2 (SE, SI_check);
+    primitive = _and and2 (SE_int_not, CN, D_check);
+    primitive = _buf buf3 (SE_int_not, CN_check);
+    instance = tsmc_xbuf inst616_14 (SI_DEFCHK, SI_check, mlc_n6111);
+    primitive = _tie1 t13 (mlc_n6111);
+    instance = tsmc_xbuf inst617_16 (CN_DEFCHK, CN_check, mlc_n6112);
+    primitive = _tie1 t14 (mlc_n6112);
+    instance = tsmc_xbuf inst618_18 (D_DEFCHK, D_check, mlc_n6113);
+    primitive = _tie1 t15 (mlc_n6113);
+  )
+)
+model SDFKCND2 (SI, D, SE, CP, CN, Q, QN) (
+  scan_definition (
+    type = mux_scan;
+    data_in = D ;
+    scan_in = SI ;
+    scan_enable = SE ;
+    scan_out = Q, QN ;
+    non_scan_model = DFKCND2(D, CP, CN, Q, QN) ;
+  )
+  input (SI) ( )
+  input (D) ( )
+  input (SE) ( )
+  input (CP) ( )
+  input (CN) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _tie1 t11 (mlc_n6164);
+    primitive = _pull pull1 (mlc_n6164, CDN);
+    primitive = _tie1 t12 (mlc_n6165);
+    primitive = _pull pull2 (mlc_n6165, SDN);
+    primitive = _and and1 (CN, D, D1);
+    instance = tsmc_mux inst624_6 (D2, D1, SI, SE);
+    instance = tsmc_dff inst625_7 (Q_buf, D2, CP, CDN, SDN, notifier);
+    primitive = _buf buf1 (Q_buf, Q);
+    primitive = _inv inv1 (Q_buf, QN);
+    primitive = _inv inv2 (SE, SE_int_not);
+    primitive = _buf buf2 (SE, SI_check);
+    primitive = _and and2 (SE_int_not, CN, D_check);
+    primitive = _buf buf3 (SE_int_not, CN_check);
+    instance = tsmc_xbuf inst626_14 (SI_DEFCHK, SI_check, mlc_n6166);
+    primitive = _tie1 t13 (mlc_n6166);
+    instance = tsmc_xbuf inst627_16 (CN_DEFCHK, CN_check, mlc_n6167);
+    primitive = _tie1 t14 (mlc_n6167);
+    instance = tsmc_xbuf inst628_18 (D_DEFCHK, D_check, mlc_n6168);
+    primitive = _tie1 t15 (mlc_n6168);
+  )
+)
+model SDFKCND4 (SI, D, SE, CP, CN, Q, QN) (
+  scan_definition (
+    type = mux_scan;
+    data_in = D ;
+    scan_in = SI ;
+    scan_enable = SE ;
+    scan_out = Q, QN ;
+    non_scan_model = DFKCND4(D, CP, CN, Q, QN) ;
+  )
+  input (SI) ( )
+  input (D) ( )
+  input (SE) ( )
+  input (CP) ( )
+  input (CN) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _tie1 t11 (mlc_n6219);
+    primitive = _pull pull1 (mlc_n6219, CDN);
+    primitive = _tie1 t12 (mlc_n6220);
+    primitive = _pull pull2 (mlc_n6220, SDN);
+    primitive = _and and1 (CN, D, D1);
+    instance = tsmc_mux inst634_6 (D2, D1, SI, SE);
+    instance = tsmc_dff inst635_7 (Q_buf, D2, CP, CDN, SDN, notifier);
+    primitive = _buf buf1 (Q_buf, Q);
+    primitive = _inv inv1 (Q_buf, QN);
+    primitive = _inv inv2 (SE, SE_int_not);
+    primitive = _buf buf2 (SE, SI_check);
+    primitive = _and and2 (SE_int_not, CN, D_check);
+    primitive = _buf buf3 (SE_int_not, CN_check);
+    instance = tsmc_xbuf inst636_14 (SI_DEFCHK, SI_check, mlc_n6221);
+    primitive = _tie1 t13 (mlc_n6221);
+    instance = tsmc_xbuf inst637_16 (CN_DEFCHK, CN_check, mlc_n6222);
+    primitive = _tie1 t14 (mlc_n6222);
+    instance = tsmc_xbuf inst638_18 (D_DEFCHK, D_check, mlc_n6223);
+    primitive = _tie1 t15 (mlc_n6223);
+  )
+)
+model SDFKCNQD1 (SI, D, SE, CP, CN, Q) (
+  scan_definition (
+    type = mux_scan;
+    data_in = D ;
+    scan_in = SI ;
+    scan_enable = SE ;
+    scan_out = Q ;
+    non_scan_model = DFKCNQD1(D, CP, CN, Q) ;
+  )
+  input (SI) ( )
+  input (D) ( )
+  input (SE) ( )
+  input (CP) ( )
+  input (CN) ( )
+  output (Q) (
+    primitive = _tie1 t11 (mlc_n6273);
+    primitive = _pull pull1 (mlc_n6273, CDN);
+    primitive = _tie1 t12 (mlc_n6274);
+    primitive = _pull pull2 (mlc_n6274, SDN);
+    primitive = _and and1 (CN, D, D1);
+    instance = tsmc_mux inst644_6 (D2, D1, SI, SE);
+    instance = tsmc_dff inst645_7 (Q_buf, D2, CP, CDN, SDN, notifier);
+    primitive = _buf buf1 (Q_buf, Q);
+    primitive = _inv inv1 (SE, SE_int_not);
+    primitive = _buf buf2 (SE, SI_check);
+    primitive = _and and2 (SE_int_not, CN, D_check);
+    primitive = _buf buf3 (SE_int_not, CN_check);
+    instance = tsmc_xbuf inst646_13 (SI_DEFCHK, SI_check, mlc_n6275);
+    primitive = _tie1 t13 (mlc_n6275);
+    instance = tsmc_xbuf inst647_15 (CN_DEFCHK, CN_check, mlc_n6276);
+    primitive = _tie1 t14 (mlc_n6276);
+    instance = tsmc_xbuf inst648_17 (D_DEFCHK, D_check, mlc_n6277);
+    primitive = _tie1 t15 (mlc_n6277);
+  )
+)
+model SDFKCNQD2 (SI, D, SE, CP, CN, Q) (
+  scan_definition (
+    type = mux_scan;
+    data_in = D ;
+    scan_in = SI ;
+    scan_enable = SE ;
+    scan_out = Q ;
+    non_scan_model = DFKCNQD2(D, CP, CN, Q) ;
+  )
+  input (SI) ( )
+  input (D) ( )
+  input (SE) ( )
+  input (CP) ( )
+  input (CN) ( )
+  output (Q) (
+    primitive = _tie1 t11 (mlc_n6326);
+    primitive = _pull pull1 (mlc_n6326, CDN);
+    primitive = _tie1 t12 (mlc_n6327);
+    primitive = _pull pull2 (mlc_n6327, SDN);
+    primitive = _and and1 (CN, D, D1);
+    instance = tsmc_mux inst654_6 (D2, D1, SI, SE);
+    instance = tsmc_dff inst655_7 (Q_buf, D2, CP, CDN, SDN, notifier);
+    primitive = _buf buf1 (Q_buf, Q);
+    primitive = _inv inv1 (SE, SE_int_not);
+    primitive = _buf buf2 (SE, SI_check);
+    primitive = _and and2 (SE_int_not, CN, D_check);
+    primitive = _buf buf3 (SE_int_not, CN_check);
+    instance = tsmc_xbuf inst656_13 (SI_DEFCHK, SI_check, mlc_n6328);
+    primitive = _tie1 t13 (mlc_n6328);
+    instance = tsmc_xbuf inst657_15 (CN_DEFCHK, CN_check, mlc_n6329);
+    primitive = _tie1 t14 (mlc_n6329);
+    instance = tsmc_xbuf inst658_17 (D_DEFCHK, D_check, mlc_n6330);
+    primitive = _tie1 t15 (mlc_n6330);
+  )
+)
+model SDFKCNQD4 (SI, D, SE, CP, CN, Q) (
+  scan_definition (
+    type = mux_scan;
+    data_in = D ;
+    scan_in = SI ;
+    scan_enable = SE ;
+    scan_out = Q ;
+    non_scan_model = DFKCNQD4(D, CP, CN, Q) ;
+  )
+  input (SI) ( )
+  input (D) ( )
+  input (SE) ( )
+  input (CP) ( )
+  input (CN) ( )
+  output (Q) (
+    primitive = _tie1 t11 (mlc_n6379);
+    primitive = _pull pull1 (mlc_n6379, CDN);
+    primitive = _tie1 t12 (mlc_n6380);
+    primitive = _pull pull2 (mlc_n6380, SDN);
+    primitive = _and and1 (CN, D, D1);
+    instance = tsmc_mux inst664_6 (D2, D1, SI, SE);
+    instance = tsmc_dff inst665_7 (Q_buf, D2, CP, CDN, SDN, notifier);
+    primitive = _buf buf1 (Q_buf, Q);
+    primitive = _inv inv1 (SE, SE_int_not);
+    primitive = _buf buf2 (SE, SI_check);
+    primitive = _and and2 (SE_int_not, CN, D_check);
+    primitive = _buf buf3 (SE_int_not, CN_check);
+    instance = tsmc_xbuf inst666_13 (SI_DEFCHK, SI_check, mlc_n6381);
+    primitive = _tie1 t13 (mlc_n6381);
+    instance = tsmc_xbuf inst667_15 (CN_DEFCHK, CN_check, mlc_n6382);
+    primitive = _tie1 t14 (mlc_n6382);
+    instance = tsmc_xbuf inst668_17 (D_DEFCHK, D_check, mlc_n6383);
+    primitive = _tie1 t15 (mlc_n6383);
+  )
+)
+model SDFKCSND1 (SI, D, SE, CP, CN, SN, Q, QN) (
+  scan_definition (
+    type = mux_scan;
+    data_in = D ;
+    scan_in = SI ;
+    scan_enable = SE ;
+    scan_out = Q, QN ;
+    non_scan_model = DFKCSND1(D, CP, CN, SN, Q, QN) ;
+  )
+  input (SI) ( )
+  input (D) ( )
+  input (SE) ( )
+  input (CP) ( )
+  input (CN) ( )
+  input (SN) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _tie1 t11 (mlc_n6439);
+    primitive = _pull pull1 (mlc_n6439, CDN);
+    primitive = _tie1 t12 (mlc_n6440);
+    primitive = _pull pull2 (mlc_n6440, SDN);
+    primitive = _inv inv1 (SN, S);
+    primitive = _or or1 (S, D, DS);
+    primitive = _and and1 (DS, CN, D1);
+    instance = tsmc_mux inst675_8 (D2, D1, SI, SE);
+    instance = tsmc_dff inst676_9 (Q_buf, D2, CP, CDN, SDN, notifier);
+    primitive = _buf buf1 (Q_buf, Q);
+    primitive = _inv inv2 (Q_buf, QN);
+    primitive = _inv inv3 (SE, SE_int_not);
+    primitive = _buf buf2 (SE, SI_check);
+    primitive = _and and2 (SE_int_not, CN, SN, D_check);
+    primitive = _and and3 (SE_int_not, CN, SN_check);
+    primitive = _buf buf3 (SE_int_not, CN_check);
+    instance = tsmc_xbuf inst677_17 (SI_DEFCHK, SI_check, mlc_n6441);
+    primitive = _tie1 t13 (mlc_n6441);
+    instance = tsmc_xbuf inst678_19 (D_DEFCHK, D_check, mlc_n6442);
+    primitive = _tie1 t14 (mlc_n6442);
+    instance = tsmc_xbuf inst679_21 (SN_DEFCHK, SN_check, mlc_n6443);
+    primitive = _tie1 t15 (mlc_n6443);
+    instance = tsmc_xbuf inst680_23 (CN_DEFCHK, CN_check, mlc_n6444);
+    primitive = _tie1 t16 (mlc_n6444);
+  )
+)
+model SDFKCSND2 (SI, D, SE, CP, CN, SN, Q, QN) (
+  scan_definition (
+    type = mux_scan;
+    data_in = D ;
+    scan_in = SI ;
+    scan_enable = SE ;
+    scan_out = Q, QN ;
+    non_scan_model = DFKCSND2(D, CP, CN, SN, Q, QN) ;
+  )
+  input (SI) ( )
+  input (D) ( )
+  input (SE) ( )
+  input (CP) ( )
+  input (CN) ( )
+  input (SN) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _tie1 t11 (mlc_n6508);
+    primitive = _pull pull1 (mlc_n6508, CDN);
+    primitive = _tie1 t12 (mlc_n6509);
+    primitive = _pull pull2 (mlc_n6509, SDN);
+    primitive = _inv inv1 (SN, S);
+    primitive = _or or1 (S, D, DS);
+    primitive = _and and1 (DS, CN, D1);
+    instance = tsmc_mux inst687_8 (D2, D1, SI, SE);
+    instance = tsmc_dff inst688_9 (Q_buf, D2, CP, CDN, SDN, notifier);
+    primitive = _buf buf1 (Q_buf, Q);
+    primitive = _inv inv2 (Q_buf, QN);
+    primitive = _inv inv3 (SE, SE_int_not);
+    primitive = _buf buf2 (SE, SI_check);
+    primitive = _and and2 (SE_int_not, CN, SN, D_check);
+    primitive = _and and3 (SE_int_not, CN, SN_check);
+    primitive = _buf buf3 (SE_int_not, CN_check);
+    instance = tsmc_xbuf inst689_17 (SI_DEFCHK, SI_check, mlc_n6510);
+    primitive = _tie1 t13 (mlc_n6510);
+    instance = tsmc_xbuf inst690_19 (D_DEFCHK, D_check, mlc_n6511);
+    primitive = _tie1 t14 (mlc_n6511);
+    instance = tsmc_xbuf inst691_21 (SN_DEFCHK, SN_check, mlc_n6512);
+    primitive = _tie1 t15 (mlc_n6512);
+    instance = tsmc_xbuf inst692_23 (CN_DEFCHK, CN_check, mlc_n6513);
+    primitive = _tie1 t16 (mlc_n6513);
+  )
+)
+model SDFKCSND4 (SI, D, SE, CP, CN, SN, Q, QN) (
+  scan_definition (
+    type = mux_scan;
+    data_in = D ;
+    scan_in = SI ;
+    scan_enable = SE ;
+    scan_out = Q, QN ;
+    non_scan_model = DFKCSND4(D, CP, CN, SN, Q, QN) ;
+  )
+  input (SI) ( )
+  input (D) ( )
+  input (SE) ( )
+  input (CP) ( )
+  input (CN) ( )
+  input (SN) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _tie1 t11 (mlc_n6577);
+    primitive = _pull pull1 (mlc_n6577, CDN);
+    primitive = _tie1 t12 (mlc_n6578);
+    primitive = _pull pull2 (mlc_n6578, SDN);
+    primitive = _inv inv1 (SN, S);
+    primitive = _or or1 (S, D, DS);
+    primitive = _and and1 (DS, CN, D1);
+    instance = tsmc_mux inst699_8 (D2, D1, SI, SE);
+    instance = tsmc_dff inst700_9 (Q_buf, D2, CP, CDN, SDN, notifier);
+    primitive = _buf buf1 (Q_buf, Q);
+    primitive = _inv inv2 (Q_buf, QN);
+    primitive = _inv inv3 (SE, SE_int_not);
+    primitive = _buf buf2 (SE, SI_check);
+    primitive = _and and2 (SE_int_not, CN, SN, D_check);
+    primitive = _and and3 (SE_int_not, CN, SN_check);
+    primitive = _buf buf3 (SE_int_not, CN_check);
+    instance = tsmc_xbuf inst701_17 (SI_DEFCHK, SI_check, mlc_n6579);
+    primitive = _tie1 t13 (mlc_n6579);
+    instance = tsmc_xbuf inst702_19 (D_DEFCHK, D_check, mlc_n6580);
+    primitive = _tie1 t14 (mlc_n6580);
+    instance = tsmc_xbuf inst703_21 (SN_DEFCHK, SN_check, mlc_n6581);
+    primitive = _tie1 t15 (mlc_n6581);
+    instance = tsmc_xbuf inst704_23 (CN_DEFCHK, CN_check, mlc_n6582);
+    primitive = _tie1 t16 (mlc_n6582);
+  )
+)
+model SDFKSND1 (SI, D, SE, CP, SN, Q, QN) (
+  scan_definition (
+    type = mux_scan;
+    data_in = D ;
+    scan_in = SI ;
+    scan_enable = SE ;
+    scan_out = Q, QN ;
+    non_scan_model = DFKSND1(D, CP, SN, Q, QN) ;
+  )
+  input (SI) ( )
+  input (D) ( )
+  input (SE) ( )
+  input (CP) ( )
+  input (SN) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _tie1 t11 (mlc_n6641);
+    primitive = _pull pull1 (mlc_n6641, CDN);
+    primitive = _tie1 t12 (mlc_n6642);
+    primitive = _pull pull2 (mlc_n6642, SDN);
+    primitive = _inv inv1 (SN, S);
+    primitive = _or or1 (S, D, D1);
+    instance = tsmc_mux inst710_7 (D2, D1, SI, SE);
+    instance = tsmc_dff inst711_8 (Q_buf, D2, CP, CDN, SDN, notifier);
+    primitive = _buf buf1 (Q_buf, Q);
+    primitive = _inv inv2 (Q_buf, QN);
+    primitive = _inv inv3 (SE, SE_int_not);
+    primitive = _buf buf2 (SE, SI_check);
+    primitive = _and and1 (SE_int_not, SN, D_check);
+    primitive = _buf buf3 (SE_int_not, SN_check);
+    instance = tsmc_xbuf inst712_15 (SI_DEFCHK, SI_check, mlc_n6643);
+    primitive = _tie1 t13 (mlc_n6643);
+    instance = tsmc_xbuf inst713_17 (SN_DEFCHK, SN_check, mlc_n6644);
+    primitive = _tie1 t14 (mlc_n6644);
+    instance = tsmc_xbuf inst714_19 (D_DEFCHK, D_check, mlc_n6645);
+    primitive = _tie1 t15 (mlc_n6645);
+  )
+)
+model SDFKSND2 (SI, D, SE, CP, SN, Q, QN) (
+  scan_definition (
+    type = mux_scan;
+    data_in = D ;
+    scan_in = SI ;
+    scan_enable = SE ;
+    scan_out = Q, QN ;
+    non_scan_model = DFKSND2(D, CP, SN, Q, QN) ;
+  )
+  input (SI) ( )
+  input (D) ( )
+  input (SE) ( )
+  input (CP) ( )
+  input (SN) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _tie1 t11 (mlc_n6698);
+    primitive = _pull pull1 (mlc_n6698, CDN);
+    primitive = _tie1 t12 (mlc_n6699);
+    primitive = _pull pull2 (mlc_n6699, SDN);
+    primitive = _inv inv1 (SN, S);
+    primitive = _or or1 (S, D, D1);
+    instance = tsmc_mux inst720_7 (D2, D1, SI, SE);
+    instance = tsmc_dff inst721_8 (Q_buf, D2, CP, CDN, SDN, notifier);
+    primitive = _buf buf1 (Q_buf, Q);
+    primitive = _inv inv2 (Q_buf, QN);
+    primitive = _inv inv3 (SE, SE_int_not);
+    primitive = _buf buf2 (SE, SI_check);
+    primitive = _and and1 (SE_int_not, SN, D_check);
+    primitive = _buf buf3 (SE_int_not, SN_check);
+    instance = tsmc_xbuf inst722_15 (SI_DEFCHK, SI_check, mlc_n6700);
+    primitive = _tie1 t13 (mlc_n6700);
+    instance = tsmc_xbuf inst723_17 (SN_DEFCHK, SN_check, mlc_n6701);
+    primitive = _tie1 t14 (mlc_n6701);
+    instance = tsmc_xbuf inst724_19 (D_DEFCHK, D_check, mlc_n6702);
+    primitive = _tie1 t15 (mlc_n6702);
+  )
+)
+model SDFKSND4 (SI, D, SE, CP, SN, Q, QN) (
+  scan_definition (
+    type = mux_scan;
+    data_in = D ;
+    scan_in = SI ;
+    scan_enable = SE ;
+    scan_out = Q, QN ;
+    non_scan_model = DFKSND4(D, CP, SN, Q, QN) ;
+  )
+  input (SI) ( )
+  input (D) ( )
+  input (SE) ( )
+  input (CP) ( )
+  input (SN) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _tie1 t11 (mlc_n6755);
+    primitive = _pull pull1 (mlc_n6755, CDN);
+    primitive = _tie1 t12 (mlc_n6756);
+    primitive = _pull pull2 (mlc_n6756, SDN);
+    primitive = _inv inv1 (SN, S);
+    primitive = _or or1 (S, D, D1);
+    instance = tsmc_mux inst730_7 (D2, D1, SI, SE);
+    instance = tsmc_dff inst731_8 (Q_buf, D2, CP, CDN, SDN, notifier);
+    primitive = _buf buf1 (Q_buf, Q);
+    primitive = _inv inv2 (Q_buf, QN);
+    primitive = _inv inv3 (SE, SE_int_not);
+    primitive = _buf buf2 (SE, SI_check);
+    primitive = _and and1 (SE_int_not, SN, D_check);
+    primitive = _buf buf3 (SE_int_not, SN_check);
+    instance = tsmc_xbuf inst732_15 (SI_DEFCHK, SI_check, mlc_n6757);
+    primitive = _tie1 t13 (mlc_n6757);
+    instance = tsmc_xbuf inst733_17 (SN_DEFCHK, SN_check, mlc_n6758);
+    primitive = _tie1 t14 (mlc_n6758);
+    instance = tsmc_xbuf inst734_19 (D_DEFCHK, D_check, mlc_n6759);
+    primitive = _tie1 t15 (mlc_n6759);
+  )
+)
+model SDFQD1 (SI, D, SE, CP, Q) (
+  scan_definition (
+    type = mux_scan;
+    data_in = D ;
+    scan_in = SI ;
+    scan_enable = SE ;
+    scan_out = Q ;
+    non_scan_model = DFQD1(D, CP, Q) ;
+  )
+  input (SI) ( )
+  input (D) ( )
+  input (SE) ( )
+  input (CP) ( )
+  output (Q) (
+    primitive = _tie1 t11 (mlc_n6815);
+    primitive = _pull pull1 (mlc_n6815, CDN);
+    primitive = _tie1 t12 (mlc_n6816);
+    primitive = _pull pull2 (mlc_n6816, SDN);
+    instance = tsmc_mux inst741_5 (D_i, D, SI, SE);
+    instance = tsmc_dff inst742_6 (Q_buf, D_i, CP, CDN, SDN, notifier);
+    primitive = _buf buf1 (Q_buf, Q);
+    primitive = _tie1 t13 (mlc_n6817);
+    primitive = _pull pull3 (mlc_n6817, CP_check);
+    primitive = _tie1 t14 (mlc_n6818);
+    primitive = _pull pull4 (mlc_n6818, SE_check);
+    primitive = _inv inv1 (SE, SE_int_not);
+    primitive = _buf buf2 (SE, SI_check);
+    primitive = _buf buf3 (SE_int_not, D_check);
+    primitive = _tie1 t15 (mlc_n6819);
+    primitive = _pull pull5 (mlc_n6819, CP_check);
+    primitive = _tie1 t16 (mlc_n6820);
+    primitive = _pull pull6 (mlc_n6820, SE_check);
+    instance = tsmc_xbuf inst743_19 (CP_DEFCHK, CP_check, mlc_n6821);
+    primitive = _tie1 t17 (mlc_n6821);
+    instance = tsmc_xbuf inst744_21 (SE_DEFCHK, SE_check, mlc_n6822);
+    primitive = _tie1 t18 (mlc_n6822);
+    instance = tsmc_xbuf inst745_23 (D_DEFCHK, D_check, mlc_n6823);
+    primitive = _tie1 t19 (mlc_n6823);
+    instance = tsmc_xbuf inst746_25 (SI_DEFCHK, SI_check, mlc_n6824);
+    primitive = _tie1 t110 (mlc_n6824);
+  )
+)
+model SDFQD2 (SI, D, SE, CP, Q) (
+  scan_definition (
+    type = mux_scan;
+    data_in = D ;
+    scan_in = SI ;
+    scan_enable = SE ;
+    scan_out = Q ;
+    non_scan_model = DFQD2(D, CP, Q) ;
+  )
+  input (SI) ( )
+  input (D) ( )
+  input (SE) ( )
+  input (CP) ( )
+  output (Q) (
+    primitive = _tie1 t11 (mlc_n6883);
+    primitive = _pull pull1 (mlc_n6883, CDN);
+    primitive = _tie1 t12 (mlc_n6884);
+    primitive = _pull pull2 (mlc_n6884, SDN);
+    instance = tsmc_mux inst753_5 (D_i, D, SI, SE);
+    instance = tsmc_dff inst754_6 (Q_buf, D_i, CP, CDN, SDN, notifier);
+    primitive = _buf buf1 (Q_buf, Q);
+    primitive = _tie1 t13 (mlc_n6885);
+    primitive = _pull pull3 (mlc_n6885, CP_check);
+    primitive = _tie1 t14 (mlc_n6886);
+    primitive = _pull pull4 (mlc_n6886, SE_check);
+    primitive = _inv inv1 (SE, SE_int_not);
+    primitive = _buf buf2 (SE, SI_check);
+    primitive = _buf buf3 (SE_int_not, D_check);
+    primitive = _tie1 t15 (mlc_n6887);
+    primitive = _pull pull5 (mlc_n6887, CP_check);
+    primitive = _tie1 t16 (mlc_n6888);
+    primitive = _pull pull6 (mlc_n6888, SE_check);
+    instance = tsmc_xbuf inst755_19 (CP_DEFCHK, CP_check, mlc_n6889);
+    primitive = _tie1 t17 (mlc_n6889);
+    instance = tsmc_xbuf inst756_21 (SE_DEFCHK, SE_check, mlc_n6890);
+    primitive = _tie1 t18 (mlc_n6890);
+    instance = tsmc_xbuf inst757_23 (D_DEFCHK, D_check, mlc_n6891);
+    primitive = _tie1 t19 (mlc_n6891);
+    instance = tsmc_xbuf inst758_25 (SI_DEFCHK, SI_check, mlc_n6892);
+    primitive = _tie1 t110 (mlc_n6892);
+  )
+)
+model SDFQD4 (SI, D, SE, CP, Q) (
+  scan_definition (
+    type = mux_scan;
+    data_in = D ;
+    scan_in = SI ;
+    scan_enable = SE ;
+    scan_out = Q ;
+    non_scan_model = DFQD4(D, CP, Q) ;
+  )
+  input (SI) ( )
+  input (D) ( )
+  input (SE) ( )
+  input (CP) ( )
+  output (Q) (
+    primitive = _tie1 t11 (mlc_n6951);
+    primitive = _pull pull1 (mlc_n6951, CDN);
+    primitive = _tie1 t12 (mlc_n6952);
+    primitive = _pull pull2 (mlc_n6952, SDN);
+    instance = tsmc_mux inst765_5 (D_i, D, SI, SE);
+    instance = tsmc_dff inst766_6 (Q_buf, D_i, CP, CDN, SDN, notifier);
+    primitive = _buf buf1 (Q_buf, Q);
+    primitive = _tie1 t13 (mlc_n6953);
+    primitive = _pull pull3 (mlc_n6953, CP_check);
+    primitive = _tie1 t14 (mlc_n6954);
+    primitive = _pull pull4 (mlc_n6954, SE_check);
+    primitive = _inv inv1 (SE, SE_int_not);
+    primitive = _buf buf2 (SE, SI_check);
+    primitive = _buf buf3 (SE_int_not, D_check);
+    primitive = _tie1 t15 (mlc_n6955);
+    primitive = _pull pull5 (mlc_n6955, CP_check);
+    primitive = _tie1 t16 (mlc_n6956);
+    primitive = _pull pull6 (mlc_n6956, SE_check);
+    instance = tsmc_xbuf inst767_19 (CP_DEFCHK, CP_check, mlc_n6957);
+    primitive = _tie1 t17 (mlc_n6957);
+    instance = tsmc_xbuf inst768_21 (SE_DEFCHK, SE_check, mlc_n6958);
+    primitive = _tie1 t18 (mlc_n6958);
+    instance = tsmc_xbuf inst769_23 (D_DEFCHK, D_check, mlc_n6959);
+    primitive = _tie1 t19 (mlc_n6959);
+    instance = tsmc_xbuf inst770_25 (SI_DEFCHK, SI_check, mlc_n6960);
+    primitive = _tie1 t110 (mlc_n6960);
+  )
+)
+model SDFSND1 (SI, D, SE, CP, SDN, Q, QN) (
+  scan_definition (
+    type = mux_scan;
+    data_in = D ;
+    scan_in = SI ;
+    scan_enable = SE ;
+    scan_out = Q, QN ;
+    non_scan_model = DFSND1(D, CP, SDN, Q, QN) ;
+  )
+  input (SI) ( )
+  input (D) ( )
+  input (SE) ( )
+  input (CP) ( )
+  input (SDN) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _buf buf1 (SDN, SDN_i);
+    primitive = _tie1 t11 (mlc_n7016);
+    primitive = _pull pull1 (mlc_n7016, CDN);
+    instance = tsmc_mux inst777_4 (D_i, D, SI, SE);
+    instance = tsmc_dff inst778_5 (Q_buf, D_i, CP, CDN, SDN_i, notifier);
+    primitive = _buf buf2 (Q_buf, Q);
+    primitive = _inv inv1 (Q_buf, QN);
+    primitive = _inv inv2 (SE, SE_int_not);
+    primitive = _and and1 (SDN_i, SE, SI_check);
+    primitive = _and and2 (SDN_i, SE_int_not, D_check);
+    primitive = _buf buf3 (SDN_i, CP_check);
+    primitive = _buf buf4 (SDN_i, SE_check);
+    instance = tsmc_xbuf inst779_13 (CP_DEFCHK, CP_check, mlc_n7017);
+    primitive = _tie1 t12 (mlc_n7017);
+    instance = tsmc_xbuf inst780_15 (SE_DEFCHK, SE_check, mlc_n7018);
+    primitive = _tie1 t13 (mlc_n7018);
+    instance = tsmc_xbuf inst781_17 (D_DEFCHK, D_check, mlc_n7019);
+    primitive = _tie1 t14 (mlc_n7019);
+    instance = tsmc_xbuf inst782_19 (SI_DEFCHK, SI_check, mlc_n7020);
+    primitive = _tie1 t15 (mlc_n7020);
+  )
+)
+model SDFSND2 (SI, D, SE, CP, SDN, Q, QN) (
+  scan_definition (
+    type = mux_scan;
+    data_in = D ;
+    scan_in = SI ;
+    scan_enable = SE ;
+    scan_out = Q, QN ;
+    non_scan_model = DFSND2(D, CP, SDN, Q, QN) ;
+  )
+  input (SI) ( )
+  input (D) ( )
+  input (SE) ( )
+  input (CP) ( )
+  input (SDN) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _buf buf1 (SDN, SDN_i);
+    primitive = _tie1 t11 (mlc_n7073);
+    primitive = _pull pull1 (mlc_n7073, CDN);
+    instance = tsmc_mux inst789_4 (D_i, D, SI, SE);
+    instance = tsmc_dff inst790_5 (Q_buf, D_i, CP, CDN, SDN_i, notifier);
+    primitive = _buf buf2 (Q_buf, Q);
+    primitive = _inv inv1 (Q_buf, QN);
+    primitive = _inv inv2 (SE, SE_int_not);
+    primitive = _and and1 (SDN_i, SE, SI_check);
+    primitive = _and and2 (SDN_i, SE_int_not, D_check);
+    primitive = _buf buf3 (SDN_i, CP_check);
+    primitive = _buf buf4 (SDN_i, SE_check);
+    instance = tsmc_xbuf inst791_13 (CP_DEFCHK, CP_check, mlc_n7074);
+    primitive = _tie1 t12 (mlc_n7074);
+    instance = tsmc_xbuf inst792_15 (SE_DEFCHK, SE_check, mlc_n7075);
+    primitive = _tie1 t13 (mlc_n7075);
+    instance = tsmc_xbuf inst793_17 (D_DEFCHK, D_check, mlc_n7076);
+    primitive = _tie1 t14 (mlc_n7076);
+    instance = tsmc_xbuf inst794_19 (SI_DEFCHK, SI_check, mlc_n7077);
+    primitive = _tie1 t15 (mlc_n7077);
+  )
+)
+model SDFSND4 (SI, D, SE, CP, SDN, Q, QN) (
+  scan_definition (
+    type = mux_scan;
+    data_in = D ;
+    scan_in = SI ;
+    scan_enable = SE ;
+    scan_out = Q, QN ;
+    non_scan_model = DFSND4(D, CP, SDN, Q, QN) ;
+  )
+  input (SI) ( )
+  input (D) ( )
+  input (SE) ( )
+  input (CP) ( )
+  input (SDN) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _buf buf1 (SDN, SDN_i);
+    primitive = _tie1 t11 (mlc_n7130);
+    primitive = _pull pull1 (mlc_n7130, CDN);
+    instance = tsmc_mux inst801_4 (D_i, D, SI, SE);
+    instance = tsmc_dff inst802_5 (Q_buf, D_i, CP, CDN, SDN_i, notifier);
+    primitive = _buf buf2 (Q_buf, Q);
+    primitive = _inv inv1 (Q_buf, QN);
+    primitive = _inv inv2 (SE, SE_int_not);
+    primitive = _and and1 (SDN_i, SE, SI_check);
+    primitive = _and and2 (SDN_i, SE_int_not, D_check);
+    primitive = _buf buf3 (SDN_i, CP_check);
+    primitive = _buf buf4 (SDN_i, SE_check);
+    instance = tsmc_xbuf inst803_13 (CP_DEFCHK, CP_check, mlc_n7131);
+    primitive = _tie1 t12 (mlc_n7131);
+    instance = tsmc_xbuf inst804_15 (SE_DEFCHK, SE_check, mlc_n7132);
+    primitive = _tie1 t13 (mlc_n7132);
+    instance = tsmc_xbuf inst805_17 (D_DEFCHK, D_check, mlc_n7133);
+    primitive = _tie1 t14 (mlc_n7133);
+    instance = tsmc_xbuf inst806_19 (SI_DEFCHK, SI_check, mlc_n7134);
+    primitive = _tie1 t15 (mlc_n7134);
+  )
+)
+model SDFXD1 (DA, DB, SA, SI, SE, CP, Q, QN) (
+  scan_definition (
+    type = mux_scan;
+    data_in = DA ;
+    scan_in = SI ;
+    scan_enable = SE ;
+    scan_out = Q, QN ;
+    non_scan_model = DFXD1(DA, DB, SA, CP, Q, QN) ;
+  )
+  input (DA) ( )
+  input (DB) ( )
+  input (SA) ( )
+  input (SI) ( )
+  input (SE) ( )
+  input (CP) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _tie1 t11 (mlc_n7194);
+    primitive = _pull pull1 (mlc_n7194, CDN);
+    primitive = _tie1 t12 (mlc_n7195);
+    primitive = _pull pull2 (mlc_n7195, SDN);
+    instance = tsmc_mux inst815_5 (D, DB, DA, SA);
+    instance = tsmc_mux inst816_6 (D_i, D, SI, SE);
+    instance = tsmc_dff inst817_7 (Q_buf, D_i, CP, CDN, SDN, notifier);
+    primitive = _buf buf1 (Q_buf, Q);
+    primitive = _inv inv1 (Q_buf, QN);
+    primitive = _inv inv2 (SA, SA_int_not);
+    primitive = _inv inv3 (SE, SE_int_not);
+    primitive = _buf buf2 (SE, SI_check);
+    primitive = _and and1 (SA, SE_int_not, DA_check);
+    primitive = _buf buf3 (SE_int_not, SA_check);
+    primitive = _and and2 (SA_int_not, SE_int_not, DB_check);
+    primitive = _or or1 (SI_check, DA_check, SA_check, DB_check, CP_check);
+    instance = tsmc_xbuf inst818_17 (CP_DEFCHK, CP_check, mlc_n7196);
+    primitive = _tie1 t13 (mlc_n7196);
+    instance = tsmc_xbuf inst819_19 (DB_DEFCHK, DB_check, mlc_n7197);
+    primitive = _tie1 t14 (mlc_n7197);
+    instance = tsmc_xbuf inst820_21 (DA_DEFCHK, DA_check, mlc_n7198);
+    primitive = _tie1 t15 (mlc_n7198);
+    instance = tsmc_xbuf inst821_23 (SA_DEFCHK, SA_check, mlc_n7199);
+    primitive = _tie1 t16 (mlc_n7199);
+    instance = tsmc_xbuf inst822_25 (SI_DEFCHK, SI_check, mlc_n7200);
+    primitive = _tie1 t17 (mlc_n7200);
+  )
+)
+model SDFXD2 (DA, DB, SA, SI, SE, CP, Q, QN) (
+  scan_definition (
+    type = mux_scan;
+    data_in = DA ;
+    scan_in = SI ;
+    scan_enable = SE ;
+    scan_out = Q, QN ;
+    non_scan_model = DFXD2(DA, DB, SA, CP, Q, QN) ;
+  )
+  input (DA) ( )
+  input (DB) ( )
+  input (SA) ( )
+  input (SI) ( )
+  input (SE) ( )
+  input (CP) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _tie1 t11 (mlc_n7267);
+    primitive = _pull pull1 (mlc_n7267, CDN);
+    primitive = _tie1 t12 (mlc_n7268);
+    primitive = _pull pull2 (mlc_n7268, SDN);
+    instance = tsmc_mux inst831_5 (D, DB, DA, SA);
+    instance = tsmc_mux inst832_6 (D_i, D, SI, SE);
+    instance = tsmc_dff inst833_7 (Q_buf, D_i, CP, CDN, SDN, notifier);
+    primitive = _buf buf1 (Q_buf, Q);
+    primitive = _inv inv1 (Q_buf, QN);
+    primitive = _inv inv2 (SA, SA_int_not);
+    primitive = _inv inv3 (SE, SE_int_not);
+    primitive = _buf buf2 (SE, SI_check);
+    primitive = _and and1 (SA, SE_int_not, DA_check);
+    primitive = _buf buf3 (SE_int_not, SA_check);
+    primitive = _and and2 (SA_int_not, SE_int_not, DB_check);
+    primitive = _or or1 (SI_check, DA_check, SA_check, DB_check, CP_check);
+    instance = tsmc_xbuf inst834_17 (CP_DEFCHK, CP_check, mlc_n7269);
+    primitive = _tie1 t13 (mlc_n7269);
+    instance = tsmc_xbuf inst835_19 (DB_DEFCHK, DB_check, mlc_n7270);
+    primitive = _tie1 t14 (mlc_n7270);
+    instance = tsmc_xbuf inst836_21 (DA_DEFCHK, DA_check, mlc_n7271);
+    primitive = _tie1 t15 (mlc_n7271);
+    instance = tsmc_xbuf inst837_23 (SA_DEFCHK, SA_check, mlc_n7272);
+    primitive = _tie1 t16 (mlc_n7272);
+    instance = tsmc_xbuf inst838_25 (SI_DEFCHK, SI_check, mlc_n7273);
+    primitive = _tie1 t17 (mlc_n7273);
+  )
+)
+model SDFXD4 (DA, DB, SA, SI, SE, CP, Q, QN) (
+  scan_definition (
+    type = mux_scan;
+    data_in = DA ;
+    scan_in = SI ;
+    scan_enable = SE ;
+    scan_out = Q, QN ;
+    non_scan_model = DFXD4(DA, DB, SA, CP, Q, QN) ;
+  )
+  input (DA) ( )
+  input (DB) ( )
+  input (SA) ( )
+  input (SI) ( )
+  input (SE) ( )
+  input (CP) ( )
+  output (Q) ()
+  output (QN) (
+    primitive = _tie1 t11 (mlc_n7340);
+    primitive = _pull pull1 (mlc_n7340, CDN);
+    primitive = _tie1 t12 (mlc_n7341);
+    primitive = _pull pull2 (mlc_n7341, SDN);
+    instance = tsmc_mux inst847_5 (D, DB, DA, SA);
+    instance = tsmc_mux inst848_6 (D_i, D, SI, SE);
+    instance = tsmc_dff inst849_7 (Q_buf, D_i, CP, CDN, SDN, notifier);
+    primitive = _buf buf1 (Q_buf, Q);
+    primitive = _inv inv1 (Q_buf, QN);
+    primitive = _inv inv2 (SA, SA_int_not);
+    primitive = _inv inv3 (SE, SE_int_not);
+    primitive = _buf buf2 (SE, SI_check);
+    primitive = _and and1 (SA, SE_int_not, DA_check);
+    primitive = _buf buf3 (SE_int_not, SA_check);
+    primitive = _and and2 (SA_int_not, SE_int_not, DB_check);
+    primitive = _or or1 (SI_check, DA_check, SA_check, DB_check, CP_check);
+    instance = tsmc_xbuf inst850_17 (CP_DEFCHK, CP_check, mlc_n7342);
+    primitive = _tie1 t13 (mlc_n7342);
+    instance = tsmc_xbuf inst851_19 (DB_DEFCHK, DB_check, mlc_n7343);
+    primitive = _tie1 t14 (mlc_n7343);
+    instance = tsmc_xbuf inst852_21 (DA_DEFCHK, DA_check, mlc_n7344);
+    primitive = _tie1 t15 (mlc_n7344);
+    instance = tsmc_xbuf inst853_23 (SA_DEFCHK, SA_check, mlc_n7345);
+    primitive = _tie1 t16 (mlc_n7345);
+    instance = tsmc_xbuf inst854_25 (SI_DEFCHK, SI_check, mlc_n7346);
+    primitive = _tie1 t17 (mlc_n7346);
+  )
+)
+model TIEH (Z) (
+  output (Z) (
+    primitive = _buf buf1 (mlc_n7382, Z);
+    primitive = _tie1 t11 (mlc_n7382);
+  )
+)
+model TIEL (ZN) (
+  output (ZN) (
+    primitive = _buf buf1 (mlc_n7387, ZN);
+    primitive = _tie0 t01 (mlc_n7387);
+  )
+)
+model XNR2D0 (A1, A2, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  output (ZN) (
+    primitive = _xnor xnor1 (A1, A2, ZN);
+  )
+)
+model XNR2D1 (A1, A2, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  output (ZN) (
+    primitive = _xnor xnor1 (A1, A2, ZN);
+  )
+)
+model XNR2D2 (A1, A2, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  output (ZN) (
+    primitive = _xnor xnor1 (A1, A2, ZN);
+  )
+)
+model XNR2D4 (A1, A2, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  output (ZN) (
+    primitive = _xnor xnor1 (A1, A2, ZN);
+  )
+)
+model XNR3D0 (A1, A2, A3, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (A3) ( )
+  output (ZN) (
+    primitive = _xnor xnor1 (A1, A2, A3, ZN);
+  )
+)
+model XNR3D1 (A1, A2, A3, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (A3) ( )
+  output (ZN) (
+    primitive = _xnor xnor1 (A1, A2, A3, ZN);
+  )
+)
+model XNR3D2 (A1, A2, A3, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (A3) ( )
+  output (ZN) (
+    primitive = _xnor xnor1 (A1, A2, A3, ZN);
+  )
+)
+model XNR3D4 (A1, A2, A3, ZN) (
+  input (A1) ( )
+  input (A2) ( )
+  input (A3) ( )
+  output (ZN) (
+    primitive = _xnor xnor1 (A1, A2, A3, ZN);
+  )
+)
+model XOR2D0 (A1, A2, Z) (
+  input (A1) ( )
+  input (A2) ( )
+  output (Z) (
+    primitive = _xor xor1 (A1, A2, Z);
+  )
+)
+model XOR2D1 (A1, A2, Z) (
+  input (A1) ( )
+  input (A2) ( )
+  output (Z) (
+    primitive = _xor xor1 (A1, A2, Z);
+  )
+)
+model XOR2D2 (A1, A2, Z) (
+  input (A1) ( )
+  input (A2) ( )
+  output (Z) (
+    primitive = _xor xor1 (A1, A2, Z);
+  )
+)
+model XOR2D4 (A1, A2, Z) (
+  input (A1) ( )
+  input (A2) ( )
+  output (Z) (
+    primitive = _xor xor1 (A1, A2, Z);
+  )
+)
+model XOR3D0 (A1, A2, A3, Z) (
+  input (A1) ( )
+  input (A2) ( )
+  input (A3) ( )
+  output (Z) (
+    primitive = _xor xor1 (A1, A2, A3, Z);
+  )
+)
+model XOR3D1 (A1, A2, A3, Z) (
+  input (A1) ( )
+  input (A2) ( )
+  input (A3) ( )
+  output (Z) (
+    primitive = _xor xor1 (A1, A2, A3, Z);
+  )
+)
+model XOR3D2 (A1, A2, A3, Z) (
+  input (A1) ( )
+  input (A2) ( )
+  input (A3) ( )
+  output (Z) (
+    primitive = _xor xor1 (A1, A2, A3, Z);
+  )
+)
+model XOR3D4 (A1, A2, A3, Z) (
+  input (A1) ( )
+  input (A2) ( )
+  input (A3) ( )
+  output (Z) (
+    primitive = _xor xor1 (A1, A2, A3, Z);
+  )
+)
+model tsmc_mux (q, d0, d1, s) (
+  input (d0, d1, s) ( )
+  output (q) ( 
+    primitive = _mux mlc_gate0 (d0, d1, s, q);
+  )
+)
+model tsmc_xbuf (o, i, dummy) (
+  input (i, dummy) ( )
+  output (o) ( 
+    primitive = _buf mlc_z_to_x_gate (mlc_z_to_x_net, o);
+    primitive = _tsh pass_gate_for_i (i, dummy, mlc_z_to_x_net);
+   )
+)
+model tsmc_dff (q, d, cp, cdn, sdn, notifier) (
+  input (d) ( )
+  input (cp) ( )  // Posedge Triggered Clock.
+  input (cdn) ( )  //  ActiveLO Asynch. Reset.
+  input (sdn) ( )  //  ActiveLO Asynch. Set.
+  input (notifier) (no_fault = sa0 sa1; used = false;)  // Notifier.
+  output (q) ( 
+    primitive = _inv mlc_set_gate (sdn, mlc_set_net);
+    primitive = _inv mlc_reset_gate (cdn, mlc_reset_net);
+    primitive = _and mlc_set_and_gate (cdn, mlc_set_net, mlc_set_and_net);
+    primitive = _dff mlc_dff ( mlc_set_and_net, mlc_reset_net, cp, d, q, );
+  )
+)
+model tsmc_dla (q, d, e, cdn, sdn, notifier) (
+  input (d) ( )
+  input (e) ( )  // ActiveHI Level Sensitive Clock.
+  input (cdn) ( )  //  ActiveLO Asynch. Reset.
+  input (sdn) ( )  //  ActiveLO Asynch. Set.
+  input (notifier) (no_fault = sa0 sa1; used = false;)  // Notifier.
+  output (q) ( 
+    primitive = _inv mlc_set_gate (sdn, mlc_set_net);
+    primitive = _inv mlc_reset_gate (cdn, mlc_reset_net);
+    primitive = _and mlc_reset_and_gate (sdn, mlc_reset_net, mlc_reset_and_net);
+    primitive = _dlat mlc_latch ( mlc_set_net, mlc_reset_and_net, e, d, q, );
+  )
+)
