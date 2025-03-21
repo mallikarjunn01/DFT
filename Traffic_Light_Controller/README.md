@@ -1,12 +1,12 @@
-#ISCAS-89 s298 Traffic Light Controller
+# ISCAS-89 s298 Traffic Light Controller
 
 ![image alt](https://github.com/mallikarjunn01/DFT/blob/main/Traffic_Light_Controller/s298.gif?raw=true)
 
-# 3 inputs
-# 6 outputs
-# 14 D-type flipflops
-# 44 inverters
-# 75 gates (31 ANDs + 9 NANDs + 16 ORs + 19 NORs)
+3 inputs
+6 outputs
+14 D-type flipflops
+44 inverters
+75 gates (31 ANDs + 9 NANDs + 16 ORs + 19 NORs)
 
 Statistics: 3 inputs; 6 outputs; 133 gates;
 
