@@ -1,4 +1,4 @@
-set VERILOG s298_Mod
+set VERILOG s298
 set TOP_MODULE s298
 mkdir REPORTS
 mkdir OUTPUTS
@@ -8,7 +8,7 @@ read_hdl INPUTS/${VERILOG}.v
 
 elaborate ${TOP_MODULE}
 write_hdl > OUTPUTS/elaborate.v
-read_sdc OUTPUTS/constraints.sdc
+read_sdc INPUTS/constraints.sdc
 
 syn_generic
 write_hdl > OUTPUTS/syn.v
