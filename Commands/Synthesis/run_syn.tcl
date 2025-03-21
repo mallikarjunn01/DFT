@@ -21,3 +21,5 @@ report_area > REPORTS/${TOP_MODULE}_area.rep
 report_power > REPORTS/${TOP_MODULE}_power.rep
 report_gates > REPORTS/${TOP_MODULE}_gates.rep
 report_timing > REPORTS/${TOP_MODULE}_timing.rep
+
+gui_show
