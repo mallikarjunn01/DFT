@@ -1,0 +1,21 @@
+Scan mode 'unwrapped' scan cells:
+-----------------------------------------------------------------------------------------------------------------
+CellNo  ChainName  GroupName  Pathname                           CellName           ScanOut  Clock  ClockPolarity
+-----------------------------------------------------------------------------------------------------------------
+-       chain0     dummy      /ts_lockup_latchp_clkc1_intno13_i  active_high_latch           CK     (-)          
+0       chain0     dummy      /DFF_0_q_reg                       SDFF_X2            Q        CK     (+)          
+1       chain0     dummy      /DFF_12_q_reg                      SDFF_X2            Q        CK     (+)          
+2       chain0     dummy      /DFF_13_q_reg                      SDFF_X2            Q        CK     (+)          
+3       chain0     dummy      /DFF_2_q_reg                       SDFF_X2            Q        CK     (+)          
+4       chain0     dummy      /DFF_1_q_reg                       SDFF_X2            Q        CK     (+)          
+5       chain0     dummy      /DFF_11_q_reg                      SDFF_X1            Q        CK     (+)          
+6       chain0     dummy      /DFF_8_q_reg                       SDFF_X1            Q        CK     (+)          
+7       chain0     dummy      /DFF_4_q_reg                       SDFF_X2            Q        CK     (+)          
+8       chain0     dummy      /DFF_7_q_reg                       SDFF_X1            Q        CK     (+)          
+9       chain0     dummy      /DFF_5_q_reg                       SDFF_X2            Q        CK     (+)          
+10      chain0     dummy      /DFF_6_q_reg                       SDFF_X1            Q        CK     (+)          
+11      chain0     dummy      /DFF_9_q_reg                       SDFF_X1            Q        CK     (+)          
+12      chain0     dummy      /DFF_10_q_reg                      SDFF_X1            Q        CK     (+)          
+13      chain0     dummy      /DFF_3_q_reg                       SDFF_X2            Q        CK     (+)          
+-----------------------------------------------------------------------------------------------------------------
+
