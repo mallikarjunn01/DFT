@@ -11,11 +11,11 @@ write_hdl > OUTPUTS/elaborate.v
 read_sdc INPUTS/constraints.sdc
 
 syn_generic
-write_hdl > OUTPUTS/syn.v
+write_hdl > OUTPUTS/${TOP_MODULE}_syn.v
 syn_map
-write_hdl > OUTPUTS/map.v
+write_hdl > OUTPUTS/${TOP_MODULE}_map.v
 syn_opt
-write_hdl > OUTPUTS/opt.v
+write_hdl > OUTPUTS/${TOP_MODULE}_opt.v
 
 report_area > REPORTS/${TOP_MODULE}_area.rep
 report_power > REPORTS/${TOP_MODULE}_power.rep
