@@ -1,0 +1,85 @@
+3)Last cell of each scan chain and what does it have in common?
+
+set cells [all_fanin -startpoints_only -to scan_out -only_cells]                        
+foreach_in_collection x $cells {                                   
++  puts [get_object_name $x]
++ }
+
+---> Last cell of Every scan chain is a lockup latch or ends with lockup latch
+---> 75 lockup latches for 75 scan chains  
+
+lckup74
+lckup73
+lckup72
+lckup71
+lckup70
+lckup69
+lckup68
+lckup67
+lckup66
+lckup65
+lckup64
+lckup63
+lckup62
+lckup61
+lckup60
+lckup59
+lckup58
+lckup57
+lckup56
+lckup55
+lckup54
+lckup53
+lckup52
+lckup51
+lckup50
+lckup49
+lckup48
+lckup47
+lckup46
+lckup45
+lckup44
+lckup43
+lckup42
+lckup41
+lckup40
+lckup39
+lckup38
+lckup37
+lckup36
+lckup35
+lckup34
+lckup33
+lckup32
+lckup31
+lckup30
+lckup29
+lckup28
+lckup27
+lckup26
+lckup25
+lckup24
+lckup23
+lckup22
+lckup21
+lckup20
+lckup19
+lckup18
+lckup17
+lckup16
+lckup15
+lckup14
+lckup13
+lckup12
+lckup11
+lckup10
+lckup9
+lckup8
+lckup7
+lckup6
+lckup5
+lckup4
+lckup3
+lckup2
+lckup1
+
