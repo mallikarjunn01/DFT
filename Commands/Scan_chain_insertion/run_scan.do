@@ -1,4 +1,6 @@
 set TOP_MODULE s298
+mkdir REPORTS
+mkdir OUTPUTS
 
 set_context dft -scan
 read_verilog INPUTS/opt.v
