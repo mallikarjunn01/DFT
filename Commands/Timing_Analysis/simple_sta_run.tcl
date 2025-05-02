@@ -1,5 +1,5 @@
-mkdir REPORTS
-mkdir OUTPUTS
+mkdir REPORTS #Creates directories REPORTS
+mkdir OUTPUTS #Creates directories OUTPUTS
 read_verilog INPUTS/opt.v  # Read the netlist file
 
 read_lib INPUTS/NangateOpenCellLibrary_slow_conditional_ccs.lib   # Read the library file
